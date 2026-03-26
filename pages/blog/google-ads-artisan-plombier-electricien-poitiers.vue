@@ -30,7 +30,7 @@ useHead({
           </header>
 
           <img
-            src="https://tempfile.aiquickdraw.com/h/86e3cce4722a3c1be7f1a624f512d3c0_1774530712.png"
+            src="/images/blog/blog-adscale-artisans.png"
             alt="Google Ads artisans plombiers électriciens Poitiers — campagne publicité locale Vienne 86"
             class="w-full rounded-xl mb-8 object-cover h-64"
           />
