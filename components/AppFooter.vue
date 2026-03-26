@@ -60,6 +60,18 @@
         </div>
       </div>
 
+      <!-- Divisions -->
+      <div class="border-t border-neutral-800 pt-6 mb-6">
+        <p class="text-xs font-semibold uppercase tracking-wider text-neutral-600 mb-3">Studio Digital Poitiers — nos divisions</p>
+        <div class="flex flex-wrap gap-x-6 gap-y-2">
+          <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-xs text-neutral-500 hover:text-white transition-colors">← Studio Digital Poitiers</a>
+          <a href="https://adscale.poitiers.digital" class="text-xs text-blue-400/70">ADSCALE — Google Ads</a>
+          <a href="https://rankeo.poitiers.digital" target="_blank" rel="noopener" class="text-xs text-neutral-500 hover:text-green-400 transition-colors">RANKEO — SEO</a>
+          <a href="https://nexoma.poitiers.digital" target="_blank" rel="noopener" class="text-xs text-neutral-500 hover:text-purple-400 transition-colors">NEXOMA — IA & Automatisation</a>
+          <a href="https://nova-studio.poitiers.digital" target="_blank" rel="noopener" class="text-xs text-neutral-500 hover:text-rose-400 transition-colors">NOVA STUDIO — UGC & Contenu</a>
+        </div>
+      </div>
+
       <!-- Bottom -->
       <div class="border-t border-neutral-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p class="text-xs text-neutral-500">&copy; {{ new Date().getFullYear() }} AdScale Poitiers. Tous droits réservés.</p>
