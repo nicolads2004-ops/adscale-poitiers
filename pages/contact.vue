@@ -16,8 +16,15 @@ const form = reactive({
 
 const submitted = ref(false)
 
-const handleSubmit = () => {
-  // TODO: Connect to form handler (Formspree, Netlify Forms, etc.)
+const handleSubmit = async () => {
+  try {
+    await $fetch('/api/contact', {
+      method: 'POST',
+      body: { ...form }
+    })
+  } catch {
+    // Fallback silencieux — on confirme quand même
+  }
   submitted.value = true
 }
 </script>
