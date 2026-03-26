@@ -19,7 +19,7 @@ useHead({
         <article>
           <header class="mb-8">
             <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">Guide local</span>
-            <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-neutral-900 leading-tight">
+            <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-white leading-tight">
               Google Ads pour artisans à Poitiers : plombier, électricien, couvreur — guide complet
             </h1>
             <div class="flex items-center gap-3 text-sm text-neutral-500">
@@ -35,94 +35,200 @@ useHead({
             class="w-full rounded-xl mb-8 object-cover h-64"
           />
 
-          <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:font-bold prose-a:text-primary">
+          <!-- Intro snippet -->
+          <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-5 mb-8 text-neutral-200 text-[15px] leading-relaxed">
+            Si vous êtes artisan à Poitiers — plombier, électricien, couvreur, peintre ou menuisier — vous savez que votre carnet de commandes peut être plein en juin et vide en janvier.
+            La bonne nouvelle : <strong class="text-white">Google Ads pour artisans dans la Vienne</strong> est l'un des leviers les plus rentables pour stabiliser votre activité et générer des leads qualifiés toute l'année.
+          </div>
 
-            <p>
-              Si vous êtes artisan à Poitiers — plombier, électricien, couvreur, peintre ou menuisier — vous savez que votre carnet de commandes peut être plein en juin et vide en janvier.
-              La bonne nouvelle : <strong>Google Ads pour artisans dans la Vienne</strong> est l'un des leviers les plus rentables pour stabiliser votre activité et générer des leads qualifiés toute l'année.
-            </p>
+          <!-- Section 1 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Pourquoi les artisans ont besoin de Google Ads à Poitiers</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Quand un habitant de Poitiers cherche un plombier d'urgence ou un électricien pour une installation, son premier réflexe est Google. Il tape « plombier Poitiers urgence » ou « électricien Chasseneuil-du-Poitou » et clique sur l'un des trois premiers résultats — souvent une annonce Google Ads.
+          </p>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Sans campagne <strong class="text-white">publicité Google pour artisans dans la Vienne</strong>, vous n'apparaissez pas à cet instant clé. Vos concurrents, eux, y sont. Et ils récupèrent vos clients potentiels avant même que vous ayez la chance de vous présenter.
+          </p>
 
-            <h2>Pourquoi les artisans ont besoin de Google Ads à Poitiers</h2>
-            <p>
-              Quand un habitant de Poitiers cherche un plombier d'urgence ou un électricien pour une installation, son premier réflexe est Google. Il tape « plombier Poitiers urgence » ou « électricien Chasseneuil-du-Poitou » et clique sur l'un des trois premiers résultats — souvent une annonce Google Ads.
-            </p>
-            <p>
-              Sans campagne <strong>publicité Google pour artisans dans la Vienne</strong>, vous n'apparaissez pas à cet instant clé. Vos concurrents, eux, y sont. Et ils récupèrent vos clients potentiels avant même que vous ayez la chance de vous présenter.
-            </p>
-            <ul>
-              <li><strong>Visibilité immédiate</strong> : contrairement au référencement naturel, Google Ads positionne votre entreprise en première page dès le premier jour.</li>
-              <li><strong>Ciblage géographique précis</strong> : vous ne payez que pour les clics de prospects situés dans votre zone d'intervention — Poitiers, la Vienne, les communes voisines.</li>
-              <li><strong>Clients déjà en intention d'achat</strong> : quelqu'un qui cherche « couvreur urgence Poitiers » a un besoin immédiat. Ce n'est pas de la prospection à froid.</li>
-              <li><strong>Contrôle total du budget</strong> : vous fixez un plafond journalier et ne payez que si quelqu'un clique sur votre annonce.</li>
-            </ul>
+          <div class="space-y-3 my-4">
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Visibilité immédiate</strong> : contrairement au référencement naturel, Google Ads positionne votre entreprise en première page dès le premier jour.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Ciblage géographique précis</strong> : vous ne payez que pour les clics de prospects situés dans votre zone d'intervention — Poitiers, la Vienne, les communes voisines.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Clients déjà en intention d'achat</strong> : quelqu'un qui cherche « couvreur urgence Poitiers » a un besoin immédiat. Ce n'est pas de la prospection à froid.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Contrôle total du budget</strong> : vous fixez un plafond journalier et ne payez que si quelqu'un clique sur votre annonce.</span>
+            </div>
+          </div>
 
-            <h2>Les mots-clés qui convertissent pour les artisans de la Vienne</h2>
-            <p>
-              La sélection des bons mots-clés est ce qui sépare une campagne rentable d'un budget gaspillé. Pour un <strong>google ads artisan Poitiers</strong>, on distingue deux grandes catégories :
-            </p>
-            <h3>Mots-clés à intention urgente (les plus rentables)</h3>
-            <ul>
-              <li>« plombier urgence Poitiers »</li>
-              <li>« électricien Poitiers pas cher »</li>
-              <li>« couvreur fuite toit Vienne 86 »</li>
-              <li>« chauffagiste Poitiers dépannage »</li>
-              <li>« peintre maison Poitiers devis gratuit »</li>
-            </ul>
-            <h3>Mots-clés à intention de projet (volume plus fort, conversion plus lente)</h3>
-            <ul>
-              <li>« rénovation salle de bain Poitiers »</li>
-              <li>« installation pompe à chaleur Vienne »</li>
-              <li>« ravalement façade maison Poitiers »</li>
-              <li>« extension maison artisan Vienne 86 »</li>
-            </ul>
-            <p>
-              Pour les artisans avec un budget modéré (500 à 800 €/mois), on recommande de concentrer 80% du budget sur les mots-clés à intention urgente — ce sont eux qui génèrent les appels dans la journée.
-            </p>
+          <!-- Section 2 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Les mots-clés qui convertissent pour les artisans de la Vienne</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            La sélection des bons mots-clés est ce qui sépare une campagne rentable d'un budget gaspillé. Pour un <strong class="text-white">google ads artisan Poitiers</strong>, on distingue deux grandes catégories :
+          </p>
 
-            <h2>Budget recommandé pour un artisan à Poitiers</h2>
-            <p>
-              Voici une grille réaliste pour une <strong>publicité Google plombier Vienne</strong> ou tout autre artisan local :
-            </p>
-            <ul>
-              <li><strong>Budget débutant (300–500 €/mois)</strong> : adapté pour tester la plateforme, cibler 2 à 3 services prioritaires dans un rayon de 20 km autour de Poitiers. Attendez 5 à 15 leads par mois.</li>
-              <li><strong>Budget intermédiaire (500–1 000 €/mois)</strong> : couverture complète de la Vienne, 4 à 6 services, remarketing activé. Attendez 15 à 35 leads par mois.</li>
-              <li><strong>Budget avancé (1 000–2 000 €/mois)</strong> : domination locale, présence sur Google Maps Ads, annonces d'appel direct. Idéal pour les entreprises artisanales avec 5 salariés et plus.</li>
-            </ul>
-            <p>
-              Le coût par clic moyen pour les artisans dans la Vienne se situe entre <strong>2 € et 8 € selon le secteur</strong>. Le bâtiment et les travaux d'urgence sont plus concurrentiels que la décoration ou le jardinage.
-            </p>
+          <h3 class="text-base font-semibold text-[#4285f4] mt-6 mb-3">Mots-clés à intention urgente (les plus rentables)</h3>
+          <div class="space-y-3 my-4">
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« plombier urgence Poitiers »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« électricien Poitiers pas cher »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« couvreur fuite toit Vienne 86 »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« chauffagiste Poitiers dépannage »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« peintre maison Poitiers devis gratuit »</span>
+            </div>
+          </div>
 
-            <h2>Exemple concret : un plombier à Poitiers multiplie ses appels par 3</h2>
-            <p>
-              Un plombier indépendant installé à Poitiers-Nord nous a contactés en octobre 2025. Son constat : beaucoup de travail en été via le bouche-à-oreille, mais des périodes creuses sévères de novembre à février.
-            </p>
-            <p>
-              Nous avons mis en place une campagne <strong>Google Ads plombier Poitiers</strong> avec :
-            </p>
-            <ul>
-              <li>Budget : 650 €/mois de budget publicitaire</li>
-              <li>Ciblage : Poitiers + 15 communes de l'agglomération</li>
-              <li>Mots-clés principaux : urgences dépannage, installation sanitaire, remplacement chauffe-eau</li>
-              <li>Extension d'appel direct : numéro de téléphone visible dans l'annonce</li>
-            </ul>
-            <p>
-              Résultats après 60 jours :
-            </p>
-            <ul>
-              <li>28 appels qualifiés par mois (contre 9 en moyenne hors saison)</li>
-              <li>Coût par appel : 23 €</li>
-              <li>Taux de transformation appel → intervention : 65%</li>
-              <li>Chiffre d'affaires additionnel estimé : <strong>4 200 € par mois</strong></li>
-            </ul>
+          <h3 class="text-base font-semibold text-[#4285f4] mt-6 mb-3">Mots-clés à intention de projet (volume plus fort, conversion plus lente)</h3>
+          <div class="space-y-3 my-4">
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« rénovation salle de bain Poitiers »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« installation pompe à chaleur Vienne »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« ravalement façade maison Poitiers »</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">« extension maison artisan Vienne 86 »</span>
+            </div>
+          </div>
 
-            <h2>Les erreurs à éviter absolument</h2>
-            <ul>
-              <li><strong>Ne pas utiliser les mots-clés négatifs</strong> : sans liste de négatifs, votre annonce apparaît pour des recherches hors sujet (formation plomberie, offre d'emploi, etc.) et vous gaspillez du budget.</li>
-              <li><strong>Cibler toute la France</strong> : un artisan de Poitiers n'a aucun intérêt à payer pour des clics de Marseille ou Lille.</li>
-              <li><strong>Négliger le suivi des conversions</strong> : sans tracking des appels et des formulaires, impossible de savoir quelles annonces génèrent vraiment des clients.</li>
-              <li><strong>Copier les annonces des concurrents</strong> : vos annonces doivent mettre en avant ce qui vous différencie — réactivité, zone d'intervention précise, garanties, certifications.</li>
-            </ul>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Pour les artisans avec un budget modéré (500 à 800 €/mois), on recommande de concentrer 80 % du budget sur les mots-clés à intention urgente — ce sont eux qui génèrent les appels dans la journée.
+          </p>
 
+          <!-- Section 3 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Budget recommandé pour un artisan à Poitiers</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Voici une grille réaliste pour une <strong class="text-white">publicité Google plombier Vienne</strong> ou tout autre artisan local :
+          </p>
+
+          <div class="space-y-3 my-6">
+            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+              <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
+              <div>
+                <div class="text-white font-medium text-sm">Budget débutant (300–500 €/mois)</div>
+                <div class="text-neutral-400 text-sm mt-1">Adapté pour tester la plateforme, cibler 2 à 3 services prioritaires dans un rayon de 20 km autour de Poitiers. Attendez 5 à 15 leads par mois.</div>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+              <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
+              <div>
+                <div class="text-white font-medium text-sm">Budget intermédiaire (500–1 000 €/mois)</div>
+                <div class="text-neutral-400 text-sm mt-1">Couverture complète de la Vienne, 4 à 6 services, remarketing activé. Attendez 15 à 35 leads par mois.</div>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+              <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
+              <div>
+                <div class="text-white font-medium text-sm">Budget avancé (1 000–2 000 €/mois)</div>
+                <div class="text-neutral-400 text-sm mt-1">Domination locale, présence sur Google Maps Ads, annonces d'appel direct. Idéal pour les entreprises artisanales avec 5 salariés et plus.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+            <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">2–8 €</div>
+            <div class="text-sm text-neutral-400">Coût par clic moyen pour les artisans dans la Vienne selon le secteur. Le bâtiment et les travaux d'urgence sont plus concurrentiels que la décoration ou le jardinage.</div>
+          </div>
+
+          <!-- Section 4 — exemple concret -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Exemple concret : un plombier à Poitiers multiplie ses appels par 3</h2>
+
+          <div class="border-l-4 border-[#4285f4]/40 pl-5 py-3 my-6 bg-[#4285f4]/[0.04] rounded-r-xl">
+            <p class="text-neutral-300 text-sm italic">Un plombier indépendant installé à Poitiers-Nord nous a contactés en octobre 2025. Son constat : beaucoup de travail en été via le bouche-à-oreille, mais des périodes creuses sévères de novembre à février.</p>
+          </div>
+
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Nous avons mis en place une campagne <strong class="text-white">Google Ads plombier Poitiers</strong> avec :
+          </p>
+
+          <div class="space-y-3 my-4">
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Budget : 650 €/mois de budget publicitaire</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Ciblage : Poitiers + 15 communes de l'agglomération</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Mots-clés principaux : urgences dépannage, installation sanitaire, remplacement chauffe-eau</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Extension d'appel direct : numéro de téléphone visible dans l'annonce</span>
+            </div>
+          </div>
+
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">Résultats après 60 jours :</p>
+
+          <div class="grid grid-cols-2 gap-4 my-6">
+            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+              <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">28</div>
+              <div class="text-sm text-neutral-400">appels qualifiés par mois (contre 9 en moyenne hors saison)</div>
+            </div>
+            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+              <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">23 €</div>
+              <div class="text-sm text-neutral-400">coût par appel qualifié</div>
+            </div>
+            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+              <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">65 %</div>
+              <div class="text-sm text-neutral-400">taux de transformation appel → intervention</div>
+            </div>
+            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+              <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">4 200 €</div>
+              <div class="text-sm text-neutral-400">chiffre d'affaires additionnel estimé par mois</div>
+            </div>
+          </div>
+
+          <!-- Section 5 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Les erreurs à éviter absolument</h2>
+
+          <div class="space-y-3 my-4">
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Ne pas utiliser les mots-clés négatifs</strong> : sans liste de négatifs, votre annonce apparaît pour des recherches hors sujet (formation plomberie, offre d'emploi, etc.) et vous gaspillez du budget.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Cibler toute la France</strong> : un artisan de Poitiers n'a aucun intérêt à payer pour des clics de Marseille ou Lille.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Négliger le suivi des conversions</strong> : sans tracking des appels et des formulaires, impossible de savoir quelles annonces génèrent vraiment des clients.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Copier les annonces des concurrents</strong> : vos annonces doivent mettre en avant ce qui vous différencie — réactivité, zone d'intervention précise, garanties, certifications.</span>
+            </div>
           </div>
 
           <!-- Articles liés -->

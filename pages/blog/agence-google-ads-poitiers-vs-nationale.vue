@@ -19,7 +19,7 @@ useHead({
         <article>
           <header class="mb-8">
             <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">Conseil</span>
-            <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-neutral-900 leading-tight">
+            <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-white leading-tight">
               Pourquoi choisir une agence Google Ads locale à Poitiers plutôt qu'une agence nationale ?
             </h1>
             <div class="flex items-center gap-3 text-sm text-neutral-500">
@@ -35,84 +35,138 @@ useHead({
             class="w-full rounded-xl mb-8 object-cover h-64"
           />
 
-          <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:font-bold prose-a:text-primary">
-
-            <p>
-              Vous êtes dirigeant d'une PME à Poitiers et vous cherchez une <strong>agence Google Ads à Poitiers</strong>. Deux options s'offrent à vous : une grande agence nationale basée à Paris ou Lyon, ou une agence de proximité dans la Vienne.
-              La question semble simple, mais la réponse mérite qu'on la détaille — parce que votre budget publicitaire en dépend directement.
-            </p>
-
-            <h2>1. La connaissance du marché local Vienne : un avantage décisif</h2>
-            <p>
-              Une <strong>agence Google Ads locale à Poitiers</strong> ne gère pas vos campagnes depuis un bureau parisien en regardant des statistiques nationales. Elle connaît :
-            </p>
-            <ul>
-              <li>La saisonnalité des recherches dans le département 86 (tourisme autour de Futuroscope, pic d'activité bâtiment au printemps, etc.)</li>
-              <li>Les comportements de recherche spécifiques aux habitants de Poitiers et de la Vienne</li>
-              <li>Les concurrents locaux réels — pas une analyse générique de votre secteur</li>
-              <li>Les zones géographiques pertinentes : Poitiers, Chasseneuil, Buxerolles, Jaunay-Marigny, Châtellerault…</li>
-            </ul>
-            <p>
-              Cette connaissance terrain se traduit directement en mots-clés plus pertinents, en ciblage géographique plus précis et en annonces qui parlent vraiment à vos prospects locaux.
-            </p>
-
-            <h2>2. La réactivité : votre agence décroche quand vous appelez</h2>
-            <p>
-              Avec une grande agence nationale, votre dossier est géré par un account manager qui gère simultanément 30 à 50 clients. Quand vous avez une question urgente — une promotion à lancer ce weekend, un concurrent qui monte en enchères — les délais de réponse peuvent aller de 24 à 72 heures.
-            </p>
-            <p>
-              Une <strong>agence AdWords locale à Poitiers</strong> comme AdScale fonctionne différemment. Votre interlocuteur connaît votre business, votre secteur et vos objectifs. Il peut ajuster une campagne dans la journée, modifier un budget en temps réel ou analyser une anomalie dès qu'elle apparaît.
-            </p>
-            <p>
-              Pour les PME locales où chaque lead compte, cette réactivité n'est pas un luxe — c'est une nécessité opérationnelle.
-            </p>
-
-            <h2>3. Des tarifs adaptés aux budgets PME de la Vienne</h2>
-            <p>
-              Les grandes agences nationales ont des structures de coûts importantes — bureaux à Paris, équipes pléthoriques, processus standardisés. Ces coûts sont répercutés sur les clients sous forme d'honoraires de gestion souvent inabordables pour une PME locale.
-            </p>
-            <p>
-              Un forfait de gestion dans une grande agence nationale démarre rarement en dessous de 800 à 1 500 € par mois, avant même le budget publicitaire. Pour une TPE ou PME de Poitiers avec un budget total de 1 000 €/mois, c'est souvent incompatible.
-            </p>
-            <p>
-              Une agence Google Ads de proximité dans la Vienne propose des honoraires proportionnés à votre budget réel, avec la même expertise technique — et souvent plus de personnalisation.
-            </p>
-
-            <h2>4. Une relation de partenariat, pas un numéro de contrat</h2>
-            <p>
-              Les agences nationales traitent les PME locales comme des petits comptes. Vous n'avez pas accès au directeur technique, vos rapports sont automatisés, et votre campagne est gérée avec le même template que celle d'une centaine d'autres clients similaires.
-            </p>
-            <p>
-              Chez une agence locale à Poitiers, vous êtes un partenaire. On peut se retrouver autour d'un café pour faire le point, on connaît votre histoire, on s'adapte à vos contraintes saisonnières et humaines. Cette relation de proximité améliore la qualité des campagnes Google Ads — parce qu'on comprend réellement votre business.
-            </p>
-
-            <h2>5. La transparence totale sur votre compte Google Ads</h2>
-            <p>
-              Un problème fréquent avec les agences nationales : elles conservent la propriété du compte Google Ads. Si vous changez de prestataire, vous perdez l'historique, les données de conversion et les optimisations accumulées sur parfois plusieurs années. C'est un levier de rétention client peu éthique.
-            </p>
-            <p>
-              Chez AdScale, votre compte Google Ads vous appartient à 100%. Vous avez accès administrateur à tout moment. Si vous décidez de partir — même si on espère que non — vous repartez avec tout votre historique de campagnes.
-            </p>
-
-            <h2>Agence locale vs nationale : le tableau comparatif</h2>
-            <ul>
-              <li><strong>Connaissance du marché local</strong> : agence locale ✓ — agence nationale ✗</li>
-              <li><strong>Réactivité (réponse en 24 h)</strong> : agence locale ✓ — agence nationale variable</li>
-              <li><strong>Tarifs adaptés PME</strong> : agence locale ✓ — agence nationale ✗</li>
-              <li><strong>Interlocuteur dédié</strong> : agence locale ✓ — agence nationale rare</li>
-              <li><strong>Propriété du compte Ads</strong> : agence locale ✓ — agence nationale souvent non</li>
-              <li><strong>Notoriété de marque</strong> : agence locale variable — agence nationale ✓</li>
-            </ul>
-
-            <h2>Quand une agence nationale peut avoir du sens</h2>
-            <p>
-              Pour être honnête : si vous êtes une entreprise avec 50 salariés, des campagnes dans toute la France et un budget publicitaire mensuel supérieur à 20 000 €, une grande agence nationale avec des équipes spécialisées peut être pertinente.
-            </p>
-            <p>
-              Mais si vous êtes une <strong>PME à Poitiers</strong> avec un budget entre 500 et 5 000 €/mois et des clients dans la Vienne, une agence Google Ads locale sera plus performante, plus réactive et plus rentable pour vous.
-            </p>
-
+          <!-- Intro snippet -->
+          <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-5 mb-8 text-neutral-200 text-[15px] leading-relaxed">
+            Vous êtes dirigeant d'une PME à Poitiers et vous cherchez une <strong class="text-white">agence Google Ads à Poitiers</strong>. Deux options s'offrent à vous : une grande agence nationale basée à Paris ou Lyon, ou une agence de proximité dans la Vienne.
+            La question semble simple, mais la réponse mérite qu'on la détaille — parce que votre budget publicitaire en dépend directement.
           </div>
+
+          <!-- Section 1 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">1. La connaissance du marché local Vienne : un avantage décisif</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Une <strong class="text-white">agence Google Ads locale à Poitiers</strong> ne gère pas vos campagnes depuis un bureau parisien en regardant des statistiques nationales. Elle connaît :
+          </p>
+          <div class="space-y-3 my-4">
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">La saisonnalité des recherches dans le département 86 (tourisme autour de Futuroscope, pic d'activité bâtiment au printemps, etc.)</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Les comportements de recherche spécifiques aux habitants de Poitiers et de la Vienne</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Les concurrents locaux réels — pas une analyse générique de votre secteur</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
+              <span class="text-neutral-300 text-sm leading-relaxed">Les zones géographiques pertinentes : Poitiers, Chasseneuil, Buxerolles, Jaunay-Marigny, Châtellerault…</span>
+            </div>
+          </div>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Cette connaissance terrain se traduit directement en mots-clés plus pertinents, en ciblage géographique plus précis et en annonces qui parlent vraiment à vos prospects locaux.
+          </p>
+
+          <!-- Section 2 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">2. La réactivité : votre agence décroche quand vous appelez</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Avec une grande agence nationale, votre dossier est géré par un account manager qui gère simultanément 30 à 50 clients. Quand vous avez une question urgente — une promotion à lancer ce weekend, un concurrent qui monte en enchères — les délais de réponse peuvent aller de 24 à 72 heures.
+          </p>
+
+          <div class="border-l-4 border-[#4285f4]/40 pl-5 py-3 my-6 bg-[#4285f4]/[0.04] rounded-r-xl">
+            <p class="text-neutral-300 text-sm italic">Une <strong class="text-white">agence AdWords locale à Poitiers</strong> comme AdScale fonctionne différemment. Votre interlocuteur connaît votre business, votre secteur et vos objectifs. Il peut ajuster une campagne dans la journée, modifier un budget en temps réel ou analyser une anomalie dès qu'elle apparaît.</p>
+          </div>
+
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Pour les PME locales où chaque lead compte, cette réactivité n'est pas un luxe — c'est une nécessité opérationnelle.
+          </p>
+
+          <!-- Section 3 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">3. Des tarifs adaptés aux budgets PME de la Vienne</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Les grandes agences nationales ont des structures de coûts importantes — bureaux à Paris, équipes pléthoriques, processus standardisés. Ces coûts sont répercutés sur les clients sous forme d'honoraires de gestion souvent inabordables pour une PME locale.
+          </p>
+
+          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+            <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">800–1 500 €</div>
+            <div class="text-sm text-neutral-400">Honoraires mensuels minimum d'une grande agence nationale, avant même le budget publicitaire. Souvent incompatible avec les réalités d'une TPE/PME de Poitiers.</div>
+          </div>
+
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Une agence Google Ads de proximité dans la Vienne propose des honoraires proportionnés à votre budget réel, avec la même expertise technique — et souvent plus de personnalisation.
+          </p>
+
+          <!-- Section 4 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">4. Une relation de partenariat, pas un numéro de contrat</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Les agences nationales traitent les PME locales comme des petits comptes. Vous n'avez pas accès au directeur technique, vos rapports sont automatisés, et votre campagne est gérée avec le même template que celle d'une centaine d'autres clients similaires.
+          </p>
+
+          <div class="border-l-4 border-[#4285f4]/40 pl-5 py-3 my-6 bg-[#4285f4]/[0.04] rounded-r-xl">
+            <p class="text-neutral-300 text-sm italic">Chez une agence locale à Poitiers, vous êtes un partenaire. On peut se retrouver autour d'un café pour faire le point, on connaît votre histoire, on s'adapte à vos contraintes saisonnières et humaines. Cette relation de proximité améliore la qualité des campagnes Google Ads — parce qu'on comprend réellement votre business.</p>
+          </div>
+
+          <!-- Section 5 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">5. La transparence totale sur votre compte Google Ads</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Un problème fréquent avec les agences nationales : elles conservent la propriété du compte Google Ads. Si vous changez de prestataire, vous perdez l'historique, les données de conversion et les optimisations accumulées sur parfois plusieurs années. C'est un levier de rétention client peu éthique.
+          </p>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Chez AdScale, votre compte Google Ads vous appartient à 100 %. Vous avez accès administrateur à tout moment. Si vous décidez de partir — même si on espère que non — vous repartez avec tout votre historique de campagnes.
+          </p>
+
+          <!-- Section 6 — tableau comparatif -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Agence locale vs nationale : le tableau comparatif</h2>
+
+          <div class="my-6 rounded-xl overflow-hidden border border-neutral-800">
+            <div class="grid grid-cols-3 bg-white/[0.04] px-4 py-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider">
+              <div>Critère</div>
+              <div class="text-center text-[#4285f4]">Agence locale</div>
+              <div class="text-center">Agence nationale</div>
+            </div>
+            <div class="divide-y divide-neutral-800">
+              <div class="grid grid-cols-3 px-4 py-3 text-sm">
+                <div class="text-neutral-300">Connaissance du marché local</div>
+                <div class="text-center text-[#4285f4] font-semibold">✓</div>
+                <div class="text-center text-neutral-500">✗</div>
+              </div>
+              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-white/[0.01]">
+                <div class="text-neutral-300">Réactivité (réponse en 24 h)</div>
+                <div class="text-center text-[#4285f4] font-semibold">✓</div>
+                <div class="text-center text-neutral-500">Variable</div>
+              </div>
+              <div class="grid grid-cols-3 px-4 py-3 text-sm">
+                <div class="text-neutral-300">Tarifs adaptés PME</div>
+                <div class="text-center text-[#4285f4] font-semibold">✓</div>
+                <div class="text-center text-neutral-500">✗</div>
+              </div>
+              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-white/[0.01]">
+                <div class="text-neutral-300">Interlocuteur dédié</div>
+                <div class="text-center text-[#4285f4] font-semibold">✓</div>
+                <div class="text-center text-neutral-500">Rare</div>
+              </div>
+              <div class="grid grid-cols-3 px-4 py-3 text-sm">
+                <div class="text-neutral-300">Propriété du compte Ads</div>
+                <div class="text-center text-[#4285f4] font-semibold">✓</div>
+                <div class="text-center text-neutral-500">Souvent non</div>
+              </div>
+              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-white/[0.01]">
+                <div class="text-neutral-300">Notoriété de marque</div>
+                <div class="text-center text-neutral-500">Variable</div>
+                <div class="text-center text-[#4285f4] font-semibold">✓</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 7 -->
+          <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Quand une agence nationale peut avoir du sens</h2>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+            Pour être honnête : si vous êtes une entreprise avec 50 salariés, des campagnes dans toute la France et un budget publicitaire mensuel supérieur à 20 000 €, une grande agence nationale avec des équipes spécialisées peut être pertinente.
+          </p>
+          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+            Mais si vous êtes une <strong class="text-white">PME à Poitiers</strong> avec un budget entre 500 et 5 000 €/mois et des clients dans la Vienne, une agence Google Ads locale sera plus performante, plus réactive et plus rentable pour vous.
+          </p>
 
           <!-- Articles liés -->
           <div class="mt-12 border-t border-neutral-800 pt-8">
