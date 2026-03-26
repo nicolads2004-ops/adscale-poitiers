@@ -14,34 +14,7 @@ const posts = [
     date: '18 mars 2026',
     readTime: '5 min',
     category: 'Guide',
-    image: 'https://picsum.photos/seed/adscale1/800/400',
-  },
-  {
-    slug: 'google-ads-vs-seo-levier-pme-locale',
-    title: 'Google Ads vs SEO : quel levier pour une PME locale ?',
-    excerpt: 'Deux stratégies complémentaires, mais laquelle prioriser quand on a un budget limité ? Analyse détaillée.',
-    date: '15 mars 2026',
-    readTime: '7 min',
-    category: 'Stratégie',
-    image: 'https://picsum.photos/seed/adscale2/800/400',
-  },
-  {
-    slug: 'reduire-cout-par-lead-60-pourcent-google-ads',
-    title: 'Comment réduire son coût par lead de 60% avec Google Ads',
-    excerpt: 'Les 5 techniques d\'optimisation qui font la différence entre une campagne qui gaspille et une campagne qui performe.',
-    date: '12 mars 2026',
-    readTime: '6 min',
-    category: 'Optimisation',
-    image: 'https://picsum.photos/seed/adscale3/800/400',
-  },
-  {
-    slug: '5-signes-agence-google-ads-mauvais-travail',
-    title: '5 signes que votre agence Google Ads ne fait pas du bon travail',
-    excerpt: 'Comment évaluer la qualité de votre prestataire actuel ? Les red flags à surveiller.',
-    date: '10 mars 2026',
-    readTime: '4 min',
-    category: 'Conseil',
-    image: 'https://picsum.photos/seed/adscale4/800/400',
+    image: '/images/blog/blog-adscale-artisans.png',
   },
   {
     slug: 'google-ads-artisan-plombier-electricien-poitiers',
@@ -50,7 +23,7 @@ const posts = [
     date: '20 mars 2026',
     readTime: '6 min',
     category: 'Guide local',
-    image: 'https://picsum.photos/seed/adscale5/800/400',
+    image: '/images/blog/blog-adscale-artisans.png',
   },
   {
     slug: 'agence-google-ads-poitiers-vs-nationale',
@@ -59,7 +32,7 @@ const posts = [
     date: '22 mars 2026',
     readTime: '5 min',
     category: 'Conseil',
-    image: 'https://picsum.photos/seed/adscale6/800/400',
+    image: '/images/blog/blog-adscale-locale-nationale.png',
   },
   {
     slug: 'google-ads-commerce-local-poitiers-centre-ville',
@@ -68,7 +41,7 @@ const posts = [
     date: '24 mars 2026',
     readTime: '4 min',
     category: 'Local',
-    image: 'https://picsum.photos/seed/adscale7/800/400',
+    image: '/images/blog/blog-adscale-commerce-local.png',
   },
 ]
 </script>
@@ -93,17 +66,17 @@ const posts = [
     </section>
 
     <!-- Posts Grid -->
-    <section class="py-16 md:py-24">
+    <section class="py-16 md:py-24" style="background-color: #050508;">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <NuxtLink
             v-for="post in posts"
             :key="post.slug"
             :to="`/blog/${post.slug}`"
-            class="group bg-white rounded-xl border border-neutral-200 hover:border-primary/20 hover:shadow-lg transition-all duration-300 overflow-hidden"
+            class="group bg-white/[0.03] rounded-xl border border-white/[0.06] hover:border-[#4285f4]/30 hover:bg-white/[0.05] transition-all duration-300 overflow-hidden"
           >
             <!-- Image -->
-            <div class="aspect-[16/9] overflow-hidden bg-neutral-100">
+            <div class="aspect-[16/9] overflow-hidden bg-white/[0.02]">
               <img
                 :src="post.image"
                 :alt="post.title"
@@ -113,15 +86,15 @@ const posts = [
             </div>
             <div class="p-6">
               <div class="flex items-center gap-3 mb-3">
-                <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">{{ post.category }}</span>
+                <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[#4285f4]/15 text-[#4285f4] border border-[#4285f4]/25">{{ post.category }}</span>
               </div>
-              <div class="flex items-center gap-3 text-xs text-neutral-500 mb-3">
+              <div class="flex items-center gap-3 text-xs text-slate-500 mb-3">
                 <span>{{ post.date }}</span>
                 <span>&middot;</span>
                 <span>{{ post.readTime }} de lecture</span>
               </div>
-              <h2 class="font-heading font-bold text-lg mb-2 text-neutral-900 group-hover:text-primary transition-colors">{{ post.title }}</h2>
-              <p class="text-neutral-500 text-sm leading-relaxed">{{ post.excerpt }}</p>
+              <h2 class="font-heading font-bold text-lg mb-2 text-white group-hover:text-[#4285f4] transition-colors">{{ post.title }}</h2>
+              <p class="text-slate-400 text-sm leading-relaxed">{{ post.excerpt }}</p>
             </div>
           </NuxtLink>
         </div>
