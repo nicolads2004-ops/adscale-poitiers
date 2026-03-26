@@ -8,8 +8,8 @@ useHead({
 </script>
 
 <template>
-  <div>
-    <section class="py-16 md:py-24">
+  <div style="background-color: #050508; min-height: 100vh; color: white;">
+    <section class="pt-32 pb-24">
       <div class="container mx-auto px-4 max-w-3xl">
         <NuxtLink to="/blog" class="inline-flex items-center gap-2 text-primary text-sm font-medium mb-8 hover:underline">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
