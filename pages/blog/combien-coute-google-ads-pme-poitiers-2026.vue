@@ -41,6 +41,7 @@ useHead({
             src="/images/blog/blog-adscale-artisans.png"
             alt="Combien coûte Google Ads PME Poitiers 2026 — budget publicité locale Vienne 86"
             class="w-full rounded-xl mb-8 object-cover h-64"
+            loading="eager"
           />
 
           <!-- Intro -->

@@ -2,6 +2,24 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+
+  // ISR — cache Vercel
+  routeRules: {
+    '/**': { isr: true },
+  },
+
+  // Nitro — compression et minification
+  nitro: {
+    compressPublicAssets: true,
+    minify: true,
+  },
+
+  // Experimental — payload extraction et JSON payloads
+  experimental: {
+    payloadExtraction: true,
+    renderJsonPayloads: true,
+  },
+
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
@@ -29,6 +47,10 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'canonical', href: 'https://adscale.poitiers.digital/' },
+        { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
+        { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
       ],
       script: [
         {
