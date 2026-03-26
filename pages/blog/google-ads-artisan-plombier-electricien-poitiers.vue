@@ -30,8 +30,8 @@ useHead({
           </header>
 
           <img
-            src="https://picsum.photos/seed/artisan86/1200/500"
-            alt="Google Ads pour artisans à Poitiers — plombier, électricien, couvreur dans la Vienne"
+            src="https://tempfile.aiquickdraw.com/h/86e3cce4722a3c1be7f1a624f512d3c0_1774530712.png"
+            alt="Google Ads artisans plombiers électriciens Poitiers — campagne publicité locale Vienne 86"
             class="w-full rounded-xl mb-8 object-cover h-64"
           />
 

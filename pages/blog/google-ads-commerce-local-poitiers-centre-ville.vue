@@ -30,8 +30,8 @@ useHead({
           </header>
 
           <img
-            src="https://picsum.photos/seed/commerce-poitiers/1200/500"
-            alt="Google Ads pour commerces locaux à Poitiers — centre-ville Vienne"
+            src="https://tempfile.aiquickdraw.com/h/22fb656f1f171d4438a23f37a5325ac6_1774530728.png"
+            alt="Google Ads commerces locaux Poitiers retour investissement — ROI publicité PME Vienne 86"
             class="w-full rounded-xl mb-8 object-cover h-64"
           />
 

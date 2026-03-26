@@ -30,8 +30,8 @@ useHead({
           </header>
 
           <img
-            src="https://picsum.photos/seed/agencelocale86/1200/500"
-            alt="Agence Google Ads locale à Poitiers vs agence nationale — comparatif"
+            src="https://tempfile.aiquickdraw.com/h/5c048c3e9696e038fb475896cb9af417_1774530710.png"
+            alt="Agence Google Ads locale vs nationale Poitiers — comparatif prestataire digital Vienne"
             class="w-full rounded-xl mb-8 object-cover h-64"
           />
 
