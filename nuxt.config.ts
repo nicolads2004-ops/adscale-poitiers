@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: 'fr' },
+      htmlAttrs: { lang: 'fr', style: 'overflow-x:hidden' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: 'AdScale Poitiers — Expert Google Ads pour PME locales | Vienne 86',
