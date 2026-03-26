@@ -133,6 +133,21 @@ useHead({
 
           </div>
 
+          <!-- Articles liés -->
+          <div class="mt-12 border-t border-neutral-800 pt-8">
+            <h3 class="font-heading font-semibold text-white mb-4">À lire aussi</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <NuxtLink to="/blog/google-ads-artisan-plombier-electricien-poitiers" class="block p-4 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition-colors">
+                <span class="text-xs text-primary font-semibold uppercase tracking-wider">Guide local</span>
+                <p class="text-white text-sm font-medium mt-1">Google Ads pour artisans à Poitiers : plombier, électricien, couvreur</p>
+              </NuxtLink>
+              <NuxtLink to="/blog/agence-google-ads-poitiers-vs-nationale" class="block p-4 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition-colors">
+                <span class="text-xs text-primary font-semibold uppercase tracking-wider">Conseil</span>
+                <p class="text-white text-sm font-medium mt-1">Agence Google Ads locale à Poitiers vs nationale : lequel choisir ?</p>
+              </NuxtLink>
+            </div>
+          </div>
+
           <!-- CTA -->
           <div class="mt-12 bg-gradient-to-br from-primary to-primary/80 rounded-xl p-8 text-center text-white">
             <h3 class="font-heading font-bold text-xl mb-3">Commerce à Poitiers ? On remplit votre boutique ou restaurant.</h3>
