@@ -1,0 +1,10 @@
+.nuxt
+.output
+.data
+.nitro
+.cache
+node_modules
+*.log
+.vercel
+.vscode
+.DS_Store
