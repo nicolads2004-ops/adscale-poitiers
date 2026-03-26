@@ -14,6 +14,7 @@ const posts = [
     date: '18 mars 2026',
     readTime: '5 min',
     category: 'Guide',
+    image: 'https://picsum.photos/seed/adscale1/800/400',
   },
   {
     slug: 'google-ads-vs-seo-levier-pme-locale',
@@ -22,6 +23,7 @@ const posts = [
     date: '15 mars 2026',
     readTime: '7 min',
     category: 'Stratégie',
+    image: 'https://picsum.photos/seed/adscale2/800/400',
   },
   {
     slug: 'reduire-cout-par-lead-60-pourcent-google-ads',
@@ -30,6 +32,7 @@ const posts = [
     date: '12 mars 2026',
     readTime: '6 min',
     category: 'Optimisation',
+    image: 'https://picsum.photos/seed/adscale3/800/400',
   },
   {
     slug: '5-signes-agence-google-ads-mauvais-travail',
@@ -38,6 +41,34 @@ const posts = [
     date: '10 mars 2026',
     readTime: '4 min',
     category: 'Conseil',
+    image: 'https://picsum.photos/seed/adscale4/800/400',
+  },
+  {
+    slug: 'google-ads-artisan-plombier-electricien-poitiers',
+    title: 'Google Ads pour artisans à Poitiers : plombier, électricien, couvreur — guide complet',
+    excerpt: 'Comment les artisans de la Vienne utilisent Google Ads pour remplir leur carnet de commandes toute l\'année.',
+    date: '20 mars 2026',
+    readTime: '6 min',
+    category: 'Guide local',
+    image: 'https://picsum.photos/seed/adscale5/800/400',
+  },
+  {
+    slug: 'agence-google-ads-poitiers-vs-nationale',
+    title: 'Pourquoi choisir une agence Google Ads locale à Poitiers plutôt qu\'une agence nationale ?',
+    excerpt: 'Connaissance du marché local, réactivité, tarifs adaptés — les avantages concrets d\'une agence de proximité dans la Vienne.',
+    date: '22 mars 2026',
+    readTime: '5 min',
+    category: 'Conseil',
+    image: 'https://picsum.photos/seed/adscale6/800/400',
+  },
+  {
+    slug: 'google-ads-commerce-local-poitiers-centre-ville',
+    title: 'Google Ads pour les commerces du centre-ville de Poitiers : attirer des clients locaux en 2026',
+    excerpt: 'Boutiques, restaurants, services — comment capter une clientèle de proximité avec Google Ads et Google Maps.',
+    date: '24 mars 2026',
+    readTime: '4 min',
+    category: 'Local',
+    image: 'https://picsum.photos/seed/adscale7/800/400',
   },
 ]
 </script>
@@ -71,11 +102,19 @@ const posts = [
             :to="`/blog/${post.slug}`"
             class="group bg-white rounded-xl border border-neutral-200 hover:border-primary/20 hover:shadow-lg transition-all duration-300 overflow-hidden"
           >
-            <!-- Placeholder visual -->
-            <div class="aspect-[16/9] bg-gradient-to-br from-neutral-100 to-primary/5 flex items-center justify-center">
-              <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">{{ post.category }}</span>
+            <!-- Image -->
+            <div class="aspect-[16/9] overflow-hidden bg-neutral-100">
+              <img
+                :src="post.image"
+                :alt="post.title"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
             </div>
             <div class="p-6">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">{{ post.category }}</span>
+              </div>
               <div class="flex items-center gap-3 text-xs text-neutral-500 mb-3">
                 <span>{{ post.date }}</span>
                 <span>&middot;</span>
