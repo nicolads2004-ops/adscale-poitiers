@@ -55,7 +55,7 @@
           <ul class="space-y-2 text-sm text-neutral-300">
             <li>Poitiers, Vienne (86)</li>
             <li><a href="tel:+33600000000" class="hover:text-white transition-colors">06 00 00 00 00</a></li>
-            <li><a href="mailto:contact@adscale.poitiers.digital" class="hover:text-white transition-colors">contact@adscale.poitiers.digital</a></li>
+            <li><a href="mailto:contact@poitiers.digital" class="hover:text-white transition-colors">contact@poitiers.digital</a></li>
           </ul>
         </div>
       </div>
