@@ -75,25 +75,25 @@ if (import.meta.client) {
       leave-from-class="opacity-100 translate-y-0"
       leave-to-class="opacity-0 -translate-y-2"
     >
-      <div v-if="mobileOpen" class="md:hidden bg-white border-t shadow-lg">
-        <div class="container mx-auto px-4 py-4 space-y-1">
+      <div v-if="mobileOpen" class="md:hidden fixed inset-0 z-40 bg-[#050508]/95 backdrop-blur-xl pt-20 px-6">
+        <nav class="flex flex-col gap-6">
           <NuxtLink
             v-for="link in navLinks"
             :key="link.to"
             :to="link.to"
-            class="block px-4 py-3 rounded-lg text-neutral-700 font-medium hover:bg-neutral-100 hover:text-primary transition-colors"
+            class="text-lg text-white/70 hover:text-white transition-colors"
             @click="mobileOpen = false"
           >
             {{ link.label }}
           </NuxtLink>
           <NuxtLink
             to="/contact"
-            class="block text-center bg-gradient-cta text-white font-semibold px-4 py-3 rounded-lg mt-3"
+            class="mt-4 text-center py-3 px-6 bg-gradient-cta text-white rounded-xl font-semibold"
             @click="mobileOpen = false"
           >
             Audit gratuit
           </NuxtLink>
-        </div>
+        </nav>
       </div>
     </Transition>
   </header>
