@@ -59,13 +59,19 @@ if (import.meta.client) {
       </ul>
 
       <!-- CTA Desktop -->
-      <NuxtLink
-        to="/contact"
-        class="hidden md:inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform"
-      >
-        Audit gratuit
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-      </NuxtLink>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="tel:+33769801190" class="flex items-center gap-2 text-sm text-neutral-500 hover:text-neutral-900 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+          07 69 80 11 90
+        </a>
+        <NuxtLink
+          to="/contact"
+          class="inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform"
+        >
+          Audit gratuit
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+        </NuxtLink>
+      </div>
 
       <!-- Mobile Toggle -->
       <button
@@ -106,6 +112,10 @@ if (import.meta.client) {
           >
             Audit gratuit
           </NuxtLink>
+          <a href="tel:+33769801190" class="flex items-center justify-center gap-2 w-full py-3 px-4 bg-green-600 hover:bg-green-500 text-white rounded-xl font-semibold transition-colors mt-4" @click="mobileOpen = false">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+            Nous appeler
+          </a>
         </nav>
       </div>
     </Transition>
