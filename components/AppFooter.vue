@@ -54,7 +54,7 @@
           <h3 class="font-heading font-semibold text-sm uppercase tracking-wider text-neutral-400 mb-4">Contact</h3>
           <ul class="space-y-2 text-sm text-neutral-300">
             <li>Poitiers, Vienne (86)</li>
-            <li><a href="tel:+33600000000" class="hover:text-white transition-colors">06 00 00 00 00</a></li>
+            <li><a href="tel:+33769801190" class="hover:text-white transition-colors">07 69 80 11 90</a></li>
             <li><a href="mailto:contact@poitiers.digital" class="hover:text-white transition-colors">contact@poitiers.digital</a></li>
           </ul>
         </div>
