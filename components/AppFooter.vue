@@ -11,7 +11,7 @@
         </p>
         <NuxtLink
           to="/contact"
-          class="inline-flex items-center gap-2 bg-white text-primary font-bold px-8 py-4 rounded-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-lg"
+          class="inline-flex items-center gap-2 bg-white text-primary font-bold px-8 py-4 rounded-lg hover:shadow-xl transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform text-lg"
         >
           Demandez votre audit gratuit
           <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

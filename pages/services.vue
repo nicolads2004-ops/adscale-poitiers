@@ -1,8 +1,11 @@
 <script setup lang="ts">
 useHead({
-  title: 'Services Google Ads — AdScale Poitiers | Search, Display, Shopping, Performance Max',
+  title: 'Gestion campagnes Google Ads Poitiers — Search, Display, Shopping, PMax | AdScale',
   meta: [
-    { name: 'description', content: 'Services Google Ads complets pour PME à Poitiers : Search, Display, Shopping, Performance Max, Meta Ads, Tracking GA4/GTM. Audit gratuit.' },
+    { name: 'description', content: 'Gestion complète de vos campagnes Google Ads à Poitiers : Search, Display, Shopping, Performance Max, Meta Ads, Tracking GA4/GTM. Audit gratuit, expert PME Vienne 86.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/services', key: 'canonical' },
   ],
 })
 
@@ -104,11 +107,11 @@ const services = [
       <div class="relative container mx-auto px-4 max-w-7xl">
         <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Nos services</span>
         <h1 class="font-heading font-extrabold text-4xl md:text-5xl mt-3 mb-6 max-w-3xl">
-          Des campagnes Google Ads qui
-          <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">génèrent du business</span>
+          Gestion de campagnes Google Ads —
+          <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">des résultats concrets pour votre business</span>
         </h1>
         <p class="text-neutral-300 text-lg max-w-2xl">
-          Chaque service est pensé pour un seul objectif : vous amener plus de clients qualifiés au meilleur coût.
+          Chaque service est pensé pour un seul objectif : vous amener plus de clients qualifiés au meilleur coût. AdScale est une division de <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">Studio Digital Poitiers</a>.
         </p>
       </div>
     </section>
@@ -149,7 +152,7 @@ const services = [
             </ul>
             <NuxtLink
               to="/contact"
-              class="inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 hover:-translate-y-0.5"
+              class="inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform"
             >
               Audit gratuit {{ service.title }}
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

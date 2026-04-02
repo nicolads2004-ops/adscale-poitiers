@@ -19,7 +19,7 @@ if (import.meta.client) {
 
 <template>
   <header
-    class="sticky top-0 z-50 transition-all duration-300"
+    class="sticky top-0 z-50 transition-[background-color,box-shadow] duration-300 will-change-[background-color,box-shadow]"
     :class="scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'"
   >
     <nav class="container mx-auto px-4 max-w-7xl flex items-center justify-between h-16 md:h-20" aria-label="Navigation principale">
@@ -38,7 +38,7 @@ if (import.meta.client) {
         <li v-for="link in navLinks" :key="link.to">
           <NuxtLink
             :to="link.to"
-            class="text-sm font-medium text-neutral-700 hover:text-primary transition-colors duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
+            class="text-sm font-medium text-neutral-700 hover:text-primary transition-colors duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-[width] after:duration-300 hover:after:w-full"
           >
             {{ link.label }}
           </NuxtLink>
@@ -48,7 +48,7 @@ if (import.meta.client) {
       <!-- CTA Desktop -->
       <NuxtLink
         to="/contact"
-        class="hidden md:inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 hover:-translate-y-0.5"
+        class="hidden md:inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold text-sm px-5 py-2.5 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform"
       >
         Audit gratuit
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

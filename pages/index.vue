@@ -68,9 +68,12 @@ const faqs = [
 ]
 
 useHead({
-  title: 'AdScale Poitiers — Expert Google Ads pour PME locales | Vienne 86',
+  title: 'Agence Google Ads Poitiers — Expert PME locales, Vienne 86 | AdScale',
   meta: [
-    { name: 'description', content: 'Agence Google Ads à Poitiers spécialisée PME locales. Réduisez votre coût par lead de 60% en 30 jours. Audit gratuit. Expert certifié Vienne 86.' },
+    { name: 'description', content: 'Agence Google Ads à Poitiers spécialisée PME locales. Audit gratuit de vos campagnes en 30 minutes. Gestion complète : Search, Display, Shopping, Performance Max. Expert certifié Vienne 86.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/', key: 'canonical' },
   ],
   script: [
     {
@@ -116,7 +119,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           </div>
 
           <h1 class="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
-            Vos clients vous cherchent sur Google.
+            Agence Google Ads à Poitiers.
             <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">
               On les amène chez vous.
             </span>
@@ -129,14 +132,14 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div class="flex flex-col sm:flex-row gap-4">
             <NuxtLink
               to="/contact"
-              class="inline-flex items-center justify-center gap-2 bg-gradient-cta text-white font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:-translate-y-0.5 text-lg"
+              class="inline-flex items-center justify-center gap-2 bg-gradient-cta text-white font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/30 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform text-lg"
             >
               Demandez votre audit gratuit
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </NuxtLink>
             <NuxtLink
               to="/services"
-              class="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300"
+              class="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition-colors duration-300"
             >
               Découvrir nos services
             </NuxtLink>
@@ -175,9 +178,9 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div
             v-for="service in services"
             :key="service.title"
-            class="bg-white rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group border border-transparent hover:border-primary/10"
+            class="bg-white rounded-xl p-6 hover:shadow-lg transition-[box-shadow,transform,border-color] duration-300 hover:-translate-y-1 will-change-transform group border border-transparent hover:border-primary/10"
           >
-            <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-gradient-brand group-hover:text-white transition-all duration-300">
+            <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-gradient-brand group-hover:text-white transition-colors duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" /></svg>
             </div>
             <h3 class="font-heading font-bold text-lg mb-2 text-neutral-900">{{ service.title }}</h3>

@@ -1,11 +1,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts'],
 
-  // ISR — cache Vercel
+  // SWR — cache Vercel 60s
   routeRules: {
-    '/**': { isr: true },
+    '/**': { swr: 60 },
   },
 
   // Nitro — compression et minification
@@ -20,15 +20,33 @@ export default defineNuxtConfig({
     renderJsonPayloads: true,
   },
 
+  // @nuxt/fonts — Inter géré localement, pas de requête Google Fonts bloquante
+  fonts: {
+    families: [
+      { name: 'Inter', provider: 'google', weights: [400, 500, 600, 700] },
+    ],
+    defaults: {
+      preload: true,
+      fontDisplay: 'optional',
+      fallbacks: {
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+      },
+    },
+  },
+
+  tailwindcss: {
+    configPath: 'tailwind.config.ts',
+  },
+
   app: {
     head: {
       htmlAttrs: { lang: 'fr', style: 'overflow-x:hidden' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'AdScale Poitiers — Expert Google Ads pour PME locales | Vienne 86',
+      title: 'Agence Google Ads Poitiers — Expert PME locales, Vienne 86 | AdScale',
       meta: [
-        { name: 'description', content: 'Agence Google Ads à Poitiers spécialisée PME locales. Réduisez votre coût par lead de 60% en 30 jours. Audit gratuit. Expert certifié Vienne 86.' },
-        { property: 'og:title', content: 'AdScale Poitiers — Expert Google Ads PME locales' },
+        { name: 'description', content: 'Agence Google Ads à Poitiers spécialisée PME locales. Audit gratuit de vos campagnes en 30 minutes. Gestion complète : Search, Display, Shopping, Performance Max. Expert certifié Vienne 86.' },
+        { property: 'og:title', content: 'Agence Google Ads Poitiers — Expert PME locales' },
         { property: 'og:description', content: 'Vos clients vous cherchent sur Google. On les amène chez vous. Audit gratuit pour les PME de la Vienne.' },
         { property: 'og:type', content: 'website' },
         { property: 'og:locale', content: 'fr_FR' },
@@ -40,17 +58,12 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'https://adscale.poitiers.digital/og-image.jpg' },
         { name: 'twitter:title', content: 'AdScale Poitiers — Expert Google Ads PME locales' },
-        { name: 'twitter:description', content: 'Agence Google Ads à Poitiers spécialisée PME locales. Réduisez votre coût par lead de 60% en 30 jours. Audit gratuit. Expert certifié Vienne 86.' },
+        { name: 'twitter:description', content: 'Agence Google Ads à Poitiers spécialisée PME locales. Audit gratuit de vos campagnes en 30 minutes. Gestion complète : Search, Display, Shopping, Performance Max. Expert certifié Vienne 86.' },
         { name: 'geo.region', content: 'FR-86' },
         { name: 'geo.placename', content: 'Poitiers' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
-        { rel: 'canonical', href: 'https://adscale.poitiers.digital/' },
-        { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
-        { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
       ],
       script: [
         {
@@ -59,7 +72,7 @@ export default defineNuxtConfig({
             '@context': 'https://schema.org',
             '@type': ['LocalBusiness', 'ProfessionalService'],
             name: 'AdScale Poitiers',
-            description: 'Agence Google Ads à Poitiers spécialisée PME locales. Réduisez votre coût par lead de 60% en 30 jours. Audit gratuit. Expert certifié Vienne 86.',
+            description: 'Agence Google Ads à Poitiers spécialisée PME locales. Audit gratuit de vos campagnes en 30 minutes. Gestion complète : Search, Display, Shopping, Performance Max. Expert certifié Vienne 86.',
             url: 'https://adscale.poitiers.digital/',
             address: {
               '@type': 'PostalAddress',
@@ -78,16 +91,5 @@ export default defineNuxtConfig({
         },
       ],
     },
-  },
-  googleFonts: {
-    families: {
-      Inter: [400, 500, 600, 700, 800],
-      'Space Grotesk': [500, 700],
-    },
-    display: 'swap',
-    preload: true,
-  },
-  tailwindcss: {
-    configPath: 'tailwind.config.ts',
   },
 })
