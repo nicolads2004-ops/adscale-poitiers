@@ -1,6 +1,42 @@
+/* ===== ADSCALE DARK THEME — ORANGE #FF8C00 ===== */
+
+:root {
+  /* Brand Colors */
+  --adscale-primary: #FF8C00;
+  --adscale-primary-light: #FFA500;
+  --adscale-primary-dark: #E07B00;
+  --adscale-secondary: #FFA500;
+  --adscale-accent: #FFD700;
+  
+  /* Background Colors */
+  --adscale-bg: #0a0a0a;
+  --adscale-bg-surface: #141414;
+  --adscale-bg-elevated: #1a1a1a;
+  
+  /* Text Colors */
+  --adscale-text-primary: #fafafa;
+  --adscale-text-secondary: #a0a0a0;
+  --adscale-text-muted: #737373;
+  
+  /* Border Colors */
+  --adscale-border-subtle: rgba(255,255,255,0.06);
+  --adscale-border-medium: rgba(255,255,255,0.1);
+  --adscale-border-accent: rgba(255,140,0,0.2);
+  
+  /* Glow Effects */
+  --adscale-glow: rgba(255,140,0,0.5);
+  --adscale-glow-sm: rgba(255,140,0,0.2);
+}
+
+/* ===== BASE STYLES ===== */
+body {
+  background: var(--adscale-bg);
+  color: var(--adscale-text-primary);
+}
+
 /* ===== FOCUS VISIBLE ===== */
 :focus-visible {
-  outline: 2px solid #4285f4;
+  outline: 2px solid var(--adscale-primary);
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -15,4 +51,59 @@
 [data-reveal].is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ===== CUSTOM SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--adscale-bg-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--adscale-border-medium);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--adscale-primary);
+}
+
+/* ===== ORANGE GLOW EFFECTS ===== */
+.glow-orange {
+  box-shadow: 0 0 20px rgba(255,140,0,0.3);
+}
+
+.glow-orange-sm {
+  box-shadow: 0 0 8px rgba(255,140,0,0.2);
+}
+
+/* ===== GRADIENTS ===== */
+.gradient-brand {
+  background: linear-gradient(135deg, #FF8C00 0%, #FFA500 100%);
+}
+
+.gradient-cta {
+  background: linear-gradient(135deg, #FF8C00 0%, #FFA500 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #FF8C00 0%, #FFD700 100%);
+}
+
+.gradient-dark {
+  background: linear-gradient(180deg, #0a0a0a 0%, #141414 100%);
+}
+
+/* ===== CARD STYLES ===== */
+.card-dark {
+  background: var(--adscale-bg-elevated);
+  border: 1px solid var(--adscale-border-subtle);
+}
+
+.card-dark:hover {
+  border-color: var(--adscale-border-accent);
 }

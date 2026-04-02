@@ -1,8 +1,11 @@
 <script setup lang="ts">
 useHead({
-  title: 'Google Ads pour commerces du centre-ville de Poitiers : attirer des clients locaux en 2026 | AdScale',
+  title: 'Publicité locale Google pour boutiques et restaurants à Poitiers : guide 2026 | AdScale',
   meta: [
-    { name: 'description', content: 'Boutiques, restaurants, services à Poitiers — comment capter une clientèle de proximité avec Google Ads et Google Maps en 2026. Guide complet pour commerces du centre-ville de la Vienne.' },
+    { name: 'description', content: 'Boutiques, restaurants et services de Poitiers : captez vos clients de proximité avec Google Ads et Google Maps en 2026. Ciblage local, budget et résultats. Guide AdScale Vienne 86.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/blog/google-ads-commerce-local-poitiers-centre-ville', key: 'canonical' },
   ],
 })
 </script>
@@ -20,7 +23,7 @@ useHead({
           <header class="mb-8">
             <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">Local</span>
             <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-white leading-tight">
-              Google Ads pour les commerces du centre-ville de Poitiers : attirer des clients locaux en 2026
+              Publicité locale Google pour boutiques et restaurants à Poitiers
             </h1>
             <div class="flex items-center gap-3 text-sm text-neutral-500">
               <span>24 mars 2026</span>
@@ -39,7 +42,7 @@ useHead({
           <!-- Intro snippet -->
           <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-5 mb-8 text-neutral-200 text-[15px] leading-relaxed">
             Le commerce local à Poitiers fait face à un défi de visibilité croissant. Entre les marketplaces en ligne et les grandes enseignes, comment une boutique indépendante, un restaurant ou un prestataire de services du centre-ville attire-t-il de nouveaux clients en 2026 ?
-            La réponse passe en grande partie par <strong class="text-white">Google Ads pour les commerces locaux à Poitiers</strong> — et notamment par Google Maps.
+            La réponse passe en grande partie par <strong class="text-white">Google Ads pour les commerces locaux à Poitiers</strong> — et notamment par Google Maps. Pour renforcer cette visibilité sur le long terme, le <a href="https://rankeo.poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">référencement naturel</a> constitue un levier complémentaire indispensable.
           </div>
 
           <!-- Section 1 -->
@@ -86,7 +89,7 @@ useHead({
           </div>
 
           <p class="text-neutral-300 leading-relaxed text-[15px] mt-4 mb-6">
-            Le ciblage peut aussi être horaire — vous activez vos annonces uniquement aux heures où vos prospects cherchent à venir (le midi pour un restaurant, l'après-midi pour une boutique).
+            Le ciblage peut aussi être horaire — vous activez vos annonces uniquement aux heures où vos prospects cherchent à venir (le midi pour un restaurant, l'après-midi pour une boutique). Cette expertise locale est au cœur de l'offre de l'<a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">agence web Poitiers</a> dont AdScale fait partie.
           </p>
 
           <!-- Section 3 -->

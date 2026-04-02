@@ -98,17 +98,17 @@ const iconPaths: Record<string, string> = {
 <template>
   <div>
     <!-- Hero -->
-    <section class="bg-neutral-900 text-white py-16 md:py-20 relative overflow-hidden">
+    <section class="bg-[#0a0a0a] text-[#fafafa] py-16 md:py-20 relative overflow-hidden">
       <div class="absolute inset-0 overflow-hidden">
-        <div class="absolute -top-1/2 right-0 w-[500px] h-[500px] rounded-full bg-accent/10 blur-3xl" />
+        <div class="absolute -top-1/2 right-0 w-[500px] h-[500px] rounded-full bg-[#FFD700]/10 blur-3xl" />
       </div>
       <div class="relative container mx-auto px-4 max-w-7xl">
-        <span class="text-sm font-semibold text-accent uppercase tracking-wider">Contact</span>
+        <span class="text-sm font-semibold text-[#FFD700] uppercase tracking-wider">Contact</span>
         <h1 class="font-heading font-extrabold text-4xl md:text-5xl mt-3 mb-4">
           Réservez votre audit
-          <span class="bg-gradient-to-r from-accent-light to-accent bg-clip-text text-transparent">gratuit</span>
+          <span class="bg-gradient-to-r from-[#FF8C00] to-[#FFD700] bg-clip-text text-transparent">gratuit</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-xl">
+        <p class="text-[#a0a0a0] text-lg max-w-xl">
           En 30 minutes, on analyse vos campagnes et on vous montre exactement comment améliorer votre ROI.
         </p>
       </div>
@@ -120,29 +120,29 @@ const iconPaths: Record<string, string> = {
 
         <!-- Success state -->
         <div v-if="submitted" class="text-center py-16">
-          <div class="w-20 h-20 rounded-full bg-green-500/10 border border-green-500/20 flex items-center justify-center mx-auto mb-8">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+          <div class="w-20 h-20 rounded-full bg-[#16A34A]/10 border border-[#16A34A]/20 flex items-center justify-center mx-auto mb-8">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-[#16A34A]" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
             </svg>
           </div>
-          <h2 class="font-heading font-bold text-3xl mb-4 text-neutral-900">Demande envoyée !</h2>
-          <p class="text-neutral-500 text-lg max-w-md mx-auto">On vous recontacte dans les 24h pour planifier votre audit gratuit.</p>
+          <h2 class="font-heading font-bold text-3xl mb-4 text-[#fafafa]">Demande envoyée !</h2>
+          <p class="text-[#a0a0a0] text-lg max-w-md mx-auto">On vous recontacte dans les 24h pour planifier votre audit gratuit.</p>
         </div>
 
         <!-- Form card -->
-        <div v-else class="rounded-2xl border border-white/10 bg-white/[0.02] shadow-2xl shadow-black/5 backdrop-blur-sm overflow-hidden"
+        <div v-else class="rounded-2xl border border-[#333] bg-[#141414] shadow-2xl shadow-black/5 backdrop-blur-sm overflow-hidden"
              style="background: linear-gradient(145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));">
 
           <!-- Progress bar -->
           <div class="px-8 pt-8 pb-2">
             <div class="flex items-center justify-between mb-3">
-              <span class="text-sm font-medium text-neutral-500">Étape {{ step }} sur {{ totalSteps }}</span>
-              <span class="text-sm font-bold text-[#4285f4]">{{ progress }}%</span>
+              <span class="text-sm font-medium text-[#737373]">Étape {{ step }} sur {{ totalSteps }}</span>
+              <span class="text-sm font-bold text-[#FF8C00]">{{ progress }}%</span>
             </div>
-            <div class="w-full h-2 bg-neutral-100 rounded-full overflow-hidden">
+            <div class="w-full h-2 bg-[#262626] rounded-full overflow-hidden">
               <div
                 class="h-full rounded-full transition-all duration-500 ease-out"
-                style="background: #4285f4;"
+                style="background: #FF8C00;"
                 :style="{ width: progress + '%' }"
               />
             </div>
@@ -151,8 +151,8 @@ const iconPaths: Record<string, string> = {
           <div class="p-8">
             <!-- Step 1 -->
             <div v-if="step === 1">
-              <h2 class="font-heading font-bold text-2xl text-neutral-900 mb-2">Faites-vous déjà de la publicité en ligne ?</h2>
-              <p class="text-neutral-500 mb-8">Sélectionnez la réponse qui vous correspond.</p>
+              <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Faites-vous déjà de la publicité en ligne ?</h2>
+              <p class="text-[#737373] mb-8">Sélectionnez la réponse qui vous correspond.</p>
               <div class="grid gap-4">
                 <button
                   v-for="opt in step1Options"
@@ -160,25 +160,25 @@ const iconPaths: Record<string, string> = {
                   type="button"
                   class="flex items-center gap-4 p-5 rounded-xl border-2 transition-all duration-200 text-left group"
                   :class="form.advertising === opt.value
-                    ? 'border-[#4285f4] bg-[#4285f4]/5 shadow-md shadow-[#4285f4]/10'
-                    : 'border-neutral-200 hover:border-neutral-300 bg-white hover:bg-neutral-50'"
+                    ? 'border-[#FF8C00] bg-[#FF8C00]/5 shadow-md shadow-[#FF8C00]/10'
+                    : 'border-[#333] hover:border-[#525252] bg-[#1a1a1a] hover:bg-[#262626]'"
                   @click="selectOption('advertising', opt.value)"
                 >
                   <div
                     class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors"
-                    :class="form.advertising === opt.value ? 'bg-[#4285f4] text-white' : 'bg-neutral-100 text-neutral-500 group-hover:bg-neutral-200'"
+                    :class="form.advertising === opt.value ? 'bg-[#FF8C00] text-[#0a0a0a]' : 'bg-[#262626] text-[#737373] group-hover:bg-[#333]'"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                       <path :d="iconPaths[opt.icon]" />
                     </svg>
                   </div>
-                  <span class="font-semibold text-neutral-800">{{ opt.label }}</span>
+                  <span class="font-semibold text-[#fafafa]">{{ opt.label }}</span>
                   <div class="ml-auto">
                     <div
                       class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors"
-                      :class="form.advertising === opt.value ? 'border-[#4285f4] bg-[#4285f4]' : 'border-neutral-300'"
+                      :class="form.advertising === opt.value ? 'border-[#FF8C00] bg-[#FF8C00]' : 'border-[#525252]'"
                     >
-                      <svg v-if="form.advertising === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                      <svg v-if="form.advertising === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-[#0a0a0a]" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                       </svg>
                     </div>
@@ -189,7 +189,7 @@ const iconPaths: Record<string, string> = {
 
             <!-- Step 2 -->
             <div v-if="step === 2">
-              <h2 class="font-heading font-bold text-2xl text-neutral-900 mb-2">Quel est votre objectif principal ?</h2>
+              <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Quel est votre objectif principal ?</h2>
               <p class="text-neutral-500 mb-8">Choisissez ce qui compte le plus pour votre activité.</p>
               <div class="grid gap-4">
                 <button

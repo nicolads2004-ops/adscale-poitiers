@@ -1,8 +1,11 @@
 <script setup lang="ts">
 useHead({
-  title: 'Expert Google Ads à Poitiers — À propos d\'AdScale | Agence PME Vienne 86',
+  title: 'Consultant Google Ads Poitiers — Expert SEA PME Vienne 86 | AdScale',
   meta: [
-    { name: 'description', content: 'AdScale, agence Google Ads à Poitiers spécialisée PME de la Vienne. Découvrez notre histoire, notre méthode en 4 étapes et nos résultats mesurables pour les entreprises du 86.' },
+    { name: 'description', content: 'AdScale, consultant Google Ads à Poitiers spécialisé PME de la Vienne. Notre méthode en 4 étapes, résultats mesurables. Expert SEA certifié, audit gratuit.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/a-propos', key: 'canonical' },
   ],
 })
 
@@ -54,7 +57,7 @@ const zones = [
       <div class="relative container mx-auto px-4 max-w-7xl">
         <span class="text-sm font-semibold text-primary uppercase tracking-wider">À propos d'AdScale</span>
         <h1 class="font-heading font-extrabold text-4xl md:text-5xl mt-3 mb-6 max-w-3xl leading-tight">
-          Expert Google Ads à Poitiers —
+          Consultant Google Ads à Poitiers —
           <span class="bg-gradient-to-r from-primary-light to-primary bg-clip-text text-transparent">au service des PME de la Vienne</span>
         </h1>
         <p class="text-neutral-300 text-lg max-w-2xl leading-relaxed">

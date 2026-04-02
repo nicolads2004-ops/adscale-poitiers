@@ -1,8 +1,11 @@
 <script setup lang="ts">
 useHead({
-  title: 'Google Ads pour artisans à Poitiers : plombier, électricien, couvreur — guide complet | AdScale',
+  title: 'Publicité Google pour plombier et électricien à Poitiers : guide artisans Vienne 86 | AdScale',
   meta: [
-    { name: 'description', content: 'Comment les artisans de la Vienne (plombier, électricien, couvreur, peintre) utilisent Google Ads pour remplir leur carnet de commandes toute l\'année. Guide complet AdScale Poitiers.' },
+    { name: 'description', content: 'Plombier, électricien, couvreur à Poitiers : comment utiliser la publicité Google pour remplir votre carnet de commandes toute l\'année. Budget, ciblage, résultats. Guide AdScale Vienne 86.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/blog/google-ads-artisan-plombier-electricien-poitiers', key: 'canonical' },
   ],
 })
 </script>
@@ -20,7 +23,7 @@ useHead({
           <header class="mb-8">
             <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">Guide local</span>
             <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-white leading-tight">
-              Google Ads pour artisans à Poitiers : plombier, électricien, couvreur — guide complet
+              Publicité Google pour plombier et électricien à Poitiers — guide artisans
             </h1>
             <div class="flex items-center gap-3 text-sm text-neutral-500">
               <span>20 mars 2026</span>
@@ -48,7 +51,7 @@ useHead({
             Quand un habitant de Poitiers cherche un plombier d'urgence ou un électricien pour une installation, son premier réflexe est Google. Il tape « plombier Poitiers urgence » ou « électricien Chasseneuil-du-Poitou » et clique sur l'un des trois premiers résultats — souvent une annonce Google Ads.
           </p>
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
-            Sans campagne <strong class="text-white">publicité Google pour artisans dans la Vienne</strong>, vous n'apparaissez pas à cet instant clé. Vos concurrents, eux, y sont. Et ils récupèrent vos clients potentiels avant même que vous ayez la chance de vous présenter.
+            Sans campagne <strong class="text-white">publicité Google pour artisans dans la Vienne</strong>, vous n'apparaissez pas à cet instant clé. Vos concurrents, eux, y sont. Et ils récupèrent vos clients potentiels avant même que vous ayez la chance de vous présenter. Pour une présence digitale durable, une stratégie d'<a href="https://rankeo.poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">agence SEO Poitiers</a> en parallèle de vos campagnes Ads est un avantage décisif.
           </p>
 
           <div class="space-y-3 my-4">
@@ -121,7 +124,7 @@ useHead({
           </div>
 
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
-            Pour les artisans avec un budget modéré (500 à 800 €/mois), on recommande de concentrer 80 % du budget sur les mots-clés à intention urgente — ce sont eux qui génèrent les appels dans la journée.
+            Pour les artisans avec un budget modéré (500 à 800 €/mois), on recommande de concentrer 80 % du budget sur les mots-clés à intention urgente — ce sont eux qui génèrent les appels dans la journée. AdScale fait partie de <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">Studio Digital Poitiers</a>, ce qui nous permet de vous proposer une approche digitale complète.
           </p>
 
           <!-- Section 3 -->

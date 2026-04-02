@@ -4,6 +4,9 @@ useHead({
   meta: [
     { name: 'description', content: 'Pourquoi choisir une agence Google Ads locale à Poitiers plutôt qu\'une agence nationale ? Connaissance du marché Vienne, réactivité, tarifs — 5 avantages concrets expliqués par AdScale.' },
   ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/blog/agence-google-ads-poitiers-vs-nationale', key: 'canonical' },
+  ],
 })
 </script>
 
@@ -114,7 +117,7 @@ useHead({
             Un problème fréquent avec les agences nationales : elles conservent la propriété du compte Google Ads. Si vous changez de prestataire, vous perdez l'historique, les données de conversion et les optimisations accumulées sur parfois plusieurs années. C'est un levier de rétention client peu éthique.
           </p>
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
-            Chez AdScale, votre compte Google Ads vous appartient à 100 %. Vous avez accès administrateur à tout moment. Si vous décidez de partir — même si on espère que non — vous repartez avec tout votre historique de campagnes.
+            Chez AdScale, votre compte Google Ads vous appartient à 100 %. Vous avez accès administrateur à tout moment. Si vous décidez de partir — même si on espère que non — vous repartez avec tout votre historique de campagnes. Nos services font partie de l'offre globale de l'<a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">agence web Poitiers</a> Studio Digital.
           </p>
 
           <!-- Section 6 — tableau comparatif -->
@@ -166,7 +169,7 @@ useHead({
             Pour être honnête : si vous êtes une entreprise avec 50 salariés, des campagnes dans toute la France et un budget publicitaire mensuel supérieur à 20 000 €, une grande agence nationale avec des équipes spécialisées peut être pertinente.
           </p>
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
-            Mais si vous êtes une <strong class="text-white">PME à Poitiers</strong> avec un budget entre 500 et 5 000 €/mois et des clients dans la Vienne, une agence Google Ads locale sera plus performante, plus réactive et plus rentable pour vous.
+            Mais si vous êtes une <strong class="text-white">PME à Poitiers</strong> avec un budget entre 500 et 5 000 €/mois et des clients dans la Vienne, une agence Google Ads locale sera plus performante, plus réactive et plus rentable pour vous. Et pour capter les clients sur le long terme, pensez à coupler votre stratégie Ads avec du <a href="https://rankeo.poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">référencement naturel à Poitiers</a>.
           </p>
 
           <!-- Articles liés -->

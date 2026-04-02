@@ -100,24 +100,24 @@ const services = [
 <template>
   <div>
     <!-- Hero -->
-    <section class="bg-neutral-900 text-white py-16 md:py-24 relative overflow-hidden">
+    <section class="bg-[#0a0a0a] text-[#fafafa] py-16 md:py-24 relative overflow-hidden">
       <div class="absolute inset-0 overflow-hidden">
-        <div class="absolute -top-1/2 -right-1/4 w-[600px] h-[600px] rounded-full bg-primary/10 blur-3xl" />
+        <div class="absolute -top-1/2 -right-1/4 w-[600px] h-[600px] rounded-full bg-[#FF8C00]/10 blur-3xl" />
       </div>
       <div class="relative container mx-auto px-4 max-w-7xl">
-        <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Nos services</span>
+        <span class="text-sm font-semibold text-[#FFA500] uppercase tracking-wider">Nos services</span>
         <h1 class="font-heading font-extrabold text-4xl md:text-5xl mt-3 mb-6 max-w-3xl">
           Gestion de campagnes Google Ads —
-          <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">des résultats concrets pour votre business</span>
+          <span class="bg-gradient-to-r from-[#FF8C00] to-[#FFA500] bg-clip-text text-transparent">des résultats concrets pour votre business</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-2xl">
-          Chaque service est pensé pour un seul objectif : vous amener plus de clients qualifiés au meilleur coût. AdScale est une division de <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">Studio Digital Poitiers</a>.
+        <p class="text-[#a0a0a0] text-lg max-w-2xl">
+          Chaque service est pensé pour un seul objectif : vous amener plus de clients qualifiés au meilleur coût. AdScale est une division de <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-[#FF8C00] hover:underline">Studio Digital Poitiers</a>.
         </p>
       </div>
     </section>
 
     <!-- Services List -->
-    <section class="py-16 md:py-24">
+    <section class="py-16 md:py-24" style="background: #0a0a0a;">
       <div class="container mx-auto px-4 max-w-7xl space-y-16 md:space-y-24">
         <div
           v-for="(service, i) in services"
@@ -130,29 +130,29 @@ const services = [
             <div
               class="w-14 h-14 rounded-xl flex items-center justify-center mb-6"
               :class="{
-                'bg-primary/10': service.color === 'primary',
-                'bg-secondary/10': service.color === 'secondary',
-                'bg-accent/10': service.color === 'accent',
+                'bg-[#FF8C00]/10': service.color === 'primary',
+                'bg-[#FFA500]/10': service.color === 'secondary',
+                'bg-[#FFD700]/10': service.color === 'accent',
               }"
             >
               <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" :class="{
-                'text-primary': service.color === 'primary',
-                'text-secondary': service.color === 'secondary',
-                'text-accent': service.color === 'accent',
+                'text-[#FF8C00]': service.color === 'primary',
+                'text-[#FFA500]': service.color === 'secondary',
+                'text-[#FFD700]': service.color === 'accent',
               }" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" /></svg>
             </div>
-            <h2 class="font-heading font-extrabold text-2xl md:text-3xl mb-2 text-neutral-900">{{ service.title }}</h2>
-            <p class="text-secondary font-semibold mb-4">{{ service.subtitle }}</p>
-            <p class="text-neutral-600 leading-relaxed mb-6">{{ service.desc }}</p>
+            <h2 class="font-heading font-extrabold text-2xl md:text-3xl mb-2 text-[#fafafa]">{{ service.title }}</h2>
+            <p class="text-[#FFA500] font-semibold mb-4">{{ service.subtitle }}</p>
+            <p class="text-[#a0a0a0] leading-relaxed mb-6">{{ service.desc }}</p>
             <ul class="space-y-3 mb-8">
               <li v-for="b in service.benefits" :key="b" class="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-success shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
-                <span class="text-neutral-700 text-sm">{{ b }}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#16A34A] shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                <span class="text-[#a0a0a0] text-sm">{{ b }}</span>
               </li>
             </ul>
             <NuxtLink
               to="/contact"
-              class="inline-flex items-center gap-2 bg-gradient-cta text-white font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform"
+              class="inline-flex items-center gap-2 gradient-brand text-[#0a0a0a] font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-[#FF8C00]/25 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform"
             >
               Audit gratuit {{ service.title }}
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -164,15 +164,15 @@ const services = [
             :class="i % 2 === 1 ? 'md:order-1' : ''"
             class="aspect-[4/3] rounded-2xl flex items-center justify-center"
             :style="{
-              background: service.color === 'primary' ? 'linear-gradient(135deg, rgba(26,86,219,0.08) 0%, rgba(13,148,136,0.08) 100%)' :
-                service.color === 'secondary' ? 'linear-gradient(135deg, rgba(13,148,136,0.08) 0%, rgba(26,86,219,0.08) 100%)' :
-                'linear-gradient(135deg, rgba(249,115,22,0.08) 0%, rgba(26,86,219,0.08) 100%)',
+              background: service.color === 'primary' ? 'linear-gradient(135deg, rgba(255,140,0,0.08) 0%, rgba(255,165,0,0.08) 100%)' :
+                service.color === 'secondary' ? 'linear-gradient(135deg, rgba(255,165,0,0.08) 0%, rgba(255,140,0,0.08) 100%)' :
+                'linear-gradient(135deg, rgba(255,215,0,0.08) 0%, rgba(255,140,0,0.08) 100%)',
             }"
           >
             <svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 opacity-20" :class="{
-              'text-primary': service.color === 'primary',
-              'text-secondary': service.color === 'secondary',
-              'text-accent': service.color === 'accent',
+              'text-[#FF8C00]': service.color === 'primary',
+              'text-[#FFA500]': service.color === 'secondary',
+              'text-[#FFD700]': service.color === 'accent',
             }" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0.5"><path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" /></svg>
           </div>
         </div>

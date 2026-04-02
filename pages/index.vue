@@ -118,45 +118,45 @@ onMounted(() => {
 <template>
   <div>
     <!-- HERO -->
-    <section class="relative overflow-hidden bg-neutral-900 text-white">
+    <section class="relative overflow-hidden" style="background: #0a0a0a;">
       <!-- Background decoration -->
       <div class="absolute inset-0 overflow-hidden">
-        <div class="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/10 blur-3xl" />
-        <div class="absolute -bottom-1/2 -left-1/4 w-[600px] h-[600px] rounded-full bg-secondary/10 blur-3xl" />
+        <div class="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-[#FF8C00]/10 blur-3xl" />
+        <div class="absolute -bottom-1/2 -left-1/4 w-[600px] h-[600px] rounded-full bg-[#FF8C00]/5 blur-3xl" />
         <!-- Grid pattern -->
-        <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px); background-size: 60px 60px;" />
+        <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px); background-size: 60px 60px;" />
       </div>
 
       <div class="relative container mx-auto px-4 max-w-7xl py-20 md:py-32">
         <div class="max-w-3xl">
           <!-- Badge -->
-          <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 mb-6">
-            <div class="w-2 h-2 rounded-full bg-success animate-pulse" />
-            <span class="text-sm font-medium text-white/80">Expert Google Ads — Poitiers, Vienne 86</span>
+          <div class="inline-flex items-center gap-2 bg-[#1a1a1a] backdrop-blur-sm border border-[#333] rounded-full px-4 py-1.5 mb-6">
+            <div class="w-2 h-2 rounded-full bg-[#16A34A] animate-pulse" />
+            <span class="text-sm font-medium text-[#a0a0a0]">Expert Google Ads — Poitiers, Vienne 86</span>
           </div>
 
-          <h1 data-reveal class="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
+          <h1 data-reveal class="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 text-[#fafafa]">
             Agence Google Ads à Poitiers.
-            <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">
+            <span class="bg-gradient-to-r from-[#FF8C00] to-[#FFA500] bg-clip-text text-transparent">
               On les amène chez vous.
             </span>
           </h1>
 
-          <p class="text-lg md:text-xl text-neutral-300 mb-8 max-w-2xl leading-relaxed">
+          <p class="text-lg md:text-xl text-[#a0a0a0] mb-8 max-w-2xl leading-relaxed">
             Campagnes Google Ads gérées par un expert local, optimisées par l'IA. Plus de clients, moins de gaspillage — résultats dès 30 jours.
           </p>
 
           <div data-reveal class="flex flex-col sm:flex-row gap-4">
             <NuxtLink
               to="/contact"
-              class="inline-flex items-center justify-center gap-2 bg-gradient-cta text-white font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/30 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform text-lg"
+              class="inline-flex items-center justify-center gap-2 bg-[#FF8C00] hover:bg-[#E07B00] text-[#0a0a0a] font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-[#FF8C00]/30 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform text-lg"
             >
               Demandez votre audit gratuit
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </NuxtLink>
             <NuxtLink
               to="/services"
-              class="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition-colors duration-300"
+              class="inline-flex items-center justify-center gap-2 border border-[#333] text-[#fafafa] font-semibold px-8 py-4 rounded-lg hover:bg-[#1a1a1a] transition-colors duration-300"
             >
               Découvrir nos services
             </NuxtLink>
@@ -166,27 +166,27 @@ onMounted(() => {
     </section>
 
     <!-- STATS -->
-    <section class="bg-white border-b">
+    <section class="bg-[#141414] border-b border-[#333]">
       <div class="container mx-auto px-4 max-w-7xl py-12">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <div v-for="stat in stats" :key="stat.label" class="text-center">
-            <div class="font-numbers font-bold text-4xl md:text-5xl text-primary mb-2">{{ stat.value }}</div>
-            <div class="font-heading font-semibold text-neutral-900 mb-1">{{ stat.label }}</div>
-            <div class="text-sm text-neutral-500">{{ stat.suffix }}</div>
+            <div class="font-numbers font-bold text-4xl md:text-5xl text-[#FF8C00] mb-2">{{ stat.value }}</div>
+            <div class="font-heading font-semibold text-[#fafafa] mb-1">{{ stat.label }}</div>
+            <div class="text-sm text-[#a0a0a0]">{{ stat.suffix }}</div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- SERVICES -->
-    <section class="bg-neutral-100 py-16 md:py-24" aria-labelledby="services-heading">
+    <section class="bg-[#141414] py-16 md:py-24" aria-labelledby="services-heading">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="text-center mb-12 md:mb-16">
-          <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Nos services</span>
-          <h2 id="services-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2 mb-4">
+          <span class="text-sm font-semibold text-[#FF8C00] uppercase tracking-wider">Nos services</span>
+          <h2 id="services-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2 mb-4 text-[#fafafa]">
             Tout ce qu'il faut pour dominer Google
           </h2>
-          <p class="text-neutral-500 max-w-2xl mx-auto">
+          <p class="text-[#a0a0a0] max-w-2xl mx-auto">
             De la recherche au display, du shopping au remarketing — on couvre tous les leviers Google Ads pour maximiser votre ROI.
           </p>
         </div>
@@ -195,42 +195,43 @@ onMounted(() => {
           <div
             v-for="service in services"
             :key="service.title"
-            class="bg-white rounded-xl p-6 hover:shadow-lg transition-[box-shadow,transform,border-color] duration-300 hover:-translate-y-1 will-change-transform group border border-transparent hover:border-primary/10"
+            class="rounded-xl p-6 transition-[box-shadow,transform,border-color] duration-300 hover:-translate-y-1 will-change-transform group border border-[#333] hover:border-[#FF8C00]/25"
+            style="background: #1a1a1a;"
           >
-            <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-gradient-brand group-hover:text-white transition-colors duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" /></svg>
+            <div class="w-12 h-12 rounded-lg bg-[#FF8C00]/10 flex items-center justify-center mb-4 group-hover:bg-[#FF8C00] transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#FF8C00] group-hover:text-[#0a0a0a] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" /></svg>
             </div>
-            <h3 class="font-heading font-bold text-lg mb-2 text-neutral-900">{{ service.title }}</h3>
-            <p class="text-neutral-500 text-sm leading-relaxed">{{ service.desc }}</p>
+            <h3 class="font-heading font-bold text-lg mb-2 text-[#fafafa]">{{ service.title }}</h3>
+            <p class="text-[#a0a0a0] text-sm leading-relaxed">{{ service.desc }}</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- PROCESS -->
-    <section class="py-16 md:py-24" aria-labelledby="process-heading">
+    <section class="py-16 md:py-24" style="background: #0a0a0a;" aria-labelledby="process-heading">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="text-center mb-12 md:mb-16">
-          <span class="text-sm font-semibold text-accent uppercase tracking-wider">Comment ça marche</span>
-          <h2 id="process-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2">
+          <span class="text-sm font-semibold text-[#FF8C00] uppercase tracking-wider">Comment ça marche</span>
+          <h2 id="process-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2 text-[#fafafa]">
             3 étapes vers plus de clients
           </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div v-for="step in steps" :key="step.num" class="relative">
-            <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.num }}</div>
-            <h3 class="font-heading font-bold text-xl mb-3 text-neutral-900">{{ step.title }}</h3>
-            <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
+            <div class="font-numbers font-bold text-6xl text-[#FF8C00]/10 mb-4">{{ step.num }}</div>
+            <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
+            <p class="text-[#a0a0a0] leading-relaxed">{{ step.desc }}</p>
             <!-- Connector line -->
-            <div v-if="step.num !== '03'" class="hidden md:block absolute top-8 -right-4 w-8 border-t-2 border-dashed border-primary/20" />
+            <div v-if="step.num !== '03'" class="hidden md:block absolute top-8 -right-4 w-8 border-t-2 border-dashed border-[#FF8C00]/20" />
           </div>
         </div>
 
         <div class="text-center mt-12">
           <NuxtLink
             to="/contact"
-            class="inline-flex items-center gap-2 bg-gradient-cta text-white font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:-translate-y-0.5"
+            class="inline-flex items-center gap-2 bg-[#FF8C00] hover:bg-[#E07B00] text-[#0a0a0a] font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-[#FF8C00]/30 transition-all duration-300 hover:-translate-y-0.5"
           >
             Commencer par l'audit gratuit
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -240,60 +241,60 @@ onMounted(() => {
     </section>
 
     <!-- TESTIMONIALS -->
-    <section class="bg-neutral-100 py-16 md:py-24" aria-labelledby="testimonials-heading">
+    <section class="bg-[#141414] py-16 md:py-24" aria-labelledby="testimonials-heading">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="text-center mb-12">
-          <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Témoignages</span>
-          <h2 id="testimonials-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2">
+          <span class="text-sm font-semibold text-[#FF8C00] uppercase tracking-wider">Témoignages</span>
+          <h2 id="testimonials-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2 text-[#fafafa]">
             Ce que disent nos clients
           </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-white rounded-xl p-6 border border-neutral-200">
+          <div class="rounded-xl p-6 bg-[#1a1a1a] border border-[#333]">
             <div class="flex gap-1 mb-4">
-              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-accent" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF8C00]" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
             </div>
-            <p class="text-neutral-600 text-sm leading-relaxed mb-4">
+            <p class="text-[#a0a0a0] text-sm leading-relaxed mb-4">
               "Avant AdScale, je dépensais 800€/mois sans savoir si ça marchait. Maintenant je reçois 15 appels qualifiés par semaine pour mon entreprise de plomberie."
             </p>
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-gradient-brand flex items-center justify-center text-white font-bold text-sm">JP</div>
+              <div class="w-10 h-10 rounded-full gradient-brand flex items-center justify-center text-[#0a0a0a] font-bold text-sm">JP</div>
               <div>
-                <div class="font-semibold text-sm text-neutral-900">Jean-Pierre M.</div>
-                <div class="text-xs text-neutral-500">Plombier — Poitiers</div>
+                <div class="font-semibold text-sm text-[#fafafa]">Jean-Pierre M.</div>
+                <div class="text-xs text-[#737373]">Plombier — Poitiers</div>
               </div>
             </div>
           </div>
 
-          <div class="bg-white rounded-xl p-6 border border-neutral-200">
+          <div class="rounded-xl p-6 bg-[#1a1a1a] border border-[#333]">
             <div class="flex gap-1 mb-4">
-              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-accent" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF8C00]" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
             </div>
-            <p class="text-neutral-600 text-sm leading-relaxed mb-4">
+            <p class="text-[#a0a0a0] text-sm leading-relaxed mb-4">
               "Mon coût par devis est passé de 85€ à 32€ en 6 semaines. Le rapport mensuel est super clair, je vois exactement ce que chaque euro me rapporte."
             </p>
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-gradient-brand flex items-center justify-center text-white font-bold text-sm">SL</div>
+              <div class="w-10 h-10 rounded-full gradient-brand flex items-center justify-center text-[#0a0a0a] font-bold text-sm">SL</div>
               <div>
-                <div class="font-semibold text-sm text-neutral-900">Sophie L.</div>
-                <div class="text-xs text-neutral-500">Architecte d'intérieur — Châtellerault</div>
+                <div class="font-semibold text-sm text-[#fafafa]">Sophie L.</div>
+                <div class="text-xs text-[#737373]">Architecte d'intérieur — Châtellerault</div>
               </div>
             </div>
           </div>
 
-          <div class="bg-white rounded-xl p-6 border border-neutral-200">
+          <div class="rounded-xl p-6 bg-[#1a1a1a] border border-[#333]">
             <div class="flex gap-1 mb-4">
-              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-accent" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF8C00]" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
             </div>
-            <p class="text-neutral-600 text-sm leading-relaxed mb-4">
+            <p class="text-[#a0a0a0] text-sm leading-relaxed mb-4">
               "On a lancé notre boutique en ligne il y a 3 mois. Grâce aux campagnes Shopping d'AdScale, on fait 40 commandes par semaine maintenant."
             </p>
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-gradient-brand flex items-center justify-center text-white font-bold text-sm">MR</div>
+              <div class="w-10 h-10 rounded-full gradient-brand flex items-center justify-center text-[#0a0a0a] font-bold text-sm">MR</div>
               <div>
-                <div class="font-semibold text-sm text-neutral-900">Marc R.</div>
-                <div class="text-xs text-neutral-500">E-commerce artisanal — Poitiers</div>
+                <div class="font-semibold text-sm text-[#fafafa]">Marc R.</div>
+                <div class="text-xs text-[#737373]">E-commerce artisanal — Poitiers</div>
               </div>
             </div>
           </div>
@@ -302,11 +303,11 @@ onMounted(() => {
     </section>
 
     <!-- FAQ -->
-    <section class="py-16 md:py-24" aria-labelledby="faq-heading">
+    <section class="py-16 md:py-24" style="background: #0a0a0a;" aria-labelledby="faq-heading">
       <div class="container mx-auto px-4 max-w-3xl">
         <div class="text-center mb-12">
-          <span class="text-sm font-semibold text-primary uppercase tracking-wider">FAQ</span>
-          <h2 id="faq-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2">
+          <span class="text-sm font-semibold text-[#FF8C00] uppercase tracking-wider">FAQ</span>
+          <h2 id="faq-heading" class="font-heading font-extrabold text-3xl md:text-4xl mt-2 text-[#fafafa]">
             Questions fréquentes
           </h2>
         </div>
@@ -315,18 +316,18 @@ onMounted(() => {
           <div
             v-for="(faq, i) in faqs"
             :key="i"
-            class="border border-neutral-200 rounded-xl overflow-hidden transition-all duration-200"
-            :class="openFaq === i ? 'bg-primary/5 border-primary/20' : 'bg-white'"
+            class="rounded-xl overflow-hidden transition-all duration-200"
+            :class="openFaq === i ? 'bg-[#FF8C00]/5 border border-[#FF8C00]/20' : 'border border-[#333] bg-[#141414]'"
           >
             <button
               class="w-full flex items-center justify-between px-6 py-4 text-left"
               :aria-expanded="openFaq === i"
               @click="toggleFaq(i)"
             >
-              <span class="font-heading font-semibold text-neutral-900 pr-4">{{ faq.q }}</span>
+              <span class="font-heading font-semibold text-[#fafafa] pr-4">{{ faq.q }}</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 text-primary shrink-0 transition-transform duration-300"
+                class="w-5 h-5 text-[#FF8C00] shrink-0 transition-transform duration-300"
                 :class="openFaq === i ? 'rotate-180' : ''"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -345,7 +346,7 @@ onMounted(() => {
               leave-to-class="opacity-0 max-h-0"
             >
               <div v-if="openFaq === i" class="px-6 pb-4">
-                <p class="text-neutral-600 text-sm leading-relaxed">{{ faq.a }}</p>
+                <p class="text-[#a0a0a0] text-sm leading-relaxed">{{ faq.a }}</p>
               </div>
             </Transition>
           </div>

@@ -4,6 +4,9 @@ useHead({
   meta: [
     { name: 'description', content: 'Conseils Google Ads pour PME locales : guides, astuces, études de cas. Par AdScale Poitiers, expert Vienne 86.' },
   ],
+  link: [
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/blog', key: 'canonical' },
+  ],
 })
 
 const posts = [

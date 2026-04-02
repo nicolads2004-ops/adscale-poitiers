@@ -1,16 +1,16 @@
 <script setup lang="ts">
 useHead({
-  title: 'Combien coûte Google Ads pour une PME à Poitiers en 2026 ? | AdScale',
+  title: 'Prix Google Ads 2026 : combien coûte une campagne pour une PME à Poitiers ? | AdScale',
   meta: [
-    { name: 'description', content: 'Budget minimum, coût par clic, retour sur investissement : tout ce qu\'une PME de Poitiers doit savoir avant de lancer Google Ads. Guide complet AdScale Vienne 86.' },
-    { property: 'og:title', content: 'Combien coûte Google Ads pour une PME à Poitiers en 2026 ? | AdScale' },
-    { property: 'og:description', content: 'Budget minimum, coût par clic, retour sur investissement : tout ce qu\'une PME de Poitiers doit savoir avant de lancer Google Ads.' },
+    { name: 'description', content: 'Prix Google Ads, tarifs, budget minimum et coût par clic : tout ce qu\'une PME de Poitiers doit savoir avant de lancer ses campagnes en 2026. Guide complet AdScale Vienne 86.' },
+    { property: 'og:title', content: 'Prix Google Ads 2026 : combien coûte une campagne PME Poitiers ? | AdScale' },
+    { property: 'og:description', content: 'Prix, tarifs et budget Google Ads pour PME à Poitiers. Coût par clic, ROI et guide complet 2026.' },
     { property: 'og:image', content: '/images/blog/blog-adscale-artisans.png' },
     { property: 'og:type', content: 'article' },
     { name: 'twitter:card', content: 'summary_large_image' },
   ],
   link: [
-    { rel: 'canonical', href: 'https://adscale.poitiers.digital/blog/combien-coute-google-ads-pme-poitiers-2026' },
+    { rel: 'canonical', href: 'https://adscale.poitiers.digital/blog/combien-coute-google-ads-pme-poitiers-2026', key: 'canonical' },
   ],
 })
 </script>
@@ -28,7 +28,7 @@ useHead({
           <header class="mb-8">
             <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 text-primary">Guide</span>
             <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-white leading-tight">
-              Combien coûte Google Ads pour une PME à Poitiers en 2026 ?
+              Prix Google Ads 2026 : combien coûte une campagne PME à Poitiers ?
             </h1>
             <div class="flex items-center gap-3 text-sm text-neutral-500">
               <span>18 mars 2026</span>
@@ -78,7 +78,7 @@ useHead({
           <!-- Section 2 -->
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Le coût de la gestion</h2>
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
-            Au budget publicitaire s'ajoute le coût de gestion de vos campagnes. C'est le travail de création, d'optimisation et de suivi. Voici les trois options :
+            Au budget publicitaire s'ajoute le coût de gestion de vos campagnes. C'est le travail de création, d'optimisation et de suivi — que ce soit via un freelance, une agence nationale, ou une <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">agence web Poitiers</a> de proximité. Voici les trois options :
           </p>
 
           <div class="space-y-3 my-6">
@@ -165,7 +165,7 @@ useHead({
             Chaque entreprise est différente. La meilleure façon de connaître votre budget optimal est de faire un audit personnalisé de votre situation — secteur, zone géographique, concurrence locale, objectifs de croissance.
           </p>
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
-            Un audit sérieux prend 48 heures et vous donne une projection réaliste du nombre de leads et du coût par acquisition dans la Vienne.
+            Un audit sérieux prend 48 heures et vous donne une projection réaliste du nombre de leads et du coût par acquisition dans la Vienne. Si votre objectif est d'allier visibilité immédiate et trafic organique pérenne, l'équipe de <a href="https://rankeo.poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">référencement naturel SEO</a> Rankeo travaille en complémentarité avec nos campagnes Ads.
           </p>
 
           <!-- À lire aussi -->
