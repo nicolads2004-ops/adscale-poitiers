@@ -96,6 +96,23 @@ useHead({
 
 const openFaq = ref<number | null>(null)
 const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : i }
+
+// Scroll reveal
+onMounted(() => {
+  const els = document.querySelectorAll('[data-reveal]')
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible')
+          observer.unobserve(entry.target)
+        }
+      })
+    },
+    { threshold: 0.15 }
+  )
+  els.forEach((el) => observer.observe(el))
+})
 </script>
 
 <template>
@@ -118,7 +135,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
             <span class="text-sm font-medium text-white/80">Expert Google Ads — Poitiers, Vienne 86</span>
           </div>
 
-          <h1 class="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
+          <h1 data-reveal class="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
             Agence Google Ads à Poitiers.
             <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">
               On les amène chez vous.
@@ -129,7 +146,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
             Campagnes Google Ads gérées par un expert local, optimisées par l'IA. Plus de clients, moins de gaspillage — résultats dès 30 jours.
           </p>
 
-          <div class="flex flex-col sm:flex-row gap-4">
+          <div data-reveal class="flex flex-col sm:flex-row gap-4">
             <NuxtLink
               to="/contact"
               class="inline-flex items-center justify-center gap-2 bg-gradient-cta text-white font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/30 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform text-lg"

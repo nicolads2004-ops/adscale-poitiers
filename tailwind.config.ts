@@ -11,9 +11,9 @@ export default <Config>{
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#1A56DB',
-          light: '#3B82F6',
-          dark: '#1E40AF',
+          DEFAULT: '#4285f4',
+          light: '#699df6',
+          dark: '#2b6dd9',
         },
         secondary: {
           DEFAULT: '#0D9488',
@@ -41,8 +41,8 @@ export default <Config>{
         numbers: ['Space Grotesk', 'Inter', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-brand': 'linear-gradient(135deg, #1A56DB 0%, #0D9488 100%)',
-        'gradient-cta': 'linear-gradient(135deg, #1A56DB 0%, #3B82F6 100%)',
+        'gradient-brand': 'linear-gradient(135deg, #4285f4 0%, #0D9488 100%)',
+        'gradient-cta': 'linear-gradient(135deg, #4285f4 0%, #699df6 100%)',
         'gradient-accent': 'linear-gradient(135deg, #F97316 0%, #FB923C 100%)',
       },
     },
