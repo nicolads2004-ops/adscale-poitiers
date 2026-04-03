@@ -4,12 +4,15 @@ const scrolled = ref(false)
 
 const navLinks = [
   { label: 'Accueil', to: '/' },
-  { label: 'Services', to: '/services' },
-  { label: 'Consultant Google Ads', to: '/consultant-google-ads-poitiers' },
-  { label: 'Freelance Google Ads', to: '/freelance-google-ads' },
   { label: 'À propos', to: '/a-propos' },
   { label: 'Blog', to: '/blog' },
   { label: 'Contact', to: '/contact' },
+]
+
+const servicePages = [
+  { href: '/services', label: 'Vue d\'ensemble', description: 'Tous nos services Google Ads', icon: 'i-lucide-layout-grid' },
+  { href: '/consultant-google-ads-poitiers', label: 'Consultant Google Ads', description: 'Expert certifie a Poitiers', icon: 'i-lucide-user-check' },
+  { href: '/freelance-google-ads', label: 'Freelance Google Ads', description: 'Gestion flexible de vos campagnes', icon: 'i-lucide-briefcase' },
 ]
 
 if (import.meta.client) {
@@ -49,7 +52,33 @@ if (import.meta.client) {
 
       <!-- Desktop Nav -->
       <ul class="hidden md:flex items-center gap-8">
-        <li v-for="link in navLinks" :key="link.to">
+        <li>
+          <NuxtLink to="/" class="text-sm font-medium text-[#a0a0a0] hover:text-[#fafafa] transition-colors duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[#FF8C00] after:transition-[width] after:duration-300 hover:after:w-full">
+            Accueil
+          </NuxtLink>
+        </li>
+        <!-- Services Dropdown -->
+        <li class="relative group">
+          <button class="text-sm font-medium text-[#a0a0a0] hover:text-[#fafafa] transition-colors duration-200 flex items-center gap-1">
+            Services
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          <div class="absolute top-full left-0 mt-2 w-72 rounded-xl border border-white/10 bg-[#0a0a0a]/95 backdrop-blur-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2">
+            <NuxtLink
+              v-for="page in servicePages"
+              :key="page.href"
+              :to="page.href"
+              class="flex items-center gap-3 px-4 py-2.5 text-sm text-[#a0a0a0] hover:text-[#fafafa] hover:bg-white/5 transition-colors"
+            >
+              <UIcon :name="page.icon" class="w-4 h-4 text-[#FF8C00]" />
+              <div>
+                <div class="font-medium">{{ page.label }}</div>
+                <div class="text-xs text-white/30">{{ page.description }}</div>
+              </div>
+            </NuxtLink>
+          </div>
+        </li>
+        <li v-for="link in navLinks.slice(1)" :key="link.to">
           <NuxtLink
             :to="link.to"
             class="text-sm font-medium text-[#a0a0a0] hover:text-[#fafafa] transition-colors duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[#FF8C00] after:transition-[width] after:duration-300 hover:after:w-full"
@@ -97,8 +126,30 @@ if (import.meta.client) {
     >
       <div v-if="mobileOpen" class="md:hidden fixed inset-0 z-40 bg-[#0a0a0a]/95 backdrop-blur-xl pt-20 px-6">
         <nav class="flex flex-col gap-6">
+          <NuxtLink to="/" class="text-lg text-[#a0a0a0] hover:text-[#fafafa] transition-colors" @click="mobileOpen = false">
+            Accueil
+          </NuxtLink>
+
+          <!-- Services section -->
+          <div class="border-t border-white/10 pt-4">
+            <p class="text-xs uppercase tracking-widest text-white/30 mb-3">Services</p>
+            <div class="flex flex-col gap-3 pl-2">
+              <NuxtLink
+                v-for="page in servicePages"
+                :key="page.href"
+                :to="page.href"
+                class="flex items-center gap-3 text-[#a0a0a0] hover:text-[#fafafa] transition-colors"
+                @click="mobileOpen = false"
+              >
+                <UIcon :name="page.icon" class="w-4 h-4 text-[#FF8C00]" />
+                <span class="text-base">{{ page.label }}</span>
+              </NuxtLink>
+            </div>
+          </div>
+          <div class="border-t border-white/10 pt-4" />
+
           <NuxtLink
-            v-for="link in navLinks"
+            v-for="link in navLinks.slice(1)"
             :key="link.to"
             :to="link.to"
             class="text-lg text-[#a0a0a0] hover:text-[#fafafa] transition-colors"
