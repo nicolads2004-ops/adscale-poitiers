@@ -15,6 +15,7 @@ const servicePages = [
   { href: '/freelance-google-ads', label: 'Freelance Google Ads', description: 'Gestion flexible de vos campagnes', icon: 'i-lucide-briefcase' },
   { href: '/agence-google-ads-poitiers', label: 'Agence Google Ads', description: 'Votre agence locale à Poitiers', icon: 'i-lucide-building' },
   { href: '/expert-google-ads-poitiers', label: 'Expert Google Ads', description: 'Certification Google, expertise PME', icon: 'i-lucide-award' },
+  { href: '/consultant-facebook-ads-poitiers', label: 'Consultant Facebook Ads', description: 'Expert Meta Ads à Poitiers', icon: 'i-lucide-megaphone' },
 ]
 
 if (import.meta.client) {
