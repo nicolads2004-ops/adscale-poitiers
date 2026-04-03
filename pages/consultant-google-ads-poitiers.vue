@@ -178,7 +178,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           Votre consultant Google Ads à Poitiers —
           <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">expert SEA dédié aux PME de la Vienne</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-2xl leading-relaxed">
+        <p class="text-white/80 text-lg max-w-2xl leading-relaxed">
           Un interlocuteur unique, certifié Google Partner, qui gère vos campagnes publicitaires avec la rigueur d'un spécialiste et la proximité d'un partenaire local. Résultats mesurables, budget transparent.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 mt-8">
@@ -222,7 +222,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-3">
             Ce qui distingue un <span class="text-primary">consultant SEA local</span>
           </h2>
-          <p class="text-neutral-400 mt-3 max-w-xl mx-auto">
+          <p class="text-white/60 mt-3 max-w-xl mx-auto">
             Quatre garanties concrètes pour les PME de Poitiers et de la Vienne.
           </p>
         </div>
@@ -232,7 +232,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="diff.icon" /></svg>
             </div>
             <h3 class="font-heading font-bold text-xl mb-3 text-white">{{ diff.title }}</h3>
-            <p class="text-neutral-400 leading-relaxed">{{ diff.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ diff.desc }}</p>
           </div>
         </div>
       </div>
@@ -251,7 +251,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div v-for="step in steps" :key="step.number" class="relative">
             <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.number }}</div>
             <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
-            <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
         <div class="text-center mt-12">
@@ -271,7 +271,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-2 mb-4">
             Les campagnes gérées par votre consultant Google Ads
           </h2>
-          <p class="text-neutral-500 max-w-2xl mx-auto">
+          <p class="text-white/60 max-w-2xl mx-auto">
             Chaque type de campagne répond à un objectif précis. Le choix dépend de votre secteur, de votre budget et de vos priorités commerciales.
           </p>
         </div>
@@ -368,7 +368,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-white mb-4">
           Votre PME mérite un <span class="text-primary">consultant Google Ads local</span>
         </h2>
-        <p class="text-neutral-400 text-lg mb-8 leading-relaxed">
+        <p class="text-white/60 text-lg mb-8 leading-relaxed">
           Audit gratuit de vos campagnes ou de votre potentiel de marché à Poitiers. Stratégie concrète présentée sous 48 h, sans engagement.
         </p>
         <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary/90 transition-all text-lg">

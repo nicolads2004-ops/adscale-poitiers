@@ -25,7 +25,7 @@ useHead({
             <h1 class="font-heading font-extrabold text-3xl md:text-4xl mt-4 mb-4 text-white leading-tight">
               Publicité locale Google pour boutiques et restaurants à Poitiers
             </h1>
-            <div class="flex items-center gap-3 text-sm text-neutral-500">
+            <div class="flex items-center gap-3 text-sm text-white/60">
               <span>24 mars 2026</span>
               <span>&middot;</span>
               <span>4 min de lecture</span>
@@ -40,55 +40,55 @@ useHead({
           />
 
           <!-- Intro snippet -->
-          <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-5 mb-8 text-neutral-200 text-[15px] leading-relaxed">
+          <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-5 mb-8 text-white/90 text-[15px] leading-relaxed">
             Le commerce local à Poitiers fait face à un défi de visibilité croissant. Entre les marketplaces en ligne et les grandes enseignes, comment une boutique indépendante, un restaurant ou un prestataire de services du centre-ville attire-t-il de nouveaux clients en 2026 ?
             La réponse passe en grande partie par <strong class="text-white">Google Ads pour les commerces locaux à Poitiers</strong> — et notamment par Google Maps. Pour renforcer cette visibilité sur le long terme, le <a href="https://rankeo.poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">référencement naturel</a> constitue un levier complémentaire indispensable.
           </div>
 
           <!-- Section 1 -->
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Google Ads local vs Google Search : quelle différence pour un commerce ?</h2>
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+          <p class="text-white/80 leading-relaxed text-[15px] mb-6">
             Il existe deux grandes catégories de campagnes Google Ads pertinentes pour un commerce du centre-ville de Poitiers :
           </p>
 
           <h3 class="text-base font-semibold text-[#4285f4] mt-6 mb-3">Les annonces Search (résultats textuels)</h3>
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+          <p class="text-white/80 leading-relaxed text-[15px] mb-4">
             Ce sont les annonces classiques qui apparaissent en haut de la page Google quand quelqu'un cherche « restaurant Poitiers centre-ville » ou « boutique vêtements Poitiers ». Vous définissez des mots-clés, rédigez des annonces et payez au clic.
           </p>
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+          <p class="text-white/80 leading-relaxed text-[15px] mb-6">
             Pour un commerce à Poitiers, la <strong class="text-white">publicité Google boutique Poitiers</strong> via Search est idéale pour capter des clients qui ont déjà une intention précise — ils cherchent exactement ce que vous vendez.
           </p>
 
           <h3 class="text-base font-semibold text-[#4285f4] mt-6 mb-3">Les annonces Google Maps (Local Campaigns)</h3>
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+          <p class="text-white/80 leading-relaxed text-[15px] mb-4">
             Ces campagnes font apparaître votre commerce en tête des résultats Google Maps quand un utilisateur cherche un type de commerce près de lui. Votre fiche Google Business Profile sponsorisée s'affiche avec votre note, vos horaires et votre adresse.
           </p>
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-6">
+          <p class="text-white/80 leading-relaxed text-[15px] mb-6">
             Pour un restaurant, une boutique ou un salon, les <strong class="text-white">annonces Google Maps à Poitiers</strong> sont souvent les plus rentables — elles touchent des clients déjà en déplacement, à proximité de votre enseigne.
           </p>
 
           <!-- Section 2 -->
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Comment fonctionne le ciblage local pour un commerce à Poitiers</h2>
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">
+          <p class="text-white/80 leading-relaxed text-[15px] mb-4">
             Google Ads permet de définir un rayon de ciblage autour de votre adresse. Pour un commerce du centre-ville de Poitiers, on recommande généralement :
           </p>
 
           <div class="space-y-3 my-4">
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Rayon principal</strong> : 5 km autour du commerce (cœur de la clientèle de proximité)</span>
+              <span class="text-white/80 text-sm leading-relaxed"><strong class="text-white">Rayon principal</strong> : 5 km autour du commerce (cœur de la clientèle de proximité)</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Rayon secondaire</strong> : 10 à 20 km pour les recherches intentionnelles (« meilleur restaurant Poitiers »)</span>
+              <span class="text-white/80 text-sm leading-relaxed"><strong class="text-white">Rayon secondaire</strong> : 10 à 20 km pour les recherches intentionnelles (« meilleur restaurant Poitiers »)</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed"><strong class="text-white">Extensions géographiques</strong> : cibler les visiteurs temporaires autour du Futuroscope et des hôtels de Poitiers</span>
+              <span class="text-white/80 text-sm leading-relaxed"><strong class="text-white">Extensions géographiques</strong> : cibler les visiteurs temporaires autour du Futuroscope et des hôtels de Poitiers</span>
             </div>
           </div>
 
-          <p class="text-neutral-300 leading-relaxed text-[15px] mt-4 mb-6">
+          <p class="text-white/80 leading-relaxed text-[15px] mt-4 mb-6">
             Le ciblage peut aussi être horaire — vous activez vos annonces uniquement aux heures où vos prospects cherchent à venir (le midi pour un restaurant, l'après-midi pour une boutique). Cette expertise locale est au cœur de l'offre de l'<a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">agence web Poitiers</a> dont AdScale fait partie.
           </p>
 
@@ -97,7 +97,7 @@ useHead({
 
           <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">0,50–3 €</div>
-            <div class="text-sm text-neutral-400">Coût par clic moyen pour un commerce local dans la Vienne, selon la catégorie. Bien en dessous des secteurs très concurrentiels comme le BTP ou les finances.</div>
+            <div class="text-sm text-white/60">Coût par clic moyen pour un commerce local dans la Vienne, selon la catégorie. Bien en dessous des secteurs très concurrentiels comme le BTP ou les finances.</div>
           </div>
 
           <div class="space-y-3 my-6">
@@ -105,21 +105,21 @@ useHead({
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget débutant (200–400 €/mois)</div>
-                <div class="text-neutral-400 text-sm mt-1">Idéal pour une boutique indépendante ou un salon. Permet d'atteindre 100 à 200 clics qualifiés par mois.</div>
+                <div class="text-white/60 text-sm mt-1">Idéal pour une boutique indépendante ou un salon. Permet d'atteindre 100 à 200 clics qualifiés par mois.</div>
               </div>
             </div>
             <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget intermédiaire (400–800 €/mois)</div>
-                <div class="text-neutral-400 text-sm mt-1">Pour un restaurant ou un commerce avec plusieurs catégories de produits. Combine Search + Google Maps.</div>
+                <div class="text-white/60 text-sm mt-1">Pour un restaurant ou un commerce avec plusieurs catégories de produits. Combine Search + Google Maps.</div>
               </div>
             </div>
             <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget avancé (800–1 500 €/mois)</div>
-                <div class="text-neutral-400 text-sm mt-1">Pour les commerces qui veulent dominer leur catégorie à Poitiers — annonces Search, Maps, remarketing et display local.</div>
+                <div class="text-white/60 text-sm mt-1">Pour les commerces qui veulent dominer leur catégorie à Poitiers — annonces Search, Maps, remarketing et display local.</div>
               </div>
             </div>
           </div>
@@ -128,44 +128,44 @@ useHead({
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Exemple : un restaurant du centre-ville de Poitiers</h2>
 
           <div class="border-l-4 border-[#4285f4]/40 pl-5 py-3 my-6 bg-[#4285f4]/[0.04] rounded-r-xl">
-            <p class="text-neutral-300 text-sm italic">Un restaurant traditionnel installé rue Carnot à Poitiers nous a sollicité début 2026. Problème : leur salle du midi était rarement pleine en semaine, malgré une excellente note Google (4,6/5).</p>
+            <p class="text-white/80 text-sm italic">Un restaurant traditionnel installé rue Carnot à Poitiers nous a sollicité début 2026. Problème : leur salle du midi était rarement pleine en semaine, malgré une excellente note Google (4,6/5).</p>
           </div>
 
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">Stratégie mise en place :</p>
+          <p class="text-white/80 leading-relaxed text-[15px] mb-4">Stratégie mise en place :</p>
 
           <div class="space-y-3 my-4">
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Campagne Google Maps active du lundi au vendredi, de 11 h à 13 h 30</span>
+              <span class="text-white/80 text-sm leading-relaxed">Campagne Google Maps active du lundi au vendredi, de 11 h à 13 h 30</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Campagne Search sur les termes « restaurant déjeuner Poitiers », « menu du jour Poitiers centre », « lunch Poitiers »</span>
+              <span class="text-white/80 text-sm leading-relaxed">Campagne Search sur les termes « restaurant déjeuner Poitiers », « menu du jour Poitiers centre », « lunch Poitiers »</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Budget : 350 €/mois</span>
+              <span class="text-white/80 text-sm leading-relaxed">Budget : 350 €/mois</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Annonces mettant en avant la formule du midi et la réservation en ligne</span>
+              <span class="text-white/80 text-sm leading-relaxed">Annonces mettant en avant la formule du midi et la réservation en ligne</span>
             </div>
           </div>
 
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">Résultats après 45 jours :</p>
+          <p class="text-white/80 leading-relaxed text-[15px] mb-4">Résultats après 45 jours :</p>
 
           <div class="grid grid-cols-2 gap-4 my-6">
             <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">+38 %</div>
-              <div class="text-sm text-neutral-400">de couverts servis en semaine</div>
+              <div class="text-sm text-white/60">de couverts servis en semaine</div>
             </div>
             <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">12</div>
-              <div class="text-sm text-neutral-400">réservations en ligne directement attribuées aux campagnes Google</div>
+              <div class="text-sm text-white/60">réservations en ligne directement attribuées aux campagnes Google</div>
             </div>
             <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 col-span-2 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">29 €</div>
-              <div class="text-sm text-neutral-400">coût par réservation, pour un panier moyen de 18 € par couvert × 2,2 personnes — ROI positif dès le premier mois</div>
+              <div class="text-sm text-white/60">coût par réservation, pour un panier moyen de 18 € par couvert × 2,2 personnes — ROI positif dès le premier mois</div>
             </div>
           </div>
 
@@ -173,29 +173,29 @@ useHead({
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Exemple : une boutique de vêtements à Poitiers</h2>
 
           <div class="border-l-4 border-[#4285f4]/40 pl-5 py-3 my-6 bg-[#4285f4]/[0.04] rounded-r-xl">
-            <p class="text-neutral-300 text-sm italic">Une boutique de mode indépendante du centre de Poitiers souhaitait attirer une clientèle nouvelle, au-delà de ses clients habituels.</p>
+            <p class="text-white/80 text-sm italic">Une boutique de mode indépendante du centre de Poitiers souhaitait attirer une clientèle nouvelle, au-delà de ses clients habituels.</p>
           </div>
 
-          <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">On a combiné :</p>
+          <p class="text-white/80 leading-relaxed text-[15px] mb-4">On a combiné :</p>
 
           <div class="space-y-3 my-4">
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Annonces Search sur « boutique vêtements femme Poitiers », « mode éthique Poitiers », « prêt-à-porter local Vienne »</span>
+              <span class="text-white/80 text-sm leading-relaxed">Annonces Search sur « boutique vêtements femme Poitiers », « mode éthique Poitiers », « prêt-à-porter local Vienne »</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Google Maps pour capter les visiteurs de passage dans le quartier</span>
+              <span class="text-white/80 text-sm leading-relaxed">Google Maps pour capter les visiteurs de passage dans le quartier</span>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-[#4285f4] mt-0.5 flex-shrink-0 text-sm">✓</span>
-              <span class="text-neutral-300 text-sm leading-relaxed">Remarketing pour recibler les visiteurs du site web qui n'avaient pas encore franchi la porte</span>
+              <span class="text-white/80 text-sm leading-relaxed">Remarketing pour recibler les visiteurs du site web qui n'avaient pas encore franchi la porte</span>
             </div>
           </div>
 
           <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">+24 %</div>
-            <div class="text-sm text-neutral-400">de trafic en boutique sur les horaires de fort trafic urbain — le samedi matin en particulier — en 3 mois.</div>
+            <div class="text-sm text-white/60">de trafic en boutique sur les horaires de fort trafic urbain — le samedi matin en particulier — en 3 mois.</div>
           </div>
 
           <!-- Section 6 -->
@@ -206,35 +206,35 @@ useHead({
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
               <div>
                 <div class="text-white font-medium text-sm">Optimisez votre fiche Google Business Profile</div>
-                <div class="text-neutral-400 text-sm mt-1">À faire avant de lancer des campagnes — elle booste l'impact des annonces Maps.</div>
+                <div class="text-white/60 text-sm mt-1">À faire avant de lancer des campagnes — elle booste l'impact des annonces Maps.</div>
               </div>
             </div>
             <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
               <div>
                 <div class="text-white font-medium text-sm">Utilisez les extensions d'adresse</div>
-                <div class="text-neutral-400 text-sm mt-1">Pour que vos clients voient votre localisation directement dans l'annonce.</div>
+                <div class="text-white/60 text-sm mt-1">Pour que vos clients voient votre localisation directement dans l'annonce.</div>
               </div>
             </div>
             <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
               <div>
                 <div class="text-white font-medium text-sm">Ajoutez des promotions saisonnières</div>
-                <div class="text-neutral-400 text-sm mt-1">Soldes, fêtes, événements Poitiers — intégrez-les dans vos annonces pour augmenter le taux de clic.</div>
+                <div class="text-white/60 text-sm mt-1">Soldes, fêtes, événements Poitiers — intégrez-les dans vos annonces pour augmenter le taux de clic.</div>
               </div>
             </div>
             <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">04</span>
               <div>
                 <div class="text-white font-medium text-sm">Activez le suivi des appels</div>
-                <div class="text-neutral-400 text-sm mt-1">Pour un commerce, un coup de fil pour réserver ou vérifier vos horaires est une conversion.</div>
+                <div class="text-white/60 text-sm mt-1">Pour un commerce, un coup de fil pour réserver ou vérifier vos horaires est une conversion.</div>
               </div>
             </div>
             <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">05</span>
               <div>
                 <div class="text-white font-medium text-sm">Ne ciblez pas « toute la France »</div>
-                <div class="text-neutral-400 text-sm mt-1">Un commerce de centre-ville n'a pas besoin de clics depuis Bordeaux ou Nantes.</div>
+                <div class="text-white/60 text-sm mt-1">Un commerce de centre-ville n'a pas besoin de clics depuis Bordeaux ou Nantes.</div>
               </div>
             </div>
           </div>

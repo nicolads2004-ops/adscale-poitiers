@@ -196,7 +196,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           Freelance Google Ads à Poitiers —
           <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">vos campagnes gérées par un expert, pas par une usine</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-2xl leading-relaxed">
+        <p class="text-white/80 text-lg max-w-2xl leading-relaxed">
           Un freelance SEA certifié Google Partner, basé à Poitiers. Tarification transparente, interlocuteur unique, résultats mesurables. La gestion Google Ads sans les inconvénients de l'agence.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 mt-8">
@@ -237,7 +237,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-3">
             Ce que vous gagnez avec un <span class="text-primary">freelance SEA</span>
           </h2>
-          <p class="text-neutral-400 mt-3 max-w-xl mx-auto">
+          <p class="text-white/60 mt-3 max-w-xl mx-auto">
             Quatre raisons concrètes de confier vos campagnes à un indépendant spécialisé.
           </p>
         </div>
@@ -247,7 +247,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="a.icon" /></svg>
             </div>
             <h3 class="font-heading font-bold text-xl mb-3 text-white">{{ a.title }}</h3>
-            <p class="text-neutral-400 leading-relaxed">{{ a.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ a.desc }}</p>
           </div>
         </div>
       </div>
@@ -266,7 +266,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div v-for="step in process" :key="step.number" class="relative">
             <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.number }}</div>
             <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
-            <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-2 mb-4">
             Des honoraires clairs, sans surprise
           </h2>
-          <p class="text-neutral-500 max-w-2xl mx-auto">
+          <p class="text-white/60 max-w-2xl mx-auto">
             Le budget publicitaire Google est séparé et vous appartient. Nos honoraires couvrent uniquement la gestion et l'optimisation de vos campagnes.
           </p>
         </div>
@@ -401,7 +401,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-white mb-4">
           Prêt à confier vos campagnes à un <span class="text-primary">freelance Google Ads</span> ?
         </h2>
-        <p class="text-neutral-400 text-lg mb-8 leading-relaxed">
+        <p class="text-white/60 text-lg mb-8 leading-relaxed">
           Audit gratuit de votre compte ou de votre potentiel de marché. Proposition concrète sous 48 h, sans engagement.
         </p>
         <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary/90 transition-all text-lg">

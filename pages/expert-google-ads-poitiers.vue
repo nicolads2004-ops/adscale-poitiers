@@ -189,7 +189,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           Expert Google Ads à Poitiers —
           <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">certification Google, expertise locale</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-2xl leading-relaxed">
+        <p class="text-white/80 text-lg max-w-2xl leading-relaxed">
           Un expert certifié Google Partner qui gère vos campagnes avec la précision d'un spécialiste et la connaissance d'un acteur local. Pas de junior, pas d'intermédiaire : l'expert qui analyse est celui qui optimise.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 mt-8">
@@ -234,19 +234,19 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-neutral-800 rounded-xl p-8 border border-neutral-700 hover:border-primary/40 transition-colors">
             <h3 class="font-heading font-bold text-xl mb-3 text-white">Connaissance du terrain</h3>
-            <p class="text-neutral-400 leading-relaxed">
+            <p class="text-white/60 leading-relaxed">
               Les zones de chalandise de Poitiers, les quartiers qui convertissent, les villes satellites (Châtellerault, Futuroscope, Lusignan) : un expert local sait où concentrer le budget pour maximiser les résultats.
             </p>
           </div>
           <div class="bg-neutral-800 rounded-xl p-8 border border-neutral-700 hover:border-primary/40 transition-colors">
             <h3 class="font-heading font-bold text-xl mb-3 text-white">Réactivité immédiate</h3>
-            <p class="text-neutral-400 leading-relaxed">
+            <p class="text-white/60 leading-relaxed">
               Un événement local, une opportunité saisonnière, un concurrent qui lance une promo agressive : l'expert local réagit dans la journée. Les prestataires à distance découvrent ces signaux trop tard.
             </p>
           </div>
           <div class="bg-neutral-800 rounded-xl p-8 border border-neutral-700 hover:border-primary/40 transition-colors">
             <h3 class="font-heading font-bold text-xl mb-3 text-white">Rencontres en personne</h3>
-            <p class="text-neutral-400 leading-relaxed">
+            <p class="text-white/60 leading-relaxed">
               Comprendre votre métier en profondeur nécessite parfois une visite sur place. Un expert local peut venir voir votre commerce, votre atelier, votre showroom pour adapter la stratégie à la réalité de votre activité.
             </p>
           </div>
@@ -262,7 +262,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-2">
             Certifications Google Ads à jour
           </h2>
-          <p class="text-neutral-500 max-w-2xl mx-auto mt-4">
+          <p class="text-white/60 max-w-2xl mx-auto mt-4">
             AdScale est Google Partner. Nos certifications sont renouvelées chaque année et couvrent l'ensemble des formats publicitaires Google.
           </p>
         </div>
@@ -288,7 +288,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div v-for="step in processSteps" :key="step.number" class="relative">
             <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.number }}</div>
             <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
-            <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
       </div>
@@ -302,7 +302,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-2">
             Tarifs indicatifs — gestion Google Ads
           </h2>
-          <p class="text-neutral-500 max-w-2xl mx-auto mt-4">
+          <p class="text-white/60 max-w-2xl mx-auto mt-4">
             Honoraires de gestion mensuels. Le budget publicitaire Google est séparé et vous appartient. Pas de frais cachés, pas de commission sur les clics.
           </p>
         </div>
@@ -419,7 +419,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-white mb-4">
           Confiez vos campagnes à un <span class="text-primary">expert certifié</span>
         </h2>
-        <p class="text-neutral-400 text-lg mb-8 leading-relaxed">
+        <p class="text-white/60 text-lg mb-8 leading-relaxed">
           Audit gratuit de votre compte Google Ads ou étude de marché pour votre secteur à Poitiers. Réponse sous 48 h, sans engagement.
         </p>
         <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary/90 transition-all text-lg">

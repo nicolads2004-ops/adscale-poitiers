@@ -60,7 +60,7 @@ const zones = [
           Consultant Google Ads à Poitiers —
           <span class="bg-gradient-to-r from-primary-light to-primary bg-clip-text text-transparent">au service des PME de la Vienne</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-2xl leading-relaxed">
+        <p class="text-white/80 text-lg max-w-2xl leading-relaxed">
           AdScale est une agence Google Ads basée à Poitiers, spécialisée dans la gestion de campagnes publicitaires pour les PME du département 86.
           Notre mission : générer des résultats mesurables avec chaque euro de budget publicitaire.
         </p>
@@ -74,10 +74,10 @@ const zones = [
     </section>
 
     <!-- Notre histoire -->
-    <section class="py-16 md:py-24">
+    <section class="py-16 md:py-24 bg-background-surface">
       <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-neutral-900">Notre histoire</h2>
-        <div class="space-y-5 text-neutral-600 text-lg leading-relaxed">
+        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-text-primary">Notre histoire</h2>
+        <div class="space-y-5 text-text-secondary text-lg leading-relaxed">
           <p>
             AdScale est née d'un constat partagé par de nombreux dirigeants de PME à Poitiers et dans la Vienne : les agences Google Ads nationales facturent des honoraires élevés pour un service standardisé, sans réelle connaissance du marché local. Les artisans, commerçants et professionnels libéraux du 86 méritaient mieux.
           </p>
@@ -87,7 +87,7 @@ const zones = [
           <p>
             Aujourd'hui, AdScale gère plus de 50 campagnes pour des PME locales — artisans BTP, professionnels de santé, commerces de centre-ville, prestataires de services B2B. Notre spécialisation exclusive sur Google Ads nous permet d'atteindre un niveau d'expertise que les agences généralistes ne peuvent pas égaler.
           </p>
-          <p class="font-semibold text-neutral-800">
+          <p class="font-semibold text-text-primary">
             Résultat : un ROAS moyen de 3,2× et une réduction de 42% du coût par lead après trois mois d'optimisation. Ce ne sont pas des promesses — ce sont des chiffres issus de campagnes réelles, gérées pour des PME de la Vienne.
           </p>
         </div>
@@ -103,7 +103,7 @@ const zones = [
             Une méthode en 4 étapes pour vos campagnes
             <span class="text-primary"> Google Ads à Poitiers</span>
           </h2>
-          <p class="text-neutral-400 mt-3 max-w-xl mx-auto">
+          <p class="text-white/60 mt-3 max-w-xl mx-auto">
             Chaque PME de la Vienne est unique. Notre processus s'adapte à votre secteur, votre budget et vos objectifs commerciaux.
           </p>
         </div>
@@ -111,7 +111,7 @@ const zones = [
           <div v-for="step in steps" :key="step.number" class="bg-neutral-800 rounded-xl p-8 border border-neutral-700 hover:border-primary/40 transition-colors">
             <div class="text-5xl font-extrabold text-primary/20 font-heading mb-4">{{ step.number }}</div>
             <h3 class="font-heading font-bold text-xl mb-3 text-white">{{ step.title }}</h3>
-            <p class="text-neutral-400 leading-relaxed">{{ step.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
       </div>
@@ -139,10 +139,10 @@ const zones = [
       <div class="container mx-auto px-4 max-w-4xl">
         <div class="mb-8">
           <span class="text-sm font-semibold text-primary uppercase tracking-wider">Couverture locale</span>
-          <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-3 mb-4 text-neutral-900">
+          <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-3 mb-4 text-white">
             Agence Google Ads dans la Vienne — et toute la Nouvelle-Aquitaine
           </h2>
-          <p class="text-neutral-600 leading-relaxed">
+          <p class="text-white/80 leading-relaxed">
             Notre expertise en publicité Google couvre l'ensemble du département de la Vienne (86) ainsi que les zones limitrophes de la Nouvelle-Aquitaine.
             Nous intervenons principalement pour des PME de <strong>Poitiers et son agglomération</strong>, mais aussi dans toutes les communes du département où des entrepreneurs souhaitent développer leur visibilité sur Google Ads.
           </p>
@@ -156,7 +156,7 @@ const zones = [
             {{ zone }}
           </span>
         </div>
-        <p class="text-neutral-500 text-sm mt-6">
+        <p class="text-white/60 text-sm mt-6">
           Vous êtes en dehors de ces zones ? <NuxtLink to="/contact" class="text-primary hover:underline font-medium">Contactez-nous</NuxtLink> — nous accompagnons des PME partout en France avec la même rigueur locale.
         </p>
       </div>
@@ -168,7 +168,7 @@ const zones = [
         <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-white mb-4">
           Votre PME mérite une <span class="text-primary">agence Google Ads locale</span>
         </h2>
-        <p class="text-neutral-400 text-lg mb-8 leading-relaxed">
+        <p class="text-white/60 text-lg mb-8 leading-relaxed">
           Audit gratuit de vos campagnes existantes ou de votre potentiel de marché à Poitiers.
           On vous présente une stratégie concrète sous 48 h.
         </p>

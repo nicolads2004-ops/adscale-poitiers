@@ -62,7 +62,7 @@ const posts = [
           Conseils Google Ads pour
           <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">PME locales</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-xl">
+        <p class="text-white/80 text-lg max-w-xl">
           Guides pratiques, études de cas et astuces pour tirer le maximum de vos campagnes publicitaires.
         </p>
       </div>

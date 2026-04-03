@@ -147,7 +147,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           Agence Google Ads à Poitiers —
           <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">campagnes rentables pour PME</span>
         </h1>
-        <p class="text-neutral-300 text-lg max-w-2xl leading-relaxed">
+        <p class="text-white/80 text-lg max-w-2xl leading-relaxed">
           Votre agence SEA locale, certifiée Google Partner. Nous gérons vos campagnes publicitaires avec un objectif simple : chaque euro investi doit rapporter. Résultats mesurables, budget transparent, expertise Poitiers et Vienne 86.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 mt-8">
@@ -191,7 +191,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <h2 class="font-heading font-extrabold text-3xl md:text-4xl mt-2 mb-4">
             Les campagnes Google Ads que nous gérons pour vous
           </h2>
-          <p class="text-neutral-500 max-w-2xl mx-auto">
+          <p class="text-white/60 max-w-2xl mx-auto">
             Chaque type de campagne répond à un objectif commercial précis. Nous recommandons la combinaison adaptée à votre secteur, votre budget et vos priorités.
           </p>
         </div>
@@ -201,7 +201,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" :d="s.icon" /></svg>
             </div>
             <h3 class="font-heading font-bold text-xl mb-3 text-white">{{ s.title }}</h3>
-            <p class="text-neutral-400 leading-relaxed">{{ s.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ s.desc }}</p>
           </div>
         </div>
       </div>
@@ -220,7 +220,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div v-for="step in methode" :key="step.number" class="relative">
             <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.number }}</div>
             <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
-            <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
+            <p class="text-white/60 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
         <div class="text-center mt-12">
@@ -244,18 +244,18 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="text-center">
             <div class="font-numbers font-bold text-5xl text-primary mb-2">-35 %</div>
-            <p class="text-neutral-400">de coût par lead en moyenne après 90 jours d'optimisation</p>
+            <p class="text-white/60">de coût par lead en moyenne après 90 jours d'optimisation</p>
           </div>
           <div class="text-center">
             <div class="font-numbers font-bold text-5xl text-primary mb-2">x 2,4</div>
-            <p class="text-neutral-400">de retour sur investissement publicitaire moyen (ROAS)</p>
+            <p class="text-white/60">de retour sur investissement publicitaire moyen (ROAS)</p>
           </div>
           <div class="text-center">
             <div class="font-numbers font-bold text-5xl text-primary mb-2">< 48 h</div>
-            <p class="text-neutral-400">pour recevoir votre audit et votre stratégie personnalisée</p>
+            <p class="text-white/60">pour recevoir votre audit et votre stratégie personnalisée</p>
           </div>
         </div>
-        <p class="text-center text-neutral-500 text-sm mt-8">
+        <p class="text-center text-white/60 text-sm mt-8">
           Résultats moyens constatés sur nos clients PME dans la Vienne. Chaque secteur est différent — l'audit gratuit vous donnera une projection réaliste pour votre activité.
         </p>
       </div>
@@ -348,7 +348,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-white mb-4">
           Prêt à rentabiliser vos <span class="text-primary">campagnes Google Ads</span> ?
         </h2>
-        <p class="text-neutral-400 text-lg mb-8 leading-relaxed">
+        <p class="text-white/60 text-lg mb-8 leading-relaxed">
           Audit gratuit de vos campagnes actuelles ou étude de marché pour démarrer. Stratégie personnalisée présentée sous 48 h, sans engagement.
         </p>
         <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary/90 transition-all text-lg">
