@@ -178,5 +178,28 @@ const services = [
         </div>
       </div>
     </section>
+
+    <!-- Maillage interne — pages experts -->
+    <section class="py-12 md:py-16 border-t border-white/[0.06]" style="background: #0a0a0a;">
+      <div class="container mx-auto px-4 max-w-7xl">
+        <h2 class="font-heading font-bold text-xl text-[#fafafa] mb-6">Nos experts Google Ads à Poitiers</h2>
+        <div class="flex flex-wrap gap-4">
+          <NuxtLink
+            to="/consultant-google-ads-poitiers"
+            class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-[#FF8C00]/30 text-[#FF8C00] hover:bg-[#FF8C00]/10 transition-colors text-sm font-medium"
+          >
+            Consultant Google Ads Poitiers
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+          </NuxtLink>
+          <NuxtLink
+            to="/freelance-google-ads"
+            class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-[#FF8C00]/30 text-[#FF8C00] hover:bg-[#FF8C00]/10 transition-colors text-sm font-medium"
+          >
+            Freelance Google Ads
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+          </NuxtLink>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
