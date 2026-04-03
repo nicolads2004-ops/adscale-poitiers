@@ -134,21 +134,21 @@ useHead({
           </p>
 
           <div class="space-y-3 my-6">
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget débutant (300–500 €/mois)</div>
                 <div class="text-neutral-400 text-sm mt-1">Adapté pour tester la plateforme, cibler 2 à 3 services prioritaires dans un rayon de 20 km autour de Poitiers. Attendez 5 à 15 leads par mois.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget intermédiaire (500–1 000 €/mois)</div>
                 <div class="text-neutral-400 text-sm mt-1">Couverture complète de la Vienne, 4 à 6 services, remarketing activé. Attendez 15 à 35 leads par mois.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget avancé (1 000–2 000 €/mois)</div>
@@ -157,7 +157,7 @@ useHead({
             </div>
           </div>
 
-          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+          <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">2–8 €</div>
             <div class="text-sm text-neutral-400">Coût par clic moyen pour les artisans dans la Vienne selon le secteur. Le bâtiment et les travaux d'urgence sont plus concurrentiels que la décoration ou le jardinage.</div>
           </div>
@@ -195,19 +195,19 @@ useHead({
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">Résultats après 60 jours :</p>
 
           <div class="grid grid-cols-2 gap-4 my-6">
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">28</div>
               <div class="text-sm text-neutral-400">appels qualifiés par mois (contre 9 en moyenne hors saison)</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">23 €</div>
               <div class="text-sm text-neutral-400">coût par appel qualifié</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">65 %</div>
               <div class="text-sm text-neutral-400">taux de transformation appel → intervention</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">4 200 €</div>
               <div class="text-sm text-neutral-400">chiffre d'affaires additionnel estimé par mois</div>
             </div>
@@ -256,7 +256,7 @@ useHead({
             <p class="text-white/80 mb-6">
               Audit gratuit de votre potentiel Google Ads dans la Vienne. On vous dit en 48 h combien de leads vous pouvez espérer et à quel coût.
             </p>
-            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-white text-primary font-bold px-6 py-3 rounded-lg hover:shadow-lg transition-all">
+            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-[#FF8C00] text-[#0a0a0a] font-bold px-6 py-3 rounded-lg hover:bg-[#e07b00] hover:shadow-lg hover:shadow-[#FF8C00]/25 transition-all">
               Demander mon audit gratuit
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </NuxtLink>

@@ -118,17 +118,17 @@ const zones = [
     </section>
 
     <!-- Chiffres clés -->
-    <section class="py-16 md:py-24 bg-neutral-50">
+    <section class="py-16 md:py-24 bg-background-surface">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="text-center mb-12">
-          <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-neutral-900">Des résultats mesurables pour les PME de Poitiers</h2>
-          <p class="text-neutral-500 mt-3 max-w-xl mx-auto">Les chiffres ci-dessous reflètent les performances moyennes de nos campagnes Google Ads actives dans la Vienne.</p>
+          <h2 class="font-heading font-extrabold text-3xl md:text-4xl text-text-primary">Des résultats mesurables pour les PME de Poitiers</h2>
+          <p class="text-text-secondary mt-3 max-w-xl mx-auto">Les chiffres ci-dessous reflètent les performances moyennes de nos campagnes Google Ads actives dans la Vienne.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div v-for="stat in stats" :key="stat.value" class="bg-white rounded-xl p-6 text-center border border-neutral-200 shadow-sm">
+          <div v-for="stat in stats" :key="stat.value" class="bg-background-elevated rounded-xl p-6 text-center border border-border-subtle shadow-sm">
             <div class="text-4xl font-extrabold font-heading text-primary mb-2">{{ stat.value }}</div>
-            <div class="font-semibold text-neutral-800 text-sm mb-1">{{ stat.label }}</div>
-            <div class="text-neutral-400 text-xs">{{ stat.sub }}</div>
+            <div class="font-semibold text-text-primary text-sm mb-1">{{ stat.label }}</div>
+            <div class="text-text-muted text-xs">{{ stat.sub }}</div>
           </div>
         </div>
       </div>

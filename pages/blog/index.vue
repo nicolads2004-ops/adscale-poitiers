@@ -76,10 +76,10 @@ const posts = [
             v-for="post in posts"
             :key="post.slug"
             :to="`/blog/${post.slug}`"
-            class="group bg-white/[0.03] rounded-xl border border-white/[0.06] hover:border-[#4285f4]/30 hover:bg-white/[0.05] transition-all duration-300 overflow-hidden"
+            class="group bg-[#1a1a1a] rounded-xl border border-[#262626] hover:border-[#FF8C00]/30 hover:bg-[#262626] transition-all duration-300 overflow-hidden"
           >
             <!-- Image -->
-            <div class="aspect-[16/9] overflow-hidden bg-white/[0.02]">
+            <div class="aspect-[16/9] overflow-hidden bg-[#141414]">
               <img
                 :src="post.image"
                 :alt="post.title"
@@ -89,15 +89,15 @@ const posts = [
             </div>
             <div class="p-6">
               <div class="flex items-center gap-3 mb-3">
-                <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[#4285f4]/15 text-[#4285f4] border border-[#4285f4]/25">{{ post.category }}</span>
+                <span class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FF8C00]/15 text-[#FF8C00] border border-[#FF8C00]/25">{{ post.category }}</span>
               </div>
-              <div class="flex items-center gap-3 text-xs text-slate-500 mb-3">
+              <div class="flex items-center gap-3 text-xs text-[#737373] mb-3">
                 <span>{{ post.date }}</span>
                 <span>&middot;</span>
                 <span>{{ post.readTime }} de lecture</span>
               </div>
-              <h2 class="font-heading font-bold text-lg mb-2 text-white group-hover:text-[#4285f4] transition-colors">{{ post.title }}</h2>
-              <p class="text-slate-400 text-sm leading-relaxed">{{ post.excerpt }}</p>
+              <h2 class="font-heading font-bold text-lg mb-2 text-[#fafafa] group-hover:text-[#FF8C00] transition-colors">{{ post.title }}</h2>
+              <p class="text-[#a0a0a0] text-sm leading-relaxed">{{ post.excerpt }}</p>
             </div>
           </NuxtLink>
         </div>

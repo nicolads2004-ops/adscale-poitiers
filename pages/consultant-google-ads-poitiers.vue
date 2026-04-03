@@ -196,8 +196,8 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     <!-- Pourquoi un consultant -->
     <section class="py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-neutral-900">Pourquoi faire appel à un consultant Google Ads à Poitiers</h2>
-        <div class="space-y-5 text-neutral-600 text-lg leading-relaxed">
+        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-[#fafafa]">Pourquoi faire appel à un consultant Google Ads à Poitiers</h2>
+        <div class="space-y-5 text-[#a0a0a0] text-lg leading-relaxed">
           <p>
             Les PME de la Vienne qui investissent dans Google Ads font face à un choix : confier leurs campagnes à une agence nationale qui gère des dizaines de comptes en parallèle, ou travailler avec un consultant SEA local qui connaît leur marché.
           </p>
@@ -207,7 +207,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <p>
             Un consultant Google Ads à Poitiers travaille différemment. <strong>C'est le même expert qui audite, qui construit la stratégie, qui crée les campagnes et qui optimise chaque semaine.</strong> Il connaît les zones de chalandise de Poitiers, les pics saisonniers de la Vienne, les requêtes locales qui convertissent.
           </p>
-          <p class="font-semibold text-neutral-800">
+          <p class="font-semibold text-[#fafafa]">
             Chez AdScale, c'est exactement ce modèle. Un consultant senior certifié Google Partner, basé à Poitiers, qui gère un nombre limité de comptes pour garantir un suivi de qualité. AdScale est une division de <a href="https://poitiers.digital" target="_blank" rel="noopener" class="text-primary hover:underline">Studio Digital Poitiers</a>.
           </p>
         </div>
@@ -250,7 +250,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="step in steps" :key="step.number" class="relative">
             <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.number }}</div>
-            <h3 class="font-heading font-bold text-xl mb-3 text-neutral-900">{{ step.title }}</h3>
+            <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
             <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
@@ -264,7 +264,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     </section>
 
     <!-- Types de campagnes -->
-    <section class="bg-neutral-100 py-16 md:py-24">
+    <section class="bg-[#0a0a0a] py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="text-center mb-12 md:mb-16">
           <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Expertise</span>
@@ -276,9 +276,9 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           </p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div v-for="c in campagnes" :key="c.title" class="bg-white rounded-xl p-6 hover:shadow-lg transition-[box-shadow,transform,border-color] duration-300 hover:-translate-y-1 will-change-transform group border border-transparent hover:border-primary/10">
-            <h3 class="font-heading font-bold text-lg mb-2 text-neutral-900">{{ c.title }}</h3>
-            <p class="text-neutral-500 text-sm leading-relaxed">{{ c.desc }}</p>
+          <div v-for="c in campagnes" :key="c.title" class="bg-[#1a1a1a] rounded-xl p-6 hover:shadow-lg hover:shadow-black/20 transition-[box-shadow,transform,border-color] duration-300 hover:-translate-y-1 will-change-transform group border border-transparent hover:border-[#FF8C00]/10">
+            <h3 class="font-heading font-bold text-lg mb-2 text-[#fafafa]">{{ c.title }}</h3>
+            <p class="text-[#737373] text-sm leading-relaxed">{{ c.desc }}</p>
           </div>
         </div>
       </div>
@@ -287,8 +287,8 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     <!-- Maillage interne + contexte local -->
     <section class="py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-neutral-900">Consultant Google Ads ou freelance SEA : quelle différence ?</h2>
-        <div class="space-y-5 text-neutral-600 text-lg leading-relaxed">
+        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-[#fafafa]">Consultant Google Ads ou freelance SEA : quelle différence ?</h2>
+        <div class="space-y-5 text-[#a0a0a0] text-lg leading-relaxed">
           <p>
             Les termes « consultant Google Ads » et « <NuxtLink to="/freelance-google-ads" class="text-primary hover:underline font-medium">freelance Google Ads</NuxtLink> » recouvrent souvent la même réalité : un expert indépendant qui gère vos campagnes publicitaires sans les intermédiaires d'une agence traditionnelle.
           </p>
@@ -300,11 +300,11 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           </p>
         </div>
         <div class="flex flex-wrap gap-4 mt-8">
-          <NuxtLink to="/freelance-google-ads" class="inline-flex items-center gap-2 border border-primary/20 text-primary font-semibold px-6 py-3 rounded-lg hover:bg-primary/5 transition-all">
+          <NuxtLink to="/freelance-google-ads" class="inline-flex items-center gap-2 border border-[#FF8C00]/20 text-[#FF8C00] font-semibold px-6 py-3 rounded-lg hover:bg-[#FF8C00]/5 transition-all">
             Voir l'offre freelance Google Ads
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </NuxtLink>
-          <NuxtLink to="/a-propos" class="inline-flex items-center gap-2 border border-neutral-200 text-neutral-700 font-semibold px-6 py-3 rounded-lg hover:bg-neutral-50 transition-all">
+          <NuxtLink to="/a-propos" class="inline-flex items-center gap-2 border border-[#262626] text-[#a0a0a0] font-semibold px-6 py-3 rounded-lg hover:bg-[#1a1a1a] transition-all">
             En savoir plus sur AdScale
           </NuxtLink>
         </div>
@@ -312,7 +312,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     </section>
 
     <!-- FAQ -->
-    <section class="bg-neutral-100 py-16 md:py-24">
+    <section class="bg-[#0a0a0a] py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-3xl">
         <div class="text-center mb-12">
           <span class="text-sm font-semibold text-primary uppercase tracking-wider">FAQ</span>
@@ -324,18 +324,18 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div
             v-for="(faq, i) in faqs"
             :key="i"
-            class="border border-neutral-200 rounded-xl overflow-hidden transition-all duration-200"
-            :class="openFaq === i ? 'bg-primary/5 border-primary/20' : 'bg-white'"
+            class="border border-[#262626] rounded-xl overflow-hidden transition-all duration-200"
+            :class="openFaq === i ? 'bg-[#FF8C00]/5 border-[#FF8C00]/20' : 'bg-[#1a1a1a]'"
           >
             <button
               class="w-full flex items-center justify-between px-6 py-4 text-left"
               :aria-expanded="openFaq === i"
               @click="toggleFaq(i)"
             >
-              <span class="font-heading font-semibold text-neutral-900 pr-4">{{ faq.q }}</span>
+              <span class="font-heading font-semibold text-[#fafafa] pr-4">{{ faq.q }}</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 text-primary shrink-0 transition-transform duration-300"
+                class="w-5 h-5 text-[#FF8C00] shrink-0 transition-transform duration-300"
                 :class="openFaq === i ? 'rotate-180' : ''"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -354,7 +354,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
               leave-to-class="opacity-0 max-h-0"
             >
               <div v-if="openFaq === i" class="px-6 pb-4">
-                <p class="text-neutral-600 text-sm leading-relaxed">{{ faq.a }}</p>
+                <p class="text-[#a0a0a0] text-sm leading-relaxed">{{ faq.a }}</p>
               </div>
             </Transition>
           </div>

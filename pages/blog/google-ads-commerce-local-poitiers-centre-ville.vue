@@ -95,27 +95,27 @@ useHead({
           <!-- Section 3 -->
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Budget recommandé pour un commerce local à Poitiers</h2>
 
-          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+          <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">0,50–3 €</div>
             <div class="text-sm text-neutral-400">Coût par clic moyen pour un commerce local dans la Vienne, selon la catégorie. Bien en dessous des secteurs très concurrentiels comme le BTP ou les finances.</div>
           </div>
 
           <div class="space-y-3 my-6">
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget débutant (200–400 €/mois)</div>
                 <div class="text-neutral-400 text-sm mt-1">Idéal pour une boutique indépendante ou un salon. Permet d'atteindre 100 à 200 clics qualifiés par mois.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget intermédiaire (400–800 €/mois)</div>
                 <div class="text-neutral-400 text-sm mt-1">Pour un restaurant ou un commerce avec plusieurs catégories de produits. Combine Search + Google Maps.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
               <div>
                 <div class="text-white font-medium text-sm">Budget avancé (800–1 500 €/mois)</div>
@@ -155,15 +155,15 @@ useHead({
           <p class="text-neutral-300 leading-relaxed text-[15px] mb-4">Résultats après 45 jours :</p>
 
           <div class="grid grid-cols-2 gap-4 my-6">
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">+38 %</div>
               <div class="text-sm text-neutral-400">de couverts servis en semaine</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">12</div>
               <div class="text-sm text-neutral-400">réservations en ligne directement attribuées aux campagnes Google</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 col-span-2 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 col-span-2 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">29 €</div>
               <div class="text-sm text-neutral-400">coût par réservation, pour un panier moyen de 18 € par couvert × 2,2 personnes — ROI positif dès le premier mois</div>
             </div>
@@ -193,7 +193,7 @@ useHead({
             </div>
           </div>
 
-          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+          <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">+24 %</div>
             <div class="text-sm text-neutral-400">de trafic en boutique sur les horaires de fort trafic urbain — le samedi matin en particulier — en 3 mois.</div>
           </div>
@@ -202,35 +202,35 @@ useHead({
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">5 bonnes pratiques pour votre campagne Google Ads commerce local</h2>
 
           <div class="space-y-3 my-6">
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
               <div>
                 <div class="text-white font-medium text-sm">Optimisez votre fiche Google Business Profile</div>
                 <div class="text-neutral-400 text-sm mt-1">À faire avant de lancer des campagnes — elle booste l'impact des annonces Maps.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
               <div>
                 <div class="text-white font-medium text-sm">Utilisez les extensions d'adresse</div>
                 <div class="text-neutral-400 text-sm mt-1">Pour que vos clients voient votre localisation directement dans l'annonce.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
               <div>
                 <div class="text-white font-medium text-sm">Ajoutez des promotions saisonnières</div>
                 <div class="text-neutral-400 text-sm mt-1">Soldes, fêtes, événements Poitiers — intégrez-les dans vos annonces pour augmenter le taux de clic.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">04</span>
               <div>
                 <div class="text-white font-medium text-sm">Activez le suivi des appels</div>
                 <div class="text-neutral-400 text-sm mt-1">Pour un commerce, un coup de fil pour réserver ou vérifier vos horaires est une conversion.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">05</span>
               <div>
                 <div class="text-white font-medium text-sm">Ne ciblez pas « toute la France »</div>
@@ -260,7 +260,7 @@ useHead({
             <p class="text-white/80 mb-6">
               Audit gratuit de votre potentiel Google Ads local à Poitiers. On vous présente une stratégie adaptée à votre commerce en 48 h.
             </p>
-            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-white text-primary font-bold px-6 py-3 rounded-lg hover:shadow-lg transition-all">
+            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-[#FF8C00] text-[#0a0a0a] font-bold px-6 py-3 rounded-lg hover:bg-[#e07b00] hover:shadow-lg hover:shadow-[#FF8C00]/25 transition-all">
               Demander mon audit gratuit
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </NuxtLink>

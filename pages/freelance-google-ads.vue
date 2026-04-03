@@ -214,8 +214,8 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     <!-- Intro -->
     <section class="py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-neutral-900">Pourquoi travailler avec un freelance Google Ads</h2>
-        <div class="space-y-5 text-neutral-600 text-lg leading-relaxed">
+        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-[#fafafa]">Pourquoi travailler avec un freelance Google Ads</h2>
+        <div class="space-y-5 text-[#a0a0a0] text-lg leading-relaxed">
           <p>
             Une agence Google Ads facture entre 15 et 25 % de votre budget média en frais de gestion. Sur un budget de 2 000 euros par mois, cela représente 300 à 500 euros qui ne vont pas dans vos campagnes. Et pour ce prix, votre compte est souvent géré par un profil junior qui applique des templates.
           </p>
@@ -265,7 +265,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="step in process" :key="step.number" class="relative">
             <div class="font-numbers font-bold text-6xl text-primary/10 mb-4">{{ step.number }}</div>
-            <h3 class="font-heading font-bold text-xl mb-3 text-neutral-900">{{ step.title }}</h3>
+            <h3 class="font-heading font-bold text-xl mb-3 text-[#fafafa]">{{ step.title }}</h3>
             <p class="text-neutral-500 leading-relaxed">{{ step.desc }}</p>
           </div>
         </div>
@@ -273,7 +273,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     </section>
 
     <!-- Tarifs -->
-    <section class="bg-neutral-100 py-16 md:py-24">
+    <section class="bg-[#0a0a0a] py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-7xl">
         <div class="text-center mb-12 md:mb-16">
           <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Tarifs</span>
@@ -289,25 +289,25 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
             v-for="t in tarifs"
             :key="t.nom"
             class="rounded-xl p-8 border transition-[box-shadow,transform] duration-300 hover:-translate-y-1 will-change-transform"
-            :class="t.featured ? 'bg-white border-primary/30 shadow-lg shadow-primary/10 ring-2 ring-primary/20' : 'bg-white border-neutral-200 hover:shadow-lg'"
+            :class="t.featured ? 'bg-[#1a1a1a] border-[#FF8C00]/30 shadow-lg shadow-[#FF8C00]/10 ring-2 ring-[#FF8C00]/20' : 'bg-[#1a1a1a] border-[#262626] hover:shadow-lg hover:shadow-black/20'"
           >
-            <div v-if="t.featured" class="text-xs font-bold text-primary uppercase tracking-wider mb-3">Le plus choisi</div>
-            <h3 class="font-heading font-bold text-xl mb-1 text-neutral-900">{{ t.nom }}</h3>
-            <p class="text-neutral-500 text-sm mb-4">{{ t.desc }}</p>
+            <div v-if="t.featured" class="text-xs font-bold text-[#FF8C00] uppercase tracking-wider mb-3">Le plus choisi</div>
+            <h3 class="font-heading font-bold text-xl mb-1 text-[#fafafa]">{{ t.nom }}</h3>
+            <p class="text-[#737373] text-sm mb-4">{{ t.desc }}</p>
             <div class="mb-6">
-              <span class="font-numbers font-bold text-3xl text-primary">{{ t.prix }}</span>
-              <span v-if="t.unite" class="text-neutral-500 text-sm ml-1">{{ t.unite }}</span>
+              <span class="font-numbers font-bold text-3xl text-[#FF8C00]">{{ t.prix }}</span>
+              <span v-if="t.unite" class="text-[#737373] text-sm ml-1">{{ t.unite }}</span>
             </div>
             <ul class="space-y-3 mb-8">
               <li v-for="item in t.inclus" :key="item" class="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-success shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
-                <span class="text-neutral-700 text-sm">{{ item }}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#16A34A] shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                <span class="text-[#a0a0a0] text-sm">{{ item }}</span>
               </li>
             </ul>
             <NuxtLink
               to="/contact"
               class="w-full inline-flex items-center justify-center gap-2 font-semibold px-6 py-3 rounded-lg transition-all duration-300"
-              :class="t.featured ? 'bg-gradient-cta text-white hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-0.5' : 'border border-primary/20 text-primary hover:bg-primary/5'"
+              :class="t.featured ? 'bg-gradient-to-r from-[#FF8C00] to-[#FFD700] text-[#0a0a0a] hover:shadow-lg hover:shadow-[#FF8C00]/25 hover:-translate-y-0.5' : 'border border-[#FF8C00]/20 text-[#FF8C00] hover:bg-[#FF8C00]/5'"
             >
               Demander un devis
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -320,8 +320,8 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     <!-- Lien vers consultant -->
     <section class="py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-neutral-900">Freelance ou consultant Google Ads : même expertise, même exigence</h2>
-        <div class="space-y-5 text-neutral-600 text-lg leading-relaxed">
+        <h2 class="font-heading font-extrabold text-3xl md:text-4xl mb-8 text-[#fafafa]">Freelance ou consultant Google Ads : même expertise, même exigence</h2>
+        <div class="space-y-5 text-[#a0a0a0] text-lg leading-relaxed">
           <p>
             Que vous tapiez « freelance Google Ads » ou « <NuxtLink to="/consultant-google-ads-poitiers" class="text-primary hover:underline font-medium">consultant Google Ads Poitiers</NuxtLink> » dans Google, vous cherchez la même chose : un spécialiste SEA qui prend en charge vos campagnes publicitaires avec sérieux et transparence.
           </p>
@@ -333,11 +333,11 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           </p>
         </div>
         <div class="flex flex-wrap gap-4 mt-8">
-          <NuxtLink to="/consultant-google-ads-poitiers" class="inline-flex items-center gap-2 border border-primary/20 text-primary font-semibold px-6 py-3 rounded-lg hover:bg-primary/5 transition-all">
+          <NuxtLink to="/consultant-google-ads-poitiers" class="inline-flex items-center gap-2 border border-[#FF8C00]/20 text-[#FF8C00] font-semibold px-6 py-3 rounded-lg hover:bg-[#FF8C00]/5 transition-all">
             Voir l'approche consultant
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </NuxtLink>
-          <NuxtLink to="/a-propos" class="inline-flex items-center gap-2 border border-neutral-200 text-neutral-700 font-semibold px-6 py-3 rounded-lg hover:bg-neutral-50 transition-all">
+          <NuxtLink to="/a-propos" class="inline-flex items-center gap-2 border border-[#262626] text-[#a0a0a0] font-semibold px-6 py-3 rounded-lg hover:bg-[#1a1a1a] transition-all">
             En savoir plus sur AdScale
           </NuxtLink>
         </div>
@@ -345,7 +345,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     </section>
 
     <!-- FAQ -->
-    <section class="bg-neutral-100 py-16 md:py-24">
+    <section class="bg-[#0a0a0a] py-16 md:py-24">
       <div class="container mx-auto px-4 max-w-3xl">
         <div class="text-center mb-12">
           <span class="text-sm font-semibold text-primary uppercase tracking-wider">FAQ</span>
@@ -357,18 +357,18 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
           <div
             v-for="(faq, i) in faqs"
             :key="i"
-            class="border border-neutral-200 rounded-xl overflow-hidden transition-all duration-200"
-            :class="openFaq === i ? 'bg-primary/5 border-primary/20' : 'bg-white'"
+            class="border border-[#262626] rounded-xl overflow-hidden transition-all duration-200"
+            :class="openFaq === i ? 'bg-[#FF8C00]/5 border-[#FF8C00]/20' : 'bg-[#1a1a1a]'"
           >
             <button
               class="w-full flex items-center justify-between px-6 py-4 text-left"
               :aria-expanded="openFaq === i"
               @click="toggleFaq(i)"
             >
-              <span class="font-heading font-semibold text-neutral-900 pr-4">{{ faq.q }}</span>
+              <span class="font-heading font-semibold text-[#fafafa] pr-4">{{ faq.q }}</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 text-primary shrink-0 transition-transform duration-300"
+                class="w-5 h-5 text-[#FF8C00] shrink-0 transition-transform duration-300"
                 :class="openFaq === i ? 'rotate-180' : ''"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -387,7 +387,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
               leave-to-class="opacity-0 max-h-0"
             >
               <div v-if="openFaq === i" class="px-6 pb-4">
-                <p class="text-neutral-600 text-sm leading-relaxed">{{ faq.a }}</p>
+                <p class="text-[#a0a0a0] text-sm leading-relaxed">{{ faq.a }}</p>
               </div>
             </Transition>
           </div>

@@ -190,7 +190,7 @@ const iconPaths: Record<string, string> = {
             <!-- Step 2 -->
             <div v-if="step === 2">
               <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Quel est votre objectif principal ?</h2>
-              <p class="text-neutral-500 mb-8">Choisissez ce qui compte le plus pour votre activité.</p>
+              <p class="text-[#737373] mb-8">Choisissez ce qui compte le plus pour votre activité.</p>
               <div class="grid gap-4">
                 <button
                   v-for="opt in step2Options"
@@ -198,25 +198,25 @@ const iconPaths: Record<string, string> = {
                   type="button"
                   class="flex items-center gap-4 p-5 rounded-xl border-2 transition-all duration-200 text-left group"
                   :class="form.objective === opt.value
-                    ? 'border-[#4285f4] bg-[#4285f4]/5 shadow-md shadow-[#4285f4]/10'
-                    : 'border-neutral-200 hover:border-neutral-300 bg-white hover:bg-neutral-50'"
+                    ? 'border-[#FF8C00] bg-[#FF8C00]/5 shadow-md shadow-[#FF8C00]/10'
+                    : 'border-[#333] hover:border-[#525252] bg-[#1a1a1a] hover:bg-[#262626]'"
                   @click="selectOption('objective', opt.value)"
                 >
                   <div
                     class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors"
-                    :class="form.objective === opt.value ? 'bg-[#4285f4] text-white' : 'bg-neutral-100 text-neutral-500 group-hover:bg-neutral-200'"
+                    :class="form.objective === opt.value ? 'bg-[#FF8C00] text-[#0a0a0a]' : 'bg-[#262626] text-[#737373] group-hover:bg-[#333]'"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                       <path :d="iconPaths[opt.icon]" />
                     </svg>
                   </div>
-                  <span class="font-semibold text-neutral-800">{{ opt.label }}</span>
+                  <span class="font-semibold text-[#fafafa]">{{ opt.label }}</span>
                   <div class="ml-auto">
                     <div
                       class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors"
-                      :class="form.objective === opt.value ? 'border-[#4285f4] bg-[#4285f4]' : 'border-neutral-300'"
+                      :class="form.objective === opt.value ? 'border-[#FF8C00] bg-[#FF8C00]' : 'border-[#525252]'"
                     >
-                      <svg v-if="form.objective === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                      <svg v-if="form.objective === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-[#0a0a0a]" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                       </svg>
                     </div>
@@ -227,8 +227,8 @@ const iconPaths: Record<string, string> = {
 
             <!-- Step 3 -->
             <div v-if="step === 3">
-              <h2 class="font-heading font-bold text-2xl text-neutral-900 mb-2">Quel budget mensuel envisagez-vous ?</h2>
-              <p class="text-neutral-500 mb-8">Budget publicitaire Google Ads (hors gestion).</p>
+              <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Quel budget mensuel envisagez-vous ?</h2>
+              <p class="text-[#737373] mb-8">Budget publicitaire Google Ads (hors gestion).</p>
               <div class="grid gap-4">
                 <button
                   v-for="opt in step3Options"
@@ -236,25 +236,25 @@ const iconPaths: Record<string, string> = {
                   type="button"
                   class="flex items-center gap-4 p-5 rounded-xl border-2 transition-all duration-200 text-left group"
                   :class="form.budget === opt.value
-                    ? 'border-[#4285f4] bg-[#4285f4]/5 shadow-md shadow-[#4285f4]/10'
-                    : 'border-neutral-200 hover:border-neutral-300 bg-white hover:bg-neutral-50'"
+                    ? 'border-[#FF8C00] bg-[#FF8C00]/5 shadow-md shadow-[#FF8C00]/10'
+                    : 'border-[#333] hover:border-[#525252] bg-[#1a1a1a] hover:bg-[#262626]'"
                   @click="selectOption('budget', opt.value)"
                 >
                   <div
                     class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors"
-                    :class="form.budget === opt.value ? 'bg-[#4285f4] text-white' : 'bg-neutral-100 text-neutral-500 group-hover:bg-neutral-200'"
+                    :class="form.budget === opt.value ? 'bg-[#FF8C00] text-[#0a0a0a]' : 'bg-[#262626] text-[#737373] group-hover:bg-[#333]'"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                       <path :d="iconPaths[opt.icon]" />
                     </svg>
                   </div>
-                  <span class="font-semibold text-neutral-800">{{ opt.label }}</span>
+                  <span class="font-semibold text-[#fafafa]">{{ opt.label }}</span>
                   <div class="ml-auto">
                     <div
                       class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors"
-                      :class="form.budget === opt.value ? 'border-[#4285f4] bg-[#4285f4]' : 'border-neutral-300'"
+                      :class="form.budget === opt.value ? 'border-[#FF8C00] bg-[#FF8C00]' : 'border-[#525252]'"
                     >
-                      <svg v-if="form.budget === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                      <svg v-if="form.budget === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-[#0a0a0a]" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                       </svg>
                     </div>
@@ -265,49 +265,49 @@ const iconPaths: Record<string, string> = {
 
             <!-- Step 4 -->
             <div v-if="step === 4">
-              <h2 class="font-heading font-bold text-2xl text-neutral-900 mb-2">Dernière étape — on vous rappelle</h2>
-              <p class="text-neutral-500 mb-8">Laissez-nous vos coordonnées pour recevoir votre audit.</p>
+              <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Dernière étape — on vous rappelle</h2>
+              <p class="text-[#737373] mb-8">Laissez-nous vos coordonnées pour recevoir votre audit.</p>
               <form @submit.prevent="handleSubmit" class="space-y-5">
                 <div>
-                  <label for="company" class="block text-sm font-medium text-neutral-700 mb-1.5">Nom de l'entreprise</label>
+                  <label for="company" class="block text-sm font-medium text-[#a0a0a0] mb-1.5">Nom de l'entreprise</label>
                   <input
                     id="company"
                     v-model="form.company"
                     type="text"
-                    class="w-full px-4 py-3.5 rounded-xl border border-neutral-200 focus:border-[#4285f4] focus:ring-2 focus:ring-[#4285f4]/20 outline-none transition-all text-sm bg-white"
+                    class="w-full px-4 py-3.5 rounded-xl border border-[#333] focus:border-[#FF8C00] focus:ring-2 focus:ring-[#FF8C00]/20 outline-none transition-all text-sm bg-[#1a1a1a] text-[#fafafa]"
                     placeholder="Mon Entreprise SARL"
                   />
                 </div>
                 <div>
-                  <label for="name" class="block text-sm font-medium text-neutral-700 mb-1.5">Nom et prénom *</label>
+                  <label for="name" class="block text-sm font-medium text-[#a0a0a0] mb-1.5">Nom et prénom *</label>
                   <input
                     id="name"
                     v-model="form.name"
                     type="text"
                     required
-                    class="w-full px-4 py-3.5 rounded-xl border border-neutral-200 focus:border-[#4285f4] focus:ring-2 focus:ring-[#4285f4]/20 outline-none transition-all text-sm bg-white"
+                    class="w-full px-4 py-3.5 rounded-xl border border-[#333] focus:border-[#FF8C00] focus:ring-2 focus:ring-[#FF8C00]/20 outline-none transition-all text-sm bg-[#1a1a1a] text-[#fafafa]"
                     placeholder="Jean Dupont"
                   />
                 </div>
                 <div>
-                  <label for="email" class="block text-sm font-medium text-neutral-700 mb-1.5">Email professionnel *</label>
+                  <label for="email" class="block text-sm font-medium text-[#a0a0a0] mb-1.5">Email professionnel *</label>
                   <input
                     id="email"
                     v-model="form.email"
                     type="email"
                     required
-                    class="w-full px-4 py-3.5 rounded-xl border border-neutral-200 focus:border-[#4285f4] focus:ring-2 focus:ring-[#4285f4]/20 outline-none transition-all text-sm bg-white"
+                    class="w-full px-4 py-3.5 rounded-xl border border-[#333] focus:border-[#FF8C00] focus:ring-2 focus:ring-[#FF8C00]/20 outline-none transition-all text-sm bg-[#1a1a1a] text-[#fafafa]"
                     placeholder="jean@monentreprise.fr"
                   />
                 </div>
                 <div>
-                  <label for="phone" class="block text-sm font-medium text-neutral-700 mb-1.5">Téléphone *</label>
+                  <label for="phone" class="block text-sm font-medium text-[#a0a0a0] mb-1.5">Téléphone *</label>
                   <input
                     id="phone"
                     v-model="form.phone"
                     type="tel"
                     required
-                    class="w-full px-4 py-3.5 rounded-xl border border-neutral-200 focus:border-[#4285f4] focus:ring-2 focus:ring-[#4285f4]/20 outline-none transition-all text-sm bg-white"
+                    class="w-full px-4 py-3.5 rounded-xl border border-[#333] focus:border-[#FF8C00] focus:ring-2 focus:ring-[#FF8C00]/20 outline-none transition-all text-sm bg-[#1a1a1a] text-[#fafafa]"
                     placeholder="06 12 34 56 78"
                   />
                 </div>
@@ -315,11 +315,11 @@ const iconPaths: Record<string, string> = {
             </div>
 
             <!-- Navigation -->
-            <div class="flex items-center justify-between mt-10 pt-6 border-t border-neutral-100">
+            <div class="flex items-center justify-between mt-10 pt-6 border-t border-[#262626]">
               <button
                 v-if="step > 1"
                 type="button"
-                class="flex items-center gap-2 text-neutral-500 hover:text-neutral-800 transition-colors font-medium text-sm"
+                class="flex items-center gap-2 text-[#737373] hover:text-[#fafafa] transition-colors font-medium text-sm"
                 @click="prev"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
@@ -333,8 +333,8 @@ const iconPaths: Record<string, string> = {
                 :disabled="!canContinue"
                 class="inline-flex items-center gap-2 font-bold text-sm px-8 py-3.5 rounded-xl transition-all duration-200"
                 :class="canContinue
-                  ? 'bg-[#4285f4] text-white hover:bg-[#3b78e7] hover:shadow-lg hover:shadow-[#4285f4]/25 hover:-translate-y-0.5'
-                  : 'bg-neutral-100 text-neutral-400 cursor-not-allowed'"
+                  ? 'bg-[#FF8C00] text-[#0a0a0a] hover:bg-[#e07b00] hover:shadow-lg hover:shadow-[#FF8C00]/25 hover:-translate-y-0.5'
+                  : 'bg-[#262626] text-[#737373] cursor-not-allowed'"
                 @click="next"
               >
                 Continuer
@@ -347,8 +347,8 @@ const iconPaths: Record<string, string> = {
                 :disabled="!canContinue || submitting"
                 class="inline-flex items-center gap-2 font-bold text-sm px-8 py-3.5 rounded-xl transition-all duration-200"
                 :class="canContinue && !submitting
-                  ? 'bg-[#4285f4] text-white hover:bg-[#3b78e7] hover:shadow-lg hover:shadow-[#4285f4]/25 hover:-translate-y-0.5'
-                  : 'bg-neutral-100 text-neutral-400 cursor-not-allowed'"
+                  ? 'bg-[#FF8C00] text-[#0a0a0a] hover:bg-[#e07b00] hover:shadow-lg hover:shadow-[#FF8C00]/25 hover:-translate-y-0.5'
+                  : 'bg-[#262626] text-[#737373] cursor-not-allowed'"
                 @click="handleSubmit"
               >
                 {{ submitting ? 'Envoi...' : 'Envoyer ma demande' }}
@@ -360,29 +360,29 @@ const iconPaths: Record<string, string> = {
 
         <!-- Sidebar info under form -->
         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-neutral-50 rounded-xl p-6 text-center">
-            <div class="font-numbers font-bold text-3xl text-[#4285f4] mb-2">30 min</div>
-            <p class="text-sm text-neutral-600">Audit complet de vos campagnes</p>
+          <div class="bg-[#141414] rounded-xl p-6 text-center border border-[#262626]">
+            <div class="font-numbers font-bold text-3xl text-[#FF8C00] mb-2">30 min</div>
+            <p class="text-sm text-[#a0a0a0]">Audit complet de vos campagnes</p>
           </div>
-          <div class="bg-neutral-50 rounded-xl p-6 text-center">
-            <div class="font-numbers font-bold text-3xl text-[#4285f4] mb-2">100%</div>
-            <p class="text-sm text-neutral-600">Gratuit et sans engagement</p>
+          <div class="bg-[#141414] rounded-xl p-6 text-center border border-[#262626]">
+            <div class="font-numbers font-bold text-3xl text-[#FF8C00] mb-2">100%</div>
+            <p class="text-sm text-[#a0a0a0]">Gratuit et sans engagement</p>
           </div>
-          <div class="bg-neutral-50 rounded-xl p-6 text-center">
-            <div class="font-numbers font-bold text-3xl text-[#4285f4] mb-2">24h</div>
-            <p class="text-sm text-neutral-600">Délai de réponse maximum</p>
+          <div class="bg-[#141414] rounded-xl p-6 text-center border border-[#262626]">
+            <div class="font-numbers font-bold text-3xl text-[#FF8C00] mb-2">24h</div>
+            <p class="text-sm text-[#a0a0a0]">Delai de reponse maximum</p>
           </div>
         </div>
 
         <!-- Phone CTA -->
         <div class="mt-8 text-center">
-          <p class="text-neutral-500 text-sm mb-3">Vous préférez nous appeler directement ?</p>
+          <p class="text-[#737373] text-sm mb-3">Vous preferez nous appeler directement ?</p>
           <a
             href="tel:+33769801190"
-            class="inline-flex items-center gap-3 px-6 py-3 rounded-xl border-2 border-[#4285f4]/20 hover:border-[#4285f4]/40 bg-[#4285f4]/5 hover:bg-[#4285f4]/10 transition-all duration-200 group"
+            class="inline-flex items-center gap-3 px-6 py-3 rounded-xl border-2 border-[#FF8C00]/20 hover:border-[#FF8C00]/40 bg-[#FF8C00]/5 hover:bg-[#FF8C00]/10 transition-all duration-200 group"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#4285f4]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-            <span class="font-bold text-[#4285f4] text-lg">07 69 80 11 90</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF8C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+            <span class="font-bold text-[#FF8C00] text-lg">07 69 80 11 90</span>
           </a>
         </div>
 

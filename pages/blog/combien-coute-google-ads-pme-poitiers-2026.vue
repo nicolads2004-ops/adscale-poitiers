@@ -82,21 +82,21 @@ useHead({
           </p>
 
           <div class="space-y-3 my-6">
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">01</span>
               <div>
                 <div class="text-white font-medium text-sm">Le faire soi-même</div>
                 <div class="text-neutral-400 text-sm mt-1">Gratuit, mais chronophage et risqué sans expertise. Une mauvaise configuration peut gaspiller votre budget en quelques jours.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">02</span>
               <div>
                 <div class="text-white font-medium text-sm">Un freelance</div>
                 <div class="text-neutral-400 text-sm mt-1">300 € à 800 €/mois. Variable selon l'expérience. Moins de suivi qu'une agence, mais souvent plus réactif.</div>
               </div>
             </div>
-            <div class="flex items-start gap-4 bg-white/[0.02] rounded-xl p-4 border border-neutral-800">
+            <div class="flex items-start gap-4 bg-[#1a1a1a] rounded-xl p-4 border border-neutral-800">
               <span class="text-[#4285f4] font-bold text-lg flex-shrink-0 w-8">03</span>
               <div>
                 <div class="text-white font-medium text-sm">Une agence locale</div>
@@ -115,19 +115,19 @@ useHead({
           </p>
 
           <div class="grid grid-cols-2 gap-4 my-6">
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">25–40 €</div>
               <div class="text-sm text-neutral-400">coût par lead estimé</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">20–32</div>
               <div class="text-sm text-neutral-400">leads qualifiés par mois</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">25–40 %</div>
               <div class="text-sm text-neutral-400">taux de conversion lead → client</div>
             </div>
-            <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
+            <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 flex items-center gap-4">
               <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">1 500–3 900 €</div>
               <div class="text-sm text-neutral-400">chiffre d'affaires généré/mois (panier moyen 300 €)</div>
             </div>
@@ -154,7 +154,7 @@ useHead({
             </div>
           </div>
 
-          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+          <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">-30 %</div>
             <div class="text-sm text-neutral-400">d'économie possible sur le coût par clic en améliorant le Quality Score de vos annonces de 5 à 8/10.</div>
           </div>
@@ -189,7 +189,7 @@ useHead({
             <p class="text-white/80 mb-6">
               Audit gratuit — on calcule ensemble le budget et le ROI attendu pour votre activité dans la Vienne. Réponse en 48 heures.
             </p>
-            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-white text-primary font-bold px-6 py-3 rounded-lg hover:shadow-lg transition-all">
+            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-[#FF8C00] text-[#0a0a0a] font-bold px-6 py-3 rounded-lg hover:bg-[#e07b00] hover:shadow-lg hover:shadow-[#FF8C00]/25 transition-all">
               Demander mon audit gratuit
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </NuxtLink>

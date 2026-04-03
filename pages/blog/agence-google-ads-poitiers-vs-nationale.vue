@@ -92,7 +92,7 @@ useHead({
             Les grandes agences nationales ont des structures de coûts importantes — bureaux à Paris, équipes pléthoriques, processus standardisés. Ces coûts sont répercutés sur les clients sous forme d'honoraires de gestion souvent inabordables pour une PME locale.
           </p>
 
-          <div class="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
+          <div class="bg-[#141414] border border-white/[0.08] rounded-xl p-5 my-6 flex items-center gap-4">
             <div class="text-3xl font-bold text-[#4285f4] flex-shrink-0">800–1 500 €</div>
             <div class="text-sm text-neutral-400">Honoraires mensuels minimum d'une grande agence nationale, avant même le budget publicitaire. Souvent incompatible avec les réalités d'une TPE/PME de Poitiers.</div>
           </div>
@@ -124,7 +124,7 @@ useHead({
           <h2 class="text-xl font-bold text-white mt-10 mb-4 border-l-[3px] border-[#4285f4] pl-4">Agence locale vs nationale : le tableau comparatif</h2>
 
           <div class="my-6 rounded-xl overflow-hidden border border-neutral-800">
-            <div class="grid grid-cols-3 bg-white/[0.04] px-4 py-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider">
+            <div class="grid grid-cols-3 bg-[#1a1a1a] px-4 py-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider">
               <div>Critère</div>
               <div class="text-center text-[#4285f4]">Agence locale</div>
               <div class="text-center">Agence nationale</div>
@@ -135,7 +135,7 @@ useHead({
                 <div class="text-center text-[#4285f4] font-semibold">✓</div>
                 <div class="text-center text-neutral-500">✗</div>
               </div>
-              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-white/[0.01]">
+              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-[#141414]">
                 <div class="text-neutral-300">Réactivité (réponse en 24 h)</div>
                 <div class="text-center text-[#4285f4] font-semibold">✓</div>
                 <div class="text-center text-neutral-500">Variable</div>
@@ -145,7 +145,7 @@ useHead({
                 <div class="text-center text-[#4285f4] font-semibold">✓</div>
                 <div class="text-center text-neutral-500">✗</div>
               </div>
-              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-white/[0.01]">
+              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-[#141414]">
                 <div class="text-neutral-300">Interlocuteur dédié</div>
                 <div class="text-center text-[#4285f4] font-semibold">✓</div>
                 <div class="text-center text-neutral-500">Rare</div>
@@ -155,7 +155,7 @@ useHead({
                 <div class="text-center text-[#4285f4] font-semibold">✓</div>
                 <div class="text-center text-neutral-500">Souvent non</div>
               </div>
-              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-white/[0.01]">
+              <div class="grid grid-cols-3 px-4 py-3 text-sm bg-[#141414]">
                 <div class="text-neutral-300">Notoriété de marque</div>
                 <div class="text-center text-neutral-500">Variable</div>
                 <div class="text-center text-[#4285f4] font-semibold">✓</div>
@@ -193,7 +193,7 @@ useHead({
             <p class="text-white/80 mb-6">
               Audit gratuit de vos campagnes actuelles ou de votre potentiel Google Ads dans la Vienne. Résultat en 48 h.
             </p>
-            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-white text-primary font-bold px-6 py-3 rounded-lg hover:shadow-lg transition-all">
+            <NuxtLink to="/contact" class="inline-flex items-center gap-2 bg-[#FF8C00] text-[#0a0a0a] font-bold px-6 py-3 rounded-lg hover:bg-[#e07b00] hover:shadow-lg hover:shadow-[#FF8C00]/25 transition-all">
               Demander mon audit gratuit
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </NuxtLink>
