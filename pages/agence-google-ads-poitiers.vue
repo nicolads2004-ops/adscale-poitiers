@@ -48,26 +48,34 @@ const methode = [
 const faqs = [
   {
     q: 'Pourquoi choisir une agence Google Ads locale plutôt qu\'une agence nationale ?',
-    a: 'Une agence locale connaît le marché de Poitiers et de la Vienne. Elle sait quels quartiers cibler, quelles sont les saisonnalités locales et comment adapter les annonces aux habitudes de recherche des habitants. De plus, vous avez un interlocuteur joignable facilement, pas un centre d\'appels.',
+    a: 'Une agence locale connaît le marché de Poitiers et de la Vienne. Elle sait quels quartiers cibler, quelles sont les saisonnalités locales et comment adapter les annonces aux habitudes de recherche des habitants. De plus, vous avez un interlocuteur joignable facilement, pas un centre d\'appels. Chez AdScale, vous parlez directement à l\'expert qui gère vos campagnes — pas à un commercial.',
   },
   {
     q: 'Quel budget prévoir pour Google Ads à Poitiers ?',
-    a: 'Pour une PME locale, un budget publicitaire de 500 à 1 500 euros par mois permet d\'obtenir des résultats significatifs sur Search. Le coût par clic à Poitiers est généralement 20 à 40 % inférieur à Paris, ce qui rend Google Ads très rentable pour les entreprises de la Vienne.',
+    a: 'Pour une PME locale, un budget publicitaire de 500 à 1 500 euros par mois permet d\'obtenir des résultats significatifs sur Search. Le coût par clic à Poitiers est généralement 20 à 40 % inférieur à Paris, ce qui rend Google Ads très rentable pour les entreprises de la Vienne. L\'audit gratuit vous donnera une estimation précise pour votre secteur.',
   },
   {
     q: 'Comment mesurez-vous les résultats ?',
-    a: 'Chaque conversion est trackée : appels téléphoniques, formulaires de contact, achats en ligne, visites en magasin. Vous recevez un rapport mensuel clair avec le coût par acquisition, le retour sur investissement et les recommandations pour le mois suivant.',
+    a: 'Chaque conversion est trackée : appels téléphoniques, formulaires de contact, achats en ligne, visites en magasin via Google Ads offline conversions. Vous recevez un rapport mensuel clair avec le coût par acquisition, le retour sur investissement et les recommandations pour le mois suivant. Zéro jargon — uniquement les chiffres qui comptent pour votre activité.',
   },
   {
     q: 'Suis-je engagé sur une durée minimale ?',
     a: 'Non. Nous recommandons un minimum de 3 mois pour laisser le temps à l\'algorithme de Google d\'optimiser les campagnes, mais il n\'y a aucun engagement contractuel de durée. Vous restez libre de stopper ou de modifier la prestation à tout moment.',
   },
+  {
+    q: 'AdScale gère-t-elle des campagnes Google Ads pour tous les secteurs à Poitiers ?',
+    a: 'Oui. Nous travaillons avec des PME de secteurs variés dans la Vienne : artisans du bâtiment, professions de santé, commerces de détail, services aux entreprises, e-commerce local. Chaque secteur a ses propres mots-clés, sa propre concurrence et ses propres benchmarks CPC — notre audit initial analyse précisément votre marché avant de démarrer.',
+  },
+  {
+    q: 'Qu\'est-ce qui différencie AdScale des autres agences Google Ads à Poitiers ?',
+    a: 'Trois choses : la spécialisation exclusive (nous ne faisons que Google Ads, pas de SEO, pas de réseaux sociaux), le nombre limité de clients actifs (ce qui garantit une vraie attention portée à chaque compte), et la transparence totale (le budget publicitaire vous appartient, sans commission sur les clics — vous voyez exactement où va chaque euro).',
+  },
 ]
 
 useHead({
-  title: 'Agence Google Ads Poitiers — Campagnes rentables pour PME | AdScale',
+  title: 'Agence Google Ads Poitiers — Obtenez de nouveaux clients | AdScale',
   meta: [
-    { name: 'description', content: 'Agence Google Ads à Poitiers spécialisée PME. Campagnes Search, Shopping, Performance Max et YouTube gérées par des experts certifiés Google Partner. Audit gratuit.' },
+    { name: 'description', content: 'Agence Google Ads certifiée à Poitiers. Campagnes Search, Shopping et Performance Max pour PME de la Vienne 86. Coût par lead réduit de 35 % en 90 jours. Audit gratuit.' },
     { name: 'robots', content: 'index, follow' },
   ],
   link: [
@@ -145,10 +153,10 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <span class="text-sm font-semibold text-primary uppercase tracking-wider">Agence Google Ads</span>
         <h1 class="font-heading font-extrabold text-4xl md:text-5xl mt-3 mb-6 max-w-3xl leading-tight">
           Agence Google Ads à Poitiers —
-          <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">campagnes rentables pour PME</span>
+          <span class="bg-gradient-to-r from-primary-light to-secondary-light bg-clip-text text-transparent">obtenez de nouveaux clients pour votre PME</span>
         </h1>
         <p class="text-white/80 text-lg max-w-2xl leading-relaxed">
-          Votre agence SEA locale, certifiée Google Partner. Nous gérons vos campagnes publicitaires avec un objectif simple : chaque euro investi doit rapporter. Résultats mesurables, budget transparent, expertise Poitiers et Vienne 86.
+          Votre agence SEA locale, certifiée Google Partner. Nous gérons vos campagnes publicitaires avec un objectif simple : chaque euro investi rapporte. Coût par lead réduit de 35 % en 90 jours. Budget transparent, expertise Poitiers et Vienne 86. Audit gratuit sous 48 h.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 mt-8">
           <NuxtLink to="/contact" class="inline-flex items-center justify-center gap-2 bg-gradient-cta text-white font-bold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/30 transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 will-change-transform text-lg">

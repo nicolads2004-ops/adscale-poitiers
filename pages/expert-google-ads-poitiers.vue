@@ -86,30 +86,34 @@ const tarifs = [
 const faqs = [
   {
     q: 'Qu\'est-ce qui différencie un expert Google Ads d\'un simple gestionnaire de campagnes ?',
-    a: 'Un expert ne se contente pas de paramétrer des campagnes et d\'ajuster les enchères. Il analyse le parcours client complet, configure un tracking précis, structure le compte pour maximiser le Quality Score, et prend des décisions stratégiques basées sur les données. La certification Google valide un socle de compétences, mais c\'est l\'expérience terrain qui fait un vrai expert.',
+    a: 'Un expert ne se contente pas de paramétrer des campagnes et d\'ajuster les enchères. Il analyse le parcours client complet, configure un tracking précis (GA4, GTM, conversions offline), structure le compte pour maximiser le Quality Score, et prend des décisions stratégiques basées sur les données. La certification Google Partner Premier valide un niveau d\'expertise avancé — renouvellement annuel obligatoire.',
   },
   {
     q: 'Pourquoi un expert local à Poitiers plutôt qu\'un expert à distance ?',
-    a: 'Un expert basé à Poitiers comprend le marché local : les zones de chalandise de la Vienne, les comportements de recherche des Poitevins, les événements saisonniers qui impactent votre activité. Il peut aussi vous rencontrer en personne pour comprendre votre métier en profondeur. Ce n\'est pas obligatoire, mais ça fait une vraie différence.',
+    a: 'Un expert basé à Poitiers comprend le marché local : les zones de chalandise de la Vienne, les comportements de recherche des Poitevins, les événements saisonniers qui impactent votre activité (Futuroscope, Foire de Poitiers, rentrée universitaire). Il peut aussi vous rencontrer en personne pour comprendre votre métier en profondeur. Ce n\'est pas obligatoire, mais ça fait une vraie différence sur le ciblage géographique.',
+  },
+  {
+    q: 'Consultant freelance ou expert en agence : quelle différence ?',
+    a: 'Un consultant freelance travaille seul. Si il est indisponible, vos campagnes tournent sans supervision active. Chez AdScale, le modèle agence garantit la continuité : plusieurs experts peuvent intervenir sur votre compte si nécessaire. Mais contrairement aux grandes agences, vous n\'aurez jamais un junior pour gérer votre budget — l\'expert qui conçoit la stratégie est celui qui optimise.',
   },
   {
     q: 'Les certifications Google sont-elles un gage de qualité ?',
-    a: 'Les certifications Google Ads valident des connaissances théoriques et pratiques. Elles sont renouvelées chaque année, ce qui garantit une mise à jour des compétences. Mais elles ne suffisent pas : l\'expérience de gestion de comptes réels, la connaissance de votre secteur et la capacité à interpréter les données sont tout aussi importantes.',
+    a: 'Les certifications Google Ads valident des connaissances théoriques et pratiques, renouvelées chaque année. Google Partner Premier est le statut le plus exigeant — il requiert un volume de dépenses gérées minimum et des scores de certification élevés. Mais elles ne suffisent pas : l\'expérience de gestion de comptes réels dans votre secteur fait toute la différence.',
   },
   {
     q: 'Comment se passe la transition si j\'ai déjà un compte Google Ads ?',
-    a: 'Nous réalisons un audit complet de votre compte existant. Nous identifions ce qui fonctionne, ce qui gaspille du budget, et les opportunités manquées. La transition se fait sans interruption de vos campagnes. Vous conservez tout l\'historique et les données de votre compte.',
+    a: 'Nous réalisons un audit complet de votre compte existant : structure, tracking, mots-clés négatifs manquants, opportunités non exploitées. La transition se fait sans interruption de vos campagnes — vous conservez tout l\'historique et les données de votre compte. Premier rapport de diagnostic sous 48 h.',
   },
   {
     q: 'Quel retour sur investissement attendre ?',
-    a: 'Cela dépend de votre secteur, de votre panier moyen et de votre taux de conversion. En moyenne, nos clients PME à Poitiers obtiennent un ROAS (retour sur dépenses publicitaires) de 2 à 4 après 3 mois d\'optimisation. L\'audit gratuit vous donnera une projection réaliste pour votre activité.',
+    a: 'Cela dépend de votre secteur, de votre panier moyen et de votre taux de conversion actuel. En moyenne, nos clients PME à Poitiers obtiennent un ROAS (retour sur dépenses publicitaires) de 2 à 4 après 3 mois d\'optimisation. L\'audit gratuit vous donnera une projection réaliste basée sur les données réelles de votre marché dans la Vienne.',
   },
 ]
 
 useHead({
-  title: 'Expert Google Ads Poitiers — Certification Google, expertise locale | AdScale',
+  title: 'Expert Google Ads Poitiers — Google Partner Premier, résultats prouvés | AdScale',
   meta: [
-    { name: 'description', content: 'Expert Google Ads certifié à Poitiers. Gestion de campagnes SEA pour PME de la Vienne 86. Certifications Google Partner, expertise locale, résultats mesurables. Audit gratuit.' },
+    { name: 'description', content: 'Expert Google Ads certifié Google Partner Premier à Poitiers. Gestion SEA pour PME de la Vienne 86 : ROAS 2 à 4 en 3 mois. Pas de junior, pas d\'intermédiaire. Audit gratuit.' },
     { name: 'robots', content: 'index, follow' },
   ],
   link: [
