@@ -5,6 +5,8 @@ const scrolled = ref(false)
 const navLinks = [
   { label: 'Accueil', to: '/' },
   { label: 'Services', to: '/services' },
+  { label: 'Consultant Google Ads', to: '/consultant-google-ads-poitiers' },
+  { label: 'Freelance Google Ads', to: '/freelance-google-ads' },
   { label: 'À propos', to: '/a-propos' },
   { label: 'Blog', to: '/blog' },
   { label: 'Contact', to: '/contact' },

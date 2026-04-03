@@ -76,6 +76,7 @@
         <div class="flex items-center gap-4">
           <a href="#" class="text-[#737373] hover:text-[#fafafa] transition-colors text-xs">Mentions légales</a>
           <a href="#" class="text-[#737373] hover:text-[#fafafa] transition-colors text-xs">Politique de confidentialité</a>
+          <a href="/sitemap.xml" class="text-white/20 hover:text-white/40 text-xs transition-colors">Plan du site</a>
         </div>
       </div>
     </div>
