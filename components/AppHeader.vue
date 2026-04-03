@@ -13,6 +13,8 @@ const servicePages = [
   { href: '/services', label: 'Vue d\'ensemble', description: 'Tous nos services Google Ads', icon: 'i-lucide-layout-grid' },
   { href: '/consultant-google-ads-poitiers', label: 'Consultant Google Ads', description: 'Expert certifie a Poitiers', icon: 'i-lucide-user-check' },
   { href: '/freelance-google-ads', label: 'Freelance Google Ads', description: 'Gestion flexible de vos campagnes', icon: 'i-lucide-briefcase' },
+  { href: '/agence-google-ads-poitiers', label: 'Agence Google Ads', description: 'Votre agence locale à Poitiers', icon: 'i-lucide-building' },
+  { href: '/expert-google-ads-poitiers', label: 'Expert Google Ads', description: 'Certification Google, expertise PME', icon: 'i-lucide-award' },
 ]
 
 if (import.meta.client) {
