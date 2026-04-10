@@ -35,7 +35,7 @@ if (import.meta.client) {
         07 69 80 11 90
       </a>
       <span class="text-[#333]">|</span>
-      <a href="mailto:contact@poitiers.digital" class="hover:text-[#FF8C00] transition-colors">contact@poitiers.digital</a>
+      <NuxtLink to="/contact" class="hover:text-[#FF8C00] transition-colors">contact@poitiers.digital</NuxtLink>
     </div>
   </div>
 
