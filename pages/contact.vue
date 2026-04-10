@@ -10,7 +10,7 @@ useHead({
 })
 
 const step = ref(1)
-const totalSteps = 4
+const totalSteps = 5
 const submitted = ref(false)
 const submitting = ref(false)
 
@@ -18,11 +18,18 @@ const form = reactive({
   advertising: '',
   objective: '',
   budget: '',
+  timing: '',
   company: '',
   name: '',
   email: '',
   phone: '',
 })
+
+const timingOptions = [
+  { value: 'immediat', label: 'Immédiat', desc: "J'en ai besoin maintenant", icon: 'zap' },
+  { value: '3-6mois', label: 'Dans 3 à 6 mois', desc: 'Je prépare mon projet', icon: 'calendar' },
+  { value: '+1an', label: 'Dans plus d\'un an', desc: 'Je me renseigne', icon: 'hourglass' },
+]
 
 const progress = computed(() => Math.round(((step.value - 1) / totalSteps) * 100))
 
@@ -30,7 +37,8 @@ const canContinue = computed(() => {
   if (step.value === 1) return !!form.advertising
   if (step.value === 2) return !!form.objective
   if (step.value === 3) return !!form.budget
-  if (step.value === 4) return !!form.name.trim() && !!form.email.trim() && !!form.phone.trim()
+  if (step.value === 4) return !!form.timing
+  if (step.value === 5) return !!form.name.trim() && !!form.email.trim() && !!form.phone.trim()
   return false
 })
 
@@ -92,6 +100,9 @@ const iconPaths: Record<string, string> = {
   'wallet': 'M2 6h20v14H2V6zm18 4h-4a2 2 0 0 0 0 4h4m-18-8 18-4',
   'banknote': 'M2 6h20v12H2V6zm10 3a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM2 9h2m16 0h2M2 15h2m16 0h2',
   'landmark': 'M3 22h18M6 18v4m4-4v4m4-4v4m4-4v4M2 10l10-8 10 8M4 10v8h16v-8',
+  'zap': 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
+  'calendar': 'M8 2v4m8-4v4M3 10h18M5 6h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z',
+  'hourglass': 'M6 2h12M6 22h12M6 2v4a6 6 0 006 6 6 6 0 006-6V2M6 22v-4a6 6 0 016-6 6 6 0 016 6v4',
 }
 </script>
 
@@ -263,8 +274,49 @@ const iconPaths: Record<string, string> = {
               </div>
             </div>
 
-            <!-- Step 4 -->
+            <!-- Step 4 — Timing -->
             <div v-if="step === 4">
+              <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Quand en avez-vous besoin ?</h2>
+              <p class="text-[#737373] mb-8">Ça nous aide à prioriser votre demande.</p>
+              <div class="grid gap-4">
+                <button
+                  v-for="opt in timingOptions"
+                  :key="opt.value"
+                  type="button"
+                  class="flex items-center gap-4 p-5 rounded-xl border-2 transition-all duration-200 text-left group"
+                  :class="form.timing === opt.value
+                    ? 'border-[#FF8C00] bg-[#FF8C00]/5 shadow-md shadow-[#FF8C00]/10'
+                    : 'border-[#333] hover:border-[#525252] bg-[#1a1a1a] hover:bg-[#262626]'"
+                  @click="selectOption('timing', opt.value)"
+                >
+                  <div
+                    class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors"
+                    :class="form.timing === opt.value ? 'bg-[#FF8C00] text-[#0a0a0a]' : 'bg-[#262626] text-[#737373] group-hover:bg-[#333]'"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path :d="iconPaths[opt.icon]" />
+                    </svg>
+                  </div>
+                  <div class="flex-1">
+                    <div class="font-semibold text-[#fafafa]">{{ opt.label }}</div>
+                    <div class="text-sm text-[#737373]">{{ opt.desc }}</div>
+                  </div>
+                  <div class="ml-auto">
+                    <div
+                      class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors"
+                      :class="form.timing === opt.value ? 'border-[#FF8C00] bg-[#FF8C00]' : 'border-[#525252]'"
+                    >
+                      <svg v-if="form.timing === opt.value" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-[#0a0a0a]" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 5 — Contact -->
+            <div v-if="step === 5">
               <h2 class="font-heading font-bold text-2xl text-[#fafafa] mb-2">Dernière étape — on vous rappelle</h2>
               <p class="text-[#737373] mb-8">Laissez-nous vos coordonnées pour recevoir votre audit.</p>
               <form @submit.prevent="handleSubmit" class="space-y-5">
