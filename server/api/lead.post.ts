@@ -1,10 +1,13 @@
-import { createTransport } from 'nodemailer'
-
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
 
-  if (!body.name?.trim() || !body.email?.trim() || !body.phone?.trim()) {
-    throw createError({ statusCode: 400, message: 'Champs requis manquants.' })
+  if (!body?.name?.trim() || !body?.email?.trim() || !body?.phone?.trim()) {
+    throw createError({ statusCode: 400, statusMessage: 'Champs requis manquants.' })
+  }
+
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+  if (!emailRegex.test(body.email?.trim() || '')) {
+    throw createError({ statusCode: 400, statusMessage: 'Adresse email invalide.' })
   }
 
   const htmlBody = `
@@ -21,8 +24,12 @@ export default defineEventHandler(async (event) => {
     <p style="margin-top:20px;color:#666;font-size:12px;">Envoyé depuis adscale.poitiers.digital (formulaire multi-step)</p>
   `
 
-  const transporter = createTransport({
-    service: 'gmail',
+  const { default: nodemailer } = await import('nodemailer')
+
+  const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
     auth: {
       user: process.env.GMAIL_USER,
       pass: process.env.GMAIL_APP_PASSWORD
@@ -32,7 +39,7 @@ export default defineEventHandler(async (event) => {
   await transporter.sendMail({
     from: `"ADSCALE" <${process.env.GMAIL_USER}>`,
     to: 'contact@poitiers.digital',
-    cc: 'matthieu@shark-graphik.fr',
+    cc: ['matthieu@shark-graphik.fr', 'nicolads2004@gmail.com'],
     subject: `[ADSCALE] Nouveau lead — ${body.company || body.name} (${body.budget || 'budget non précisé'})`,
     html: htmlBody
   })

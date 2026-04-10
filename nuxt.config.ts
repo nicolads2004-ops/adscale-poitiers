@@ -5,6 +5,7 @@ export default defineNuxtConfig({
 
   // SWR — cache Vercel 60s
   routeRules: {
+    '/api/**': { swr: false, cache: false },
     '/**': { swr: 60 },
   },
 
